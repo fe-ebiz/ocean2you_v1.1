@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html lang="ko-KR" class="no-js ie8 lt-ie10"><![endif]-->
+<!--[if IE 9]><html lang="ko-KR" class="no-js ie9 lt-ie10"><![endif]-->
+<!--[if !IE]><!-->
+<html lang="ko-KR">
+<!--<![endif]-->
+<head> 
+ <meta http-equiv="X-UA-Compatible" content="IE=Edge"> 
+ <meta charset="UTF-8"> 
+ <title>샤인투어  </title>
+ <link rel="stylesheet" type="text/css" href="http://static.shinetour.co.kr/css/reset.css"> 
+ <link rel="stylesheet" type="text/css" href="http://static.go.co.kr/css/layout_goco.css">
+
+ <link rel="stylesheet" href="http://static.go.co.kr/css/totalweb.css"> 
+
+  <!--폰트가지고 오기--> 
+ <link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/notosanskr.css"> 
+ <link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/nanumgothic.css"> 
+ <link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css"> 
+
+  <!--리뉴얼Css--> 
+ <link rel="stylesheet" type="text/css" href="http://static.shinetour.co.kr/css/layout_new3.css"> 
+   
+ <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script> 
+  
+ <!--리뉴얼 Js--> 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+
+
+<script>
+var burl	= "shinetour.co.kr";
+var do2_url = "http://www.shinetour.co.kr";
+var agent	= "W";
+</script>
+
+<script type="text/javascript" src="http://static.shinetour.co.kr/js/common_ver2.js"></script>
+
+<script>
+//신규 20개 common_ver2 일일이 수정오래걸려서 여기서 도메인으로 넣어줌
+
+var base_cookie_c = "shinetour.co.kr";
+var load_img = "http://img.shinetour.co.kr/renew/basic_loading.gif";
+</script>
+
+<script type="text/javascript" src="http://static.go.co.kr/js/all_common.js"></script>
+<script type="text/javascript" src="http://static.shinetour.co.kr/js/jquery.banner.js"></script>
+<script type="text/javascript" src="http://static.shinetour.co.kr/js/follower.js"></script>
+<script type="text/javascript" src="http://static.go.co.kr/js/jwSlide_ver2.js"></script>
+<script type="text/javascript" src="http://static.shinetour.co.kr/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="http://static.shinetour.co.kr/js/jquery.Popup.js"></script>
+<script type="text/javascript" src="http://static.shinetour.co.kr/js/jquery.dotdotdot.js"></script>
+<script type="text/javascript" src="http://static.shinetour.co.kr/js/jquery.raty.js"></script>
+<script type="text/javascript" src="http://static.shinetour.co.kr/js/placeholders.js"></script>
+
+<!--- 메뉴 ---->
+<script type="text/javascript" src="http://static.shinetour.co.kr/js/jquery.transit.min.js"></script>
+<script type="text/javascript" src="http://static.shinetour.co.kr/js/jquery.easing.1.3.min.js"></script>
+
+<!--- 리스트페이지에서 쓸 스크립트---->
+<script type="text/javascript" src="http://static.shinetour.co.kr/js/bjqs-1.3.min.js"></script>
+<!--- 리스트페이지에서 쓸 스크립트 ----->
+
+<!-- 다음 주소검색 -->
+<script type="text/javascript" src="http://dmaps.daum.net/map_js_init/postcode.v2.js"></script><script charset="UTF-8" type="text/javascript" src="http://t1.daumcdn.net/postcode/api/core/180928/1538455030985/180928.js"></script>
+
+<!--- 검색시 달력에서 이용 ---->
+<link rel="stylesheet" href="http://static.shinetour.co.kr/css/jquery-ui.css">
+<script type="text/javascript" src="http://static.go.co.kr/js/jquery_ui.js"></script>
+<!--- 달력 한글화 ---->
+<script type="text/javascript" src="http://static.shinetour.co.kr/js/datepicker_ko.js"></script>
+
+<script type="text/javascript" src="http://static.go.co.kr/js/jquery.number.min.js"></script>
+<script type="text/javascript" src="http://static.go.co.kr/js/main_rolling.js"></script>
+<script type="text/javascript" src="http://static.go.co.kr/js/picker_pc.js"></script>
+
+<!--- 검색시 달력에서 이용 ---->
+<link rel="shortcut icon" href="http://img.shinetour.co.kr/tournspa.ico?ver=3">
+<!-- Android icon -->
+<link rel="shortcut icon" href="http://img.shinetour.co.kr/icon_goco128x128.png">
+<!-- iPhone icon -->
+<link rel="apple-touch-icon" sizes="57x57" href="http://img.shinetour.co.kr/icon_goco57x57.png">
+<!-- iPad icon -->
+<link rel="apple-touch-icon" sizes="72x72" href="http://img.shinetour.co.kr/icon_goco72x72.png">
+<!-- iPhone icon(Retina) -->
+<link rel="apple-touch-icon" sizes="114x114" href="http://img.shinetour.co.kr/icon_goco114x114.png">
+<!-- iPad icon(Retina) -->
+<link rel="apple-touch-icon" sizes="144x144" href="http://img.shinetour.co.kr/icon_goco144x144.png">
+
+<!-- Include Required Prerequisites -->
+<script type="text/javascript" src="http://static.go.co.kr/js/moment.min.js"></script>
+<link rel="stylesheet" type="text/css" href="http://static.go.co.kr/css/bootstrap.css">
+<!-- Include Date Range Picker -->
+<script type="text/javascript" src="http://static.go.co.kr/js/daterangepicker.js"></script>
+<link rel="stylesheet" type="text/css" href="http://static.go.co.kr/css/daterangepicker.css">
+
+<link rel="stylesheet" href="http://static.go.co.kr/css/swiper.min.css" type="text/css">
+<script type="text/javascript" src="http://static.shinetour.co.kr/js/swiper.min.js"></script>
+<script src="http://static.go.co.kr/js/select_product.js"></script>		<!--- 20170227 입장권 UI변경하며 추가  ---->
+<script type="text/javascript" src="http://static.go.co.kr/js/reserve_pc.js"></script>
+
+<script type="text/javascript">
+/* 쿠키 60분 */
+var date = new Date(); 
+var minutes = 120; 
+date.setTime(date.getTime() + (minutes * 60 * 1000)); 
+</script>
+
+<script type="text/javascript">
+$(function() {
+
+	$("#sub_sdate_view").click(function() {
+		picker.set_pic_2month();
+	});
+
+
+					
+			
+	$("#nb-all").click(function() {
+		$("#nb-all").prop("checked", true);
+		if($(this).is(":checked") == true) {
+			$("input[name='ttype_arr[]']").prop("checked", false);			
+		} 
+
+		search_apply();
+	});
+
+	$("input[name='ttype_arr[]']").click(function() {
+		var chk = $("input[name='ttype_arr[]']:checked").length;
+		if(chk == 0) {
+			$("#nb-all").prop("checked", true);
+		} else {
+			$("#nb-all").prop("checked", false);
+		}
+
+		search_apply();
+	});
+
+	$("#sttype_all").click(function() {
+		$("#sttype_all").prop("checked", true);
+		if($(this).is(":checked") == true) {
+			$.cookie("sttype_arr", null, {domain: 'shinetour.co.kr', path : '/', expires:-1});
+			$("input[name='sttype_arr[]']").prop("checked", false);			
+		} 
+		
+		search_apply();
+
+	});
+
+	$("input[name='sttype_arr[]']").click(function() {
+		var chk = $("input[name='sttype_arr[]']:checked").length;
+		if(chk == 0) {
+			$("#sttype_all").prop("checked", true);
+			$.cookie("sttype_arr", null, {domain: 'shinetour.co.kr', path : '/', expires:-1});
+		} else {
+			$("#sttype_all").prop("checked", false);
+
+			var tmp_str = new Array("all", "spa", "sport", "ski", "edu", "travel");
+			var sttype_str = [];		
+			for(var z=0; z<tmp_str.length; z++) {
+				if($("#sttype_"+tmp_str[z]).is(":checked") == true) { 
+					sttype_str.push(tmp_str[z]);
+				}
+			}
+			$.cookie("sttype_arr", null, {domain: 'shinetour.co.kr', path : '/', expires:-1});
+			$.cookie("sttype_arr", sttype_str, {domain: 'shinetour.co.kr', path : '/', expires: date});
+		}
+
+		search_apply();
+	});
+
+	$("#sch_bt").click(function(e) {
+		e.preventDefault();
+		if($(this).hasClass("on") == true) {
+			/* 차장님 요청으로 닫기 쿠키 한시간만 적용*/
+			var dt = new Date();
+			dt.setTime(dt.getTime() + (60*60*1000));
+			$.cookie("sub_layer", "N", {domain: 'shinetour.co.kr', path : '/', expires: dt});			
+		} else {
+			$.cookie("sub_layer", "Y", {domain: 'shinetour.co.kr', path : '/', expires: date});
+		}
+
+		$(this).toggleClass("on");
+		$("#sub_box").toggle();
+        $("#fix-nav div.nb-drop-bar").toggleClass("on");
+
+	});
+
+	$("#sch_close").click(function(e) {
+		e.preventDefault();
+		
+		/* 차장님 요청으로 닫기 쿠키 한시간만 적용*/
+		var dt = new Date();
+		dt.setTime(dt.getTime() + (60*60*1000));
+		$.cookie("sub_layer", "N", {domain: 'shinetour.co.kr', path : '/', expires: date});
+		
+		$("#sub_box").hide();
+		$("#fix-nav div.nb-drop-bar, #fix-nav a.more-a").toggleClass("on");
+	
+	});
+	
+	//$("#fix_logo").css({"left":"-"+parseInt($("#logo_area").width()+20)+"px"}).show();
+
+	$(window).scroll(function() {
+					if($(window).scrollTop() > 270) {
+				if($("#overlay").length > 0) {	
+					$("#fix-nav").css({"position":"fixed", "top":"0px", "z-index":"5"});
+				} else {
+					$("#fix-nav").css({"position":"fixed", "top":"0px", "z-index":"400"});
+
+					$("#fix-nav .nb-drop-bar").addClass("on");
+					$("#fix-nav .nav h2").show();
+					$("#fix-nav .nav .d-h3 h3").hide();
+					$("#fix-nav .nav .d-h3 .inp").show();
+				}
+			} else {
+				$("#fix-nav").css({"position":"static"});
+				$("#fix-nav .nb-drop-bar").removeClass("on");
+				$("#fix-nav .nav .d-h3 h3").show();
+				$("#fix-nav .nav .d-h3 .inp").hide();
+				$("#fix-nav .nav h2").hide();
+			}
+		
+	});
+
+	/*
+	$(window).scroll(function() {
+		if($(window).scrollTop() > 270) {
+			if($("#overlay").length > 0) {	
+				$("#fix-nav").css({"position":"fixed", "top":"0px", "z-index":"5"});
+			} else {
+				$("#fix-nav").css({"position":"fixed", "top":"0px", "z-index":"9999"});
+			}
+		} else {
+			$("#fix-nav").css({"position":"static"});
+		}
+
+	});*/
+	
+	$("#subnew_keyword").keyup(function() {
+		if($(this).val() != "") {
+			$("#city_1").val('');
+			searching.location_city_sub('city_2', '', '', 'city_2_renew');
+		} 
+	});
+
+	$("#city_1").change(function() {
+		$("#subnew_keyword").val('');
+
+	});
+	
+	$("#city_2").change(function() {
+		$("#subnew_keyword").val('');
+	});
+
+
+	
+});
+function search_apply() {
+	if($("#subnew_keyword").val() != "") {
+		$("#keyword").val($("#subnew_keyword").val());
+		if($("#city_1").val() == "") { 
+			search_apply2();
+		}
+	} 
+
+	if($("#keyword").val() == "") {
+		$("#subnew_keyword").val('');
+	}
+	
+						$.cookie("save_city_1_single", $("#city_1").val(), {domain: 'shinetour.co.kr', path : '/', expires:date});
+			$.cookie("save_sub_loca_single", $("#city_2").val(), {domain: 'shinetour.co.kr', path : '/', expires:date});
+			
+	if($("#sub_sdate").val() == "") {
+		utils.on('#summer_box2');
+		$('#from_search').click();
+		$("#move_gubun").val("fix_top_search");
+		return;
+	}
+	$("input[name='hotel_detail']").val("");
+
+		searching.searching_main('sub_sform', 'kor', 'w');
+	
+
+}
+</script>
+</head><body style=""><div id="new_cal_wrap">
+
+</div>
+
+<input type="hidden" name="tmp_sub_sdate" id="tmp_sub_sdate">
+<input type="hidden" name="tmp_sub_edate" id="tmp_sub_edate">
+<script type="text/javascript">
+$(function() {
+	searching.location_city_sub('city_2_cont', $.cookie("save_city_1"), $.cookie("save_sub_loca"), 'city_2_renew');
+});
+
+</script>
+<script type="text/javascript">
+$(function() {
+	$('#pack_list').bjqs({
+				height      : 332,
+				width       : 292,
+		animduration : 450,
+		responsive  : true,
+		automatic	: true,
+		showcontrols : false,
+		showmarkers : true,
+		centermarkers : false
+	});
+	
+	var menu2 = $(".local > li");
+	var menuHeight = menu2.children('a').height();
+	menu2.on({
+		mouseover:function(){
+			var tg = $(this);
+			menu2.removeClass('on2');
+			tg.addClass('on2');
+		},
+		mouseout:function(){
+			var tg = $(this);
+			tg.removeClass('on2');
+		}
+	});
+
+		$(".local_list").bjqs({height : 290, width : 676, animduration : 450, responsive  : true, automatic	: true, showcontrols : true, showmarkers : true, centermarkers : false, nexttext : "<img src=\"http://img.go.co.kr/btnNext.png\" alt=\"다음\">", prevtext : "<img src=\"http://img.go.co.kr/btnPrevious.png\" alt=\"이전\">"});	
+	});
+</script>
+<style>
+.local_list ol.bjqs-markers {width:125px;top:15px}
+.local_list .bjqs-prev {position:absolute;top:80px;left:15px;bottom:0;right:0;height:51px; width:28px}
+.local_list .bjqs-next {position:absolute;top:80px;right:15px;bottom:0;height:51px; width:28px}
+
+#pack_list ol.bjqs-markers {width:50px}
+#pack_list ol.bjqs-markers li a{display:inline-block;text-indent:-9999px;color:#ffffff;font-weight:bold;width:11px; height:11px; margin-left:5px;background:url(http://img.go.co.kr/btndot.png) 0 0 no-repeat;}
+#pack_list ol.bjqs-markers li.active-marker a {background:url(http://img.go.co.kr/btndot_ov.png) 0 0 no-repeat;}
+#pack_list ol.bjqs-markers li a:hover {background:url(http://img.go.co.kr/btndot_ov.png) 0 0 no-repeat;}
+</style>
+<!--- 모든사이트 공통 사항 ---->
+<script type="text/javascript">
+
+$(function(){
+	var pos = true;
+	if(pos == true) {
+		slide.start2('tour/img1');
+	}
+
+	if(window.CSSBS_ie) {
+		$("#top2 ._nocr").show();
+	} else {
+		$("#top2 ._nocr").hide();
+	}
+
+		
+		var sub_div = "submn_wrap2";
+		$("#keyword").keyup(function(e) {
+		if($("#summer_box2").hasClass("on") == true) {
+			$("#auto_searching").html("");
+			$("#auto_searching").removeClass("auto_lon");
+			$("#"+sub_div).show();	
+		} else {
+			if($("#keyword").val() == "") {
+				$("#auto_searching").html("");
+				$("#auto_searching").removeClass("auto_lon");
+				$("#"+sub_div).show();	
+			} else {
+				
+				$.ajax({
+					url : "/home/search/state.php",
+					data: "mode=auto_keyword&s_key="+$("#keyword").val()+"&s_select="+$("#search_select").val(),
+					type : "post",
+					success: function(e) {
+						$("#"+sub_div).html("");		
+						$("#auto_searching").html(e);
+						$(".Searching > p").css("font-size","14px");
+						$(".Searching > p").css("font-weight","300");
+						$(".Searching > p").css("text-align","left");
+						$(".Searching > p").css("margin","0");
+						$("#auto_searching").addClass("auto_lon");
+					}
+				});			
+			}
+		}		
+	});
+	
+	isOver = false;
+	$('#auto_searching').mouseover(function(){
+		isOver = true;
+	}).mouseleave(function(){
+		isOver = false;
+	});
+	$("#keyword").bind("focusout", function() {
+		
+		if(!isOver){
+			$("#auto_searching").hide();
+			$("#"+sub_div).show();	
+		}
+	});
+
+	$("#keyword").focusin(function() {
+		$("#auto_searching").show();
+		$("#auto_searching").addClass("auto_lon");
+		$("#"+sub_div).html("");
+	});	
+
+	$("#keyword").click(function() {
+		$("#auto_searching").show();
+		$("#auto_searching").addClass("auto_lon");
+		$("#"+sub_div).html("");
+	});	
+
+	var menu = $(".gnb > li");
+	var timer_b;
+	var isClick_b = 0;
+	menu.on({
+		mouseover:function(){
+			isClick_b = 1;
+
+			var tg = $(this);
+			
+			if($(this).attr("id") == "allmenu" || $(this).attr("id") == "gnb_sub_globalTotal") {
+				isClick_b = 0;
+				menu.removeClass('on');
+				tg.addClass('on');
+			} else {
+				timer_b = setTimeout(function() {
+					if(isClick_b != 0) {
+						isClick_b = 0;
+						menu.removeClass('on');
+						tg.addClass('on');
+					}
+				}, 300);
+			}
+			
+		},
+		mouseout:function(){
+			var tg = $(this);
+			tg.removeClass('on');
+
+			clearTimeout(timer_b);
+			isClick_b = 0;
+		}
+	});
+
+	var sub_menu = $(".area_list > li.local");
+	var timer;
+	var isClick = 0;
+
+	
+	$('.area_list > li.local').on('mouseover', function() {
+		$('.sub_local').css('display','none');						// 카테고리 전체 비노출
+		$(this).children('.sub_local').css('display','block');		// 현재 카테고리 노출
+		$(this).children('a').addClass('on');						// a 태그 스타일 추가
+	});
+
+	$('.area_list > li.local').on('mouseleave', function() {
+		$('.sub_local').css('display','none');						// 카테고리 전체 비노출
+		$(this).children('a').removeClass('on');					// a 태그 스타일 제거
+	});
+
+
+	$('.sub_local').mouseover(function(){
+		$(this).parent("li.local").children("a").addClass("on");
+		$(this).css("display","block");
+		isClick = 0;
+	}).mouseleave(function(){
+		$(this).parent("li.local").children("a").removeClass("on");
+		$(this).css("display","");
+		isClick = 0;
+	});
+	$('.subMenu').mouseover(function(){
+		$(this).parent("li").addClass("on");
+		$(this).css("display","block");
+		isClick_b = 0;
+	}).mouseleave(function(){
+		$(this).parent("li").removeClass("on");
+		$(this).css("display","");
+		isClick_b = 1;
+	});
+
+
+
+	$("#biglocal_select").click(function(e) {
+		e.preventDefault();
+		var biglocal = $("#biglocal_select");
+		var biglocal_sub = $("#biglocal_select_smenu");
+		if(biglocal.hasClass("on") == true) {
+			biglocal.removeClass("on");
+			biglocal_sub.hide();
+		} else {
+			biglocal.addClass("on");
+			biglocal_sub.show();
+		}
+	});
+
+	$("#sublocal_select").click(function(e) {
+		e.preventDefault();
+		var sublocal = $("#sublocal_select");
+		var sublocal_sub = $("#sublocal_select_smenu");
+		if(sublocal.hasClass("on") == true) {
+			sublocal.removeClass("on");
+			sublocal_sub.hide();
+		} else {
+			sublocal.addClass("on");
+			sublocal_sub.show();
+		}
+	});
+
+	$("#sublocal_select2").click(function(e) {
+		e.preventDefault();
+		var sublocal = $("#sublocal_select2");
+		var sublocal_sub = $("#sublocal_select2_smenu");
+		if(sublocal.hasClass("on") == true) {
+			sublocal.removeClass("on");
+			sublocal_sub.hide();
+		} else {
+			sublocal.addClass("on");
+			sublocal_sub.show();
+		}
+	});
+
+	$(".sh_select").click(function(e) {
+		e.preventDefault();
+
+		var id = $(this).attr("id");
+
+		$("#search_select").val(id);
+		if(id == "sh_global") {
+			$("#sh_internal").removeClass("on");
+			$("#sh_global").addClass("on");
+			$("#sh_global_img").attr("src", "http://img.shinetour.co.kr/btn_radioON.png");
+			$("#sh_internal_img").attr("src", "http://img.shinetour.co.kr/btn_radioOFF.png");
+		} else {
+			$("#sh_internal").addClass("on");
+			$("#sh_global").removeClass("on");
+			$("#sh_internal_img").attr("src", "http://img.shinetour.co.kr/btn_radioON.png");
+			$("#sh_global_img").attr("src", "http://img.shinetour.co.kr/btn_radioOFF.png");
+		}
+	});
+});
+
+
+function search_apply_link(move_link, city1, city2) {
+	if(city1 != "") {
+		$.cookie("save_city_1", city1, {domain: 'shinetour.co.kr', path : '/'});
+	}
+
+	if(city2 != "") {
+		$.cookie("save_sub_loca", city2, {domain: 'shinetour.co.kr', path : '/'});
+	}
+	
+	if($("#sub_sdate").val() == "") {
+		$(".gnb > li").removeClass("on");
+		utils.on('#summer_box2');
+		$("#summer_box2").addClass("on");
+		$('#from_search').click();
+
+		$("#move_gubun").val("top_link");
+		$("#move_link").val(move_link);
+		
+	} else {
+		location.href = move_link;
+	}
+}
+function search_apply_link_single(move_link, city1, city2) {
+	if(city1 != "") {
+		$.cookie("save_city_1_single", city1, {domain: 'shinetour.co.kr', path : '/'});
+	}
+
+	if(city2 != "") {
+		$.cookie("save_sub_loca_single", city2, {domain: 'shinetour.co.kr', path : '/'});
+	}
+	
+	if($("#sub_sdate").val() == "") {
+		$(".gnb > li").removeClass("on");
+		utils.on('#summer_box2');
+		$("#summer_box2").addClass("on");
+		$('#from_search').click();
+
+		$("#move_gubun").val("top_link");
+		$("#move_link").val(move_link);
+		
+	} else {
+		location.href = move_link;
+	}
+}
+
+</script>
+
+
+
+<!--[if IE 8]><html lang="ko-KR" class="no-js ie8 lt-ie10"><![endif]-->
+<!--[if IE 9]><html lang="ko-KR" class="no-js ie9 lt-ie10"><![endif]-->
+<!--[if !IE]><!-->
+
+<!--<![endif]-->
+
+	<meta charset="UTF-8">
+	<title>샤인투어</title>
+	
+	<link rel="shortcut icon" href="http://img.shinetour.co.kr/tournspa.ico">
+	<link rel="stylesheet" type="text/css" href="http://static.shinetour.co.kr/css/reset.css">
+
+	<!--<link rel="stylesheet" type="text/css" href="../../goco/src/css/layout_goco.css">-->
+	<link rel="stylesheet" type="text/css" href="http://static.go.co.kr/css/layout_goco.css">
+	<link href="http://static.go.co.kr/css/css_pirobox/style_2/style.css" rel="stylesheet" type="text/css">
+
+	<!-- 모든사이트 통합 css -->
+	<link rel="stylesheet" href="http://static.go.co.kr/css/totalweb.css" type="text/css">
+	<link rel="stylesheet" type="text/css" href="http://static.shinetour.co.kr/css/advisor.css">
+
+	<link rel="stylesheet" type="text/css" href="http://static.go.co.kr/css/event.css">
+	<link rel="stylesheet" type="text/css" href="http://static.shinetour.co.kr/css/prettyPhoto.css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8">
+
+	 <!--<link rel="stylesheet" href="../src/css/layout_new3.css">--> 
+	<!-- 180621 샤인투어 css -->
+	<link rel="stylesheet" href="http://static.shinetour.co.kr/css/layout_new3.css">
+
+	
+
+
+	<h1 class="hidden">샤인투어</h1>
+
+	<!--header-->
+    <!-- 180619 헤더 수정 -->
+	<div id="headerWrap" class="noover">
+		<div class="header">
+			<div class="logo">
+				<a href="/">
+					<img src="http://img.shinetour.co.kr/renew/logo.png" alt="고코투어 온라인 지정예약처 샤인투어">
+				</a>
+			</div>
+			<div class="menu-type01">
+				<ul class="menu-list clr">
+				    <li><a href="/home/main/main_list_renew.php"><span>국내</span></a></li>
+				    <li><a href="/home/main/main_list_renew.php?abr=on"><span>해외</span></a></li>
+				    <li><a href="/home/main/main_list_renew.php?ticket=Y"><span>입장권 할인</span></a></li>
+				    <li><a href="http://www.shinetour.co.kr/home/customer/?dd=TAglTSo="><span>이벤트</span></a></li>
+				</ul>	
+			</div>
+			
+			<div class="until-type01">
+				<ul class="menu-list clr">
+				    <li><a href="http://www.shinetour.co.kr/home/customer/?dd=TAglTSo="><span>마이페이지</span></a></li>
+									    <li><a href="http://www.shinetour.co.kr/home/member/?dd=RREnSjA=&amp;rurl=QQo0U2QJcVQ3CQZaFilNO1IxVjJQS0ZQK1FxTjFOJVFeQBs3DGFWAU0vQ28ZGjlkORtj"><span>로그인</span></a></li>
+									</ul>	
+			</div>
+
+
+			<style>
+                .myButton {
+                    padding-top:3px;
+                    padding-bottom:3px;
+                    padding-left:3px;
+                    padding-right:3px;
+                    color:white;
+                    background:#2b66bc;
+                    text-align:center;
+                    text-decoration:none;
+                    border-radius:2px;
+                    border:1px solid #1476ba;
+                    box-shadow:1px 1px 1px #62615f;
+                    cursor:pointer
+                }
+
+                .mbt_col_red {background:#e24b04;border:1px solid #bb3c00;box-shadow:1px 1px 1px #bb3c00}
+        </style>
+
+            <script type="text/javascript">
+            function counter_switch(val) {
+                $.cookie("cswitch", val, {expires:365, path:'/'});
+                location.reload();
+            }
+            function counter_switch2(val) {
+                $.cookie("cswitch2", val, {expires:365, path:'/'});
+                location.reload();
+            }
+            </script>
+
+		</div>
+	</div>
+	<script>
+		$(function() {
+	
+			// 검색박스, Option 박스 관련
+			$('#rgSelect, #dtRgSelect').on('click', function() {
+				if($(this).find('.rgOption').css('display') == 'block') {
+					$(this).find('.rgOption').hide();
+				} else {
+					$(this).find('.rgOption').fadeIn();
+				}
+			});
+
+			$('#rgOption a').on('click', function() {
+				var thTxt = $(this).text();
+				$('#rgSelect > .p1').text(thTxt);
+			});
+			$('#dtRgOption a').on('click', function() {
+				var thTxt = $(this).text();
+				$('#dtRgSelect > .p1').text(thTxt);
+			});
+
+		});
+	</script><xmp></xmp><style type="text/css">
+		#room_detail_info {margin:0px 24px;}
+	</style>	
+    <!-- 180619 상세페이지 수정 -->
+	<div class="content-sec clr">
+
+		<div id="contents">
+	        <!-- 180619 태그 추가-->
+		    <div class="detail-main5">
+                <div id="main5" class="clr">
+                    <div class="left" style="position:relative">
+                    	<table class="photo">
+                    		<colgroup>
+                    			<col width="78">
+                    			<col width="78">
+                    			<col width="78">
+                    			<col width="78">
+                    			<col width="73">
+                    		</colgroup>
+                    		<tbody>
+                    			<tr>
+                    				<td colspan="5" class="img_big" id="jwSlide_view">
+                    					<div class="info_local">
+                    						<span class="point_txt"></span>
+											<span style="margin-left: 60px; color: #fff;">오션투유 리조트 안내 사진</span>
+                    					</div>
+                    					<div style="text-align:center;background:#000000;width:385px;height:257px" id="imgview_box">
+                    						<img src="http://img.ocean2you.co.kr/lodgment/thumbnail/01.jpg" width="385" height="257" alt="오션투유 리조트 이미지" style="width:auto;height:auto;max-width:385px;height:257px" id="img_view" class="img_navi_3">
+                    						<p class="img_expansion" style="display:none;top:60%;cursor:pointer"><img src="http://img.go.co.kr/btn_img_view.png" alt="이미지확대" style="width:78px;height:78px;"></p>
+                    					</div>
+                    				</td>
+                    			</tr>
+                    			<tr id="jwSlide_navi" style="width: 78px; height: 55px;">
+                    				<td class="img_s"><a href="javascript:slide.view('1', '/tour/img1')"><img src="http://img.ocean2you.co.kr/lodgment/thumbnail/01.jpg" width="74" height="55" alt="오션투유 리조트1" id="img_navi_1" onmouseover="slide.navi_over('1');" onmouseout="slide.navi_over(0);" onerror="this.src='http://img.go.co.kr/ready_475x389.jpg'" style="width: 78px; float: left; margin: 0px; opacity: 0.5; border: 0px;"></a></td>
+                    				<td class="img_s"><a href="javascript:slide.view('2', '/tour/img1')"><img src="http://img.ocean2you.co.kr/lodgment/thumbnail/02.jpg" width="74" height="55" alt="오션투유 리조트2" id="img_navi_2" onmouseover="slide.navi_over('2');" onmouseout="slide.navi_over(0);" onerror="this.src='http://img.go.co.kr/ready_475x389.jpg'" style="width: 78px; float: left; margin: 0px; opacity: 0.5; border: 0px;"></a></td>
+                    				<td class="img_s"><a href="javascript:slide.view('3', '/tour/img1')"><img src="http://img.ocean2you.co.kr/lodgment/thumbnail/03.jpg" width="74" height="55" alt="오션투유 리조트3" id="img_navi_3" onmouseover="slide.navi_over('3');" onmouseout="slide.navi_over(0);" onerror="this.src='http://img.go.co.kr/ready_475x389.jpg'" style="width: 78px; float: left; margin: 0px; opacity: 1; border: 0px solid rgb(180, 140, 80);"></a></td>
+                    				<td class="img_s"><a href="javascript:slide.view('4', '/tour/img1')"><img src="http://img.ocean2you.co.kr/lodgment/thumbnail/04.jpg" width="74" height="55" alt="오션투유 리조트4" id="img_navi_4" onmouseover="slide.navi_over('4');" onmouseout="slide.navi_over(0);" onerror="this.src='http://img.go.co.kr/ready_475x389.jpg'" style="width: 78px; float: left; margin: 0px; opacity: 0.5; border: 0px;"></a></td>
+                    				<td class="img_s"><a href="javascript:slide.view('5', '/tour/img1')"><img src="http://img.ocean2you.co.kr/lodgment/thumbnail/05.jpg" width="74" height="55" alt="오션투유 리조트5" id="img_navi_5" onmouseover="slide.navi_over('5');" onmouseout="slide.navi_over(0);" onerror="this.src='http://img.go.co.kr/ready_475x389.jpg'" style="width: 74px; height: 55px; float: left; margin: 0px; opacity: 0.5; border: 0px;"></a></td>
+                    			</tr>
+                    		</tbody>
+                    	</table>
+                    </div>
+                    <div class="right">
+                        <table class="goods_info" style="table-layout:fixed">
+                            <colgroup>
+                                <col width="">
+                                <col width="">
+                                <col width="">
+                                <col width="">
+                            </colgroup>
+                            <form name="keep_f" id="keep_f" method="post"></form>
+							<input type="hidden" name="encrypt" value="0">
+							<input type="hidden" name="mode" value="QhslUzdIOQ==">
+							<input type="hidden" name="userid" value="">
+							<input type="hidden" name="p_no" value="G0dyGg==">
+							<input type="hidden" name="r_no" id="r_no">
+							<input type="hidden" name="wish_id" id="wish_id" value="">
+							
+
+
+
+                            <tbody>
+
+                            <tr class="pdtName"> 
+                                <td class="contents" colspan="4" style="">
+                                	오션투유리조트 장기/단기 숙박
+                                </td>
+                            </tr>
+                             <tr>
+								<td class="tit2">주소</td>
+								<td colspan="3" class="contents">
+									강원도 고성군 죽왕면 삼포해변길 9
+								</td>
+							</tr>
+                            <tr>
+								<td class="tit2">홈페이지</td>
+								<td class="contents"><a href="http://www.monopalace.com" target="_blank">www.ocean2you.co.kr</a></td>
+							</tr>
+							<tr>
+								<td class="tit2">건축규모</td>
+								<td class="contents">전 객실 23평형 / 오션뷰, 마운틴뷰, 콘도테라스</td>
+							</tr>
+							<tr>
+								<td class="tit2">총 객실</td>
+								<td class="contents">241개 객실</td>
+							</tr>
+							<tr>
+								<td class="tit2">기본시설</td>
+								<td class="contents" colspan="2">화장실 / 싱크대 / 전기밥솥 / 인덕션 / 냉장고 / 에어컨 / TV</td>
+							</tr>
+							<tr>
+								<td class="tit2">부대시설</td>
+								<td class="contents" colspan="2">한식당 / 노래방 / 편의점 / 카페 / 세미나실 / 로비라운지 / 바베큐장</td>
+							</tr>
+							<tr>
+								<td class="tit2">주변안내</td>
+								<td class="contents" colspan="2">삼포해수욕장 / 설악워터피아 / 설악산 / 송지호 / 천학정 / 청간정 / 울산바위 / 건봉사 / 화진포 / 통일전망대 등</td>
+							</tr>
+                            <!-- 180619 클래스 추가 -->
+                            <tr class="links-area" style="border-bottom:none;">
+                                <td style="" colspan="4" class="contents">
+                                   <!-- 180619 스타일 제거 및 내용 수정 -->
+                                    <span style="">
+										                                        <a href="http://www.shinetour.co.kr/home/member/?dd=TBopVwFUO1AlDF5M&amp;brd=RhAl&amp;p_no=G0dyGg==&amp;abr=&amp;type=group" style="display: inline-block;width: 55px;height: 25px;line-height: 25px;font-size: 13px;color: #fff !important;background-color: #000;text-align:center">단체문의</a>
+                                        
+                                        <a href="javascript:sharing.share_sns('mail', '', '')" title="메일공유"><img src="http://img.go.co.kr/sns_mail_s.gif" alt="메일공유"></a>
+                                        
+                                        <a href="javascript:sharing.share_sns('facebook', '', 'G0dyGg==')" title="페이스북공유"><img src="http://img.go.co.kr/sns_fb_s.gif" alt="페이스북공유"></a>
+                                        
+                                        <a href="javascript:sharing.share_sns('twitter', '호텔 더 디자이너스 홍대 ', 'G0dyGg==')" title="트위터공유"><img src="http://img.go.co.kr/sns_twt_s.gif" alt="트위터공유"></a>
+                                        
+                                        <a href="javascript:sharing.copy_url();" class="btn-links">url복사</a>
+                                        
+                                        <a href="javascript:sharing.share_sns('mobile_share', '', '')" class="btn-links">모바일 공유</a>
+
+										<a id="wishlink" class="btn-links" href="javascript:alert('로그인 후 이용가능합니다.');location.href='http://www.shinetour.co.kr/home/member/?dd=RREnSjA=&amp;rurl=QQo0U2QJcVQ3CQZaFilNO1IxVjJQS0ZQK1FxTjFOJVFeQBs3DGFWAU0vQ28ZGjlkORtj'"><span class="a-deco">♥</span><span>찜하기</span></a>
+                                        <script type="text/javascript">
+                                        var user_flag = "";
+                                        </script>	
+										<script type="text/javascript">
+											function wish_170619(wish_num,wish_mode) {
+												if(wish_mode == "mobile"){
+													if (wish_num == "1"){
+														var img_name = "http://img.go.co.kr/mobile/de_wish_icon.png"; //苑� 李� �섑듃
+														$("#wish_id").val("0");
+													} else {
+														var img_name = "http://img.go.co.kr/mobile/de_ch_icon.png"; // 鍮� �섑듃
+														$("#wish_id").val("1");			
+													}
+													$(".wishicon").attr("src", img_name);
+													$(".wishlink").attr("href", "javascript:utils.wish_new('"+$("#wish_id").val()+"','"+wish_mode+"')");
+												} else{			
+													if (wish_num == "1"){
+														var img_name = "http://img.go.co.kr/btn_zzim02.gif";
+														$("#wish_id").val("0");
+													} else {
+														var img_name = "http://img.go.co.kr/btn_zzim01.gif"; 
+														$("#wish_id").val("1");			
+													}			
+													$("#wishicon").attr("src", img_name);
+													$("#wishlink").attr("href", "javascript:wish_170619('"+$("#wish_id").val()+"','"+wish_mode+"')");
+												}
+
+
+												var string = $("#keep_f").serialize();
+												$.ajax({
+													url : "/home/member/state.php",
+													type: "post",
+													data: string,
+													success: function(e) {
+														alert(e);
+													}
+												});
+											}
+											function chkin_view() {
+												$("#sub_sdate_view").html($("#sub_sdate").val());
+												$.cookie("save_sdate", $("#sub_sdate").val(), {doamin:"shinetour.co.kr"});
+												//$.cookie("save_edate", $("#sub_sdate").val(), {doamin:"shinetour.co.kr"});
+											}
+										</script>
+                                    </span>
+                                </td>
+                            </tr>
+                        </tbody>
+                        </table>
+
+
+                    </div>
+                </div>
+		    </div>
+			<input type="hidden" name="cal_mode" id="cal_mode" value="list_detail">
+			<input type="hidden" name="top_adult" id="top_adult" value="2">
+			<input type="hidden" name="child" id="child" value="1">
+			<input type="hidden" name="sub_sdate" id="sub_sdate" value="2018-10-25">
+			<input type="hidden" name="sub_edate" id="sub_edate" value="2018-10-26">
+			
+			<div id="rsv_wrapper" class="rsv_wrapper">
+				<!--- 타이틀 ---->
+				<div id="title">
+					<!--span class="go">go</span-->
+					<span class="big">숙박 이용요금</span> <!--span class="small">예약하실 상품을 선택하세요</span-->
+				</div>
+				<!--- 상품 테이블 --->
+				<div id="rsv_sang" class="rsv_top">
+					<div id="rsv_s_list_box2">
+						<table id="rsv_s_list">
+							<colgroup>
+								<col width="295">
+								<col width="100">
+								<col width="150">
+								<col width="409">
+							</colgroup>
+							<tbody><tr style="background: rgb(242, 242, 242); height: 40px; color: rgb(94, 94, 94); font-weight: 600; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid; border-top:1px solid #dddddd">
+								<td>상품정보</td>
+								<td>숙박기간</td>
+								<td>예치금</td>
+								<td>문의신청</td>
+							</tr>
+							<tr id="5010_tr">
+								<td class="center ss" rowspan="5" style="border-right:1px solid #dddddd">전 객실타입 (23평형)</td>
+								<td class="center ss" style="cursor: pointer;" onclick="window.open('http://www.monopalace.com/home/area/', '_blank');">7일</td>
+								<td class="center ss" style="border-left:1px solid #dddddd; border-right:1px solid #dddddd" rowspan="5">
+									<span style="font-size:24px; font-weight:800; color:#ff0000">무보증</span>
+								</td>
+								<td class="center ss" style="border-left:1px solid #dddddd" rowspan="5">
+									<p style="margin-bottom:10px; font-size:20px; font-weight:800; color:#000; letter-spacing:-0.5px">7일부터 6개월까지 이용가능!</p>
+									<p class="btn_call"><a href="javascript:util.on('#call_pop_wrap')">문의신청 010-8844-0409</a></p>
+								</td>
+							</tr>
+							<tr id="5011_tr" style="cursor: pointer;" onclick="window.open('http://www.monopalace.com/home/area/', '_blank');">
+								<td class="center ss">14일</td>
+							</tr>
+							<tr id="5012_tr" style="cursor: pointer;" onclick="window.open('http://www.monopalace.com/home/area/', '_blank');">
+								<td class="center ss">1개월</td>
+							</tr>
+							<tr id="5013_tr" style="cursor: pointer;" onclick="window.open('http://www.monopalace.com/home/area/', '_blank');">
+								<td class="center ss">6개월</td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div>
+			</div>
+			
+			<div class="clr"></div>
+            
+			 <!-- 180619 부모태그추가 -->
+			<div class="infom-area">
+                <div class="infom_box">
+                    <ul class="infom-tab clr bsLs" id="inf-tab1">
+                        <li class="on"><a href="#inf-tab1">상품소개</a></li>
+                        <li><a href="#inf-tab2">갤러리</a></li>
+                        <li><a href="#inf-tab3">오시는길</a></li>
+                        <li><a href="#inf-tab4">기본정보</a></li>
+                        <li><a href="#inf-tab5">이용후기</a></li>
+                        <li><a href="#inf-tab6">Q&amp;A</a></li>
+                        
+                        <li><a href="#inf-tab8">자주묻는질문</a></li>
+                        <li><a href="#rsv_sang">예약하기</a></li>
+                    </ul>
+                </div>
+                
+			    <!-- 상품소개 -->
+                <div class="infom-tit-box">
+                    <h3>상품소개</h3>
+                </div>
+				<style type="text/css">
+					.slogan_icon {display:none;}
+					#contents_mn2 {display:none;}
+				</style>
+
+				<div id="info_box1" style="clear:left">
+					<div class="detail_goods" style="text-align:center">
+						<!-- 호텔 상세이미지 -->
+						<style>
+							#info_box1 {position: relative;}
+							#info_box1 figure {position: relative; width: 100%;}
+							#info_box1 figure > img {max-width: 100%;}
+						</style>
+						<figure class="nth-1"><img src="http://img.ocean2you.co.kr/lodgment/detail/01.jpg" alt="오션투유리조트소개이미지"></figure>
+						<figure class="nth-2"><img src="http://img.ocean2you.co.kr/lodgment/detail/02.jpg" alt="오션투유리조트소개이미지"></figure>
+						<figure class="nth-3">
+							<img src="http://img.ocean2you.co.kr/lodgment/detail/03.jpg" alt="오션투유리조트소개이미지">
+							<a href="http://ocean2you.co.kr" target="_blank" class="btn-linkOc2" style="position: absolute; top:50px; right: 25px;">
+								<img src="http://img.ocean2you.co.kr/lodgment/detail/btn_linkOc2.png" alt="오션투유리조트 홈페이지로 이동">
+							</a>
+						</figure>
+						<figure class="nth-4">
+							<img src="http://img.ocean2you.co.kr/lodgment/detail/04.jpg" alt="오션투유리조트소개이미지">
+							<a href="http://ocean2you.co.kr/facil" target="_blank" class="btn-linkOc2" style="position: absolute; bottom: 76px; left: 50%; margin-left: -161.5px;">
+								<img src="http://img.ocean2you.co.kr/lodgment/detail/btn_moreRoom.png" alt="오션투유리조트 객실안내 페이지로 이동">
+							</a>
+						</figure>
+						<figure class="nth-5"><img src="http://img.ocean2you.co.kr/lodgment/detail/05.jpg" alt="오션투유리조트소개이미지"></figure>
+					</div>
+                </div>
+                
+                <ul class="infom-tab clr bsLs" id="inf-tab2">
+					<li><a href="#inf-tab1">상품소개</a></li>
+					<li class="on"><a href="#inf-tab2">갤러리</a></li>
+					<li><a href="#inf-tab3">오시는길</a></li>
+					<li><a href="#inf-tab4">기본정보</a></li>
+					<li><a href="#inf-tab5">이용후기</a></li>
+					<li><a href="#inf-tab6">Q&amp;A</a></li>
+					
+					<li><a href="#inf-tab8">자주묻는질문</a></li>
+					<li><a href="#rsv_sang">예약하기</a></li>
+				</ul>
+			    <!-- 갤러리 -->
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
