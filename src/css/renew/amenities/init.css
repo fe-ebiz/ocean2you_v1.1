@@ -24,7 +24,7 @@
 	.title .tit-box .titTxt img {width: 310px;}
     
 	.title .facil-tab {position: relative; box-sizing:border-box; margin: 22px auto 0; min-width: 310px; max-width: 360px; left: 1.5px;}
-	.title .facil-tab > li {position: relative; float: left; top: 0; width: 48%; margin: 1%;}
+	.title .facil-tab > li {position: relative; float: left; top: 0; width: 48%; margin: 1% 2%;}
 	.title .facil-tab > li a {display: block; width: 100%; box-sizing: border-box; line-height:17px; padding:11px 0; height: 45px; letter-spacing: -1px; font-size: 16px; border: 2px solid #a8a6a4; font-weight: 400; color: #fff;}
     /*.title .facil-tab > li.nth-2 a, .title .facil-tab > li.nth-7 a {padding:3px 0;}*/
     .title .facil-tab > li .line-two {padding:3px 0;}

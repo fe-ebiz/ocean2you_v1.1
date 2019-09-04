@@ -18,8 +18,7 @@
 	.title .tit-box .mg- {display: block; height: 1px; width: 30px; margin: 18px auto 20px; background: #fff;}
     .title .tit-box .titTxt {width: 70%; margin: 0 auto;}
 	.title .pkg-tab {position: relative; box-sizing: border-box; display: block; margin: 25px auto 0; padding: 0 5px 25px;}
-	.title .pkg-tab > li {position: relative; float: left; top: 0; width: 49%; margin-left: 2%; border: 3px solid #a8a6a4;}
-	.title .pkg-tab > li:first-child { margin-left: 0;}
+	.title .pkg-tab > li {position: relative; float: left; top: 0; width: 49%; margin: 0 2%; border: 3px solid #a8a6a4;}
 	.title .pkg-tab > li.on {border-color: #fff;}
 	.title .pkg-tab > li a {display: block; box-sizing: border-box; width: 100%; height: 45px; font-size: 15px; font-weight: 400; color: #fff;}
 	.title .pkg-tab > li a:after {content: ""; display: inline-block; height: 108%; vertical-align: middle;}
@@ -61,7 +60,7 @@
 	.title .tit-box h2 {font-size: 27px; letter-spacing: -2.5px}
 	.title .tit-box .mg- {display: block; height: 1px; width: 60px; margin: 18px auto 20px; background: #fff;}
 	.title .pkg-tab {position: relative; box-sizing: border-box; display: block; max-width: 768px; margin: 25px auto 0; padding: 0 10px;}
-	.title .pkg-tab > li {position: relative; float: left; top: 0; width: 49%; margin-left: 2%; border: 3px solid #a8a6a4;}
+	.title .pkg-tab > li {position: relative; float: left; top: 0; width: 49%; margin: 0; border: 3px solid #a8a6a4;}
 	.title .pkg-tab > li:first-child { margin-left: 0;}
 	.title .pkg-tab > li.on {border-color: #fff;}
 	.title .pkg-tab > li a {display: block; box-sizing: border-box; width: 100%; height: 60px; font-size: 17px; font-weight: 400; color: #fff;}
@@ -99,7 +98,7 @@
 	.title .pkg-tab > li {position: relative; float: left; top: 0; width: 165px; /*border: 2px solid transparent; border-left: 1px solid #a8a6a4; margin-left: -1px;*/ padding: 2px;}
 	.title .pkg-tab > li.nth-1 {margin-left: 0;}
 	.title .pkg-tab > li.on {padding: 0; border: 2px solid #fff; z-index: 1; }
-	.title .pkg-tab > li a {display: block; box-sizing: border-box; width: 100%; height: 51px; font-size: 17px; font-weight: 400; color: #fff;}
+	.title .pkg-tab > li a {display: block; box-sizing: border-box; width: 100%; height: 51px; padding: 0 10px; font-size: 17px; font-weight: 400; color: #fff;}
 	.title .pkg-tab > li a:after {content: ""; display: inline-block; height: 108%; vertical-align: middle;}
     .title .pkg-tab > li a span {display:none}
     .title .pkg-tab .no-tab a {cursor: default;}
@@ -134,7 +133,7 @@
 	.title .pkg-tab > li {position: relative; float: left; top: 0; width: 165px; /*border: 2px solid transparent; border-left: 1px solid #a8a6a4; margin-left: -1px;*/ padding: 2px;}
 	.title .pkg-tab > li.nth-1 {margin-left: 0;}
 	.title .pkg-tab > li.on {padding: 0; border: 2px solid #fff; z-index: 1; }
-	.title .pkg-tab > li a {display: block; box-sizing: border-box; width: 100%; height: 51px; font-size: 17px; font-weight: 400; color: #fff;}
+	.title .pkg-tab > li a {display: block; box-sizing: border-box; width: 100%; height: 51px; padding: 0 10px; font-size: 17px; font-weight: 400; color: #fff;}
 	.title .pkg-tab > li a:after {content: ""; display: inline-block; height: 108%; vertical-align: middle;}
     .title .pkg-tab > li a span {display:none}
     .title .pkg-tab .no-tab a {cursor: default;}

@@ -112,13 +112,14 @@ body.of-hidden {overflow: hidden;}
 .mNav-box h2 a:hover, .mNav-box .mNav > li a:hover {color: #44a8ff;}
 
 
-.rBn-box {z-index: 99; position: fixed; top: 376px; left: 50%; margin-left: 626px;}
+.rBn-box {z-index: 105; position: fixed; top: 376px; left: 50%; margin-left: 626px;}
 .rBn-box > a {display: block; width: 140px; margin-bottom:10px;}
 @media (max-width: 1560px) {
 	.rBn-box {left: auto; margin-left: 0; right: 10px;}
 }
 
 /* 퀵 메뉴, FAQ */
+.rWing {z-index: 100;}
 .rWing, #faqWrap-back, .header .d1 .mFaq-a {display: none;}
 @media (max-width: 767px) {
 	.rBn-box {display: none;}

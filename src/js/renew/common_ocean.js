@@ -185,7 +185,7 @@ function packFor(len, packParent){
     if (winW <= 768) {
         for( var i = 0 ; i < len ; i++ ){
             var idx = i;
-            $(packParent[idx]).find('li').css({'width' : 48+'%'});
+            $(packParent[idx]).find('li').css({'width' : 46+'%'});
         }
     }else{
         for( var i = 0 ; i < len ; i++ ){
