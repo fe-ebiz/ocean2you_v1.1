@@ -2,6 +2,7 @@ module.exports = function() {
 
 	var source       = 'src',
 		development  = 'dist',
+		test 		 = 'test',
 		remove       = ['.sass-cache', 'dist'],
 
 		// 템플릿 경로
@@ -15,21 +16,12 @@ module.exports = function() {
 			src_m  : source + '/template_m/**/!(_)*.html',
 			parts_m : source + '/template_m/**/_*.html',
 			dest_m : development + '/views_m',
-			src_en  : source + '/template_en/**/!(_)*.html',
-			parts_en : source + '/template_en/**/_*.html',
-			dest_en : development + '/views_en',
-			src_jp  : source + '/template_jp/**/!(_)*.html',
-			parts_jp : source + '/template_jp/**/_*.html',
-			dest_jp : development + '/views_jp',
-			src_m_jp  : source + '/template_m_jp/**/!(_)*.html',
-			parts_m_jp : source + '/template_m_jp/**/_*.html',
-			dest_m_jp : development + '/views_m_jp'
 		},
 
 		// Sass 경로
 		sass = {
-			src       : source + '/sass/**/*.{scss,sass}',
-			compassSrc: source + '/sass',
+			src: source + '/sass/**/!(_)*.{scss,sass}',
+			parts: source + '/sass/**/_*.{scss,sass}',
 			dest      : development + '/static/css'
 		},
 
@@ -45,21 +37,38 @@ module.exports = function() {
 			dest: development + '/static/js'
 		},
 
+		// Img 경로
+		img = {
+			// src : source + '/assets/img/**/*.{gif,jpg,png,ico}',
+			src: source + '/img/**/!(sprite)*/*',
+			src_sprite: source + '/img/**/sprite*/*',
+			dest: development + '/img',
+		},
+
+		// etc 경로
+		etc = {
+			src: source + '/static/etc/**',
+			dest: development + '/static/etc',
+		},
+
 		// HTML 옵션
 		htmlbeautify = {
 			"indentSize": 4
 		};
 
 	return {
-		del  : remove,
-		src  : source,
-		dev  : development,
-		
-		template : template,
-		css  : css,
-		sass : sass,
-		js   : js,
+		del: remove,
+		src: source,
+		test: test,
+		dev: development,
 
-		htmlbeautify : htmlbeautify
+		template: template,
+		css: css,
+		sass: sass,
+		js: js,
+		img: img,
+		etc: etc,
+
+		htmlbeautify: htmlbeautify
 	};
 };
