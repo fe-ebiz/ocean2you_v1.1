@@ -20,7 +20,7 @@
 	.title .tit-box .mg- {display: block; height: 1px; width: 30px; margin: 18px auto 20px; background: #fff;}
 	.title .tit-box .titTxt img {width: 310px;}
 	.title .pkg-tab {position: relative; box-sizing:border-box; margin: 22px auto 0; min-width: 310px; max-width: 360px; left: 1.5px;}
-	.title .pkg-tab > li {position: relative; float: left; top: 0; width: 48%; margin: 1%;}
+	.title .pkg-tab > li {position: relative; float: left; top: 0; width: 48%; margin: 1% 2%;}
 	.title .pkg-tab > li a {display: block; width: 100%; height: 45px; letter-spacing: -1px; font-size: 16px; border: 2px solid #a8a6a4; font-weight: 400; color: #fff;}
 	.title .pkg-tab > li:first-child a {font-size: 15px;}
 	.title .pkg-tab > li a:after {content: ""; display: inline-block; height: 108%; vertical-align: middle;}
