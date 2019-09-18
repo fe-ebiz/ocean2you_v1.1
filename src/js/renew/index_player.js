@@ -31,7 +31,7 @@ $(window).load(function(){
         
         //console.log('time - ', curTime, '/ alltime - ', allTime, timeStr[1]);
         
-        if( curTime == ('00 : '+ (Number(timeStr[1]) -3)) ){
+        if( curTime == ('00 : '+ (Number(timeStr[1]) -2)) ){
             //console.log('true')
             $('#pcVid').css('opacity', '0');
             $('.txt-box').addClass('end');
