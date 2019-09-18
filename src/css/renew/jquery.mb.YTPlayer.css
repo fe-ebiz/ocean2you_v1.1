@@ -77,7 +77,10 @@
 }
 
 .mbYTP_wrapper iframe {
-	max-width: 4000px!important
+	/*max-width: 4000px!important*/
+   /*  position: relative !important;
+   min-width: 100% !important;
+    min-height: 100% !important;*/
 }
 
 .inline_YTPlayer {

@@ -32,7 +32,23 @@ $(function () {
 		} else { 
 			//pc 
 			//alert('pc 접속'); 
-			$("#txt-box").hide();
+            var txtBox = $("#txt-box");
+            var vidPc = $(".vid-wrap .vid .mbYTP_wrapper");
+            
+            txtBox.addClass('on');
+			setTimeout(function() {
+                txtBox.removeClass('on');
+			}, 1000);
+            
+            $("#main").hover(function() {
+                txtBox.addClass('on');
+            }, function() {
+                //console.log('out');
+                txtBox.removeClass('on');
+            });
+
+            
+			/*$("#txt-box").hide();
 			$("#txt-box").fadeIn(700);
 			setTimeout(function() {
 				$("#txt-box").fadeOut(500);
@@ -41,7 +57,7 @@ $(function () {
 				$("#txt-box").fadeIn(1000);
 			}, function() {
 				$("#txt-box").fadeOut(1000);
-			});
+			});*/
 			
 		} 
 	}
