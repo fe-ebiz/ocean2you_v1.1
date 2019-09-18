@@ -12,6 +12,11 @@
 , .facil .bxList .bxBox .in-txt .more-a
 {color: #fff;}
 
+
+.vid-wrap {position: relative; width: 100%; height: 100%; background: url('http://img.ocean2you.co.kr/renew/main_pic.jpg') no-repeat center center; background-size: cover;}
+/* http://img.ocean2you.co.kr/renew/main_bg.jpg */
+.vid-wrap .vid {transition: all 0.2s ease 0s;}
+
 .main .txt-box .p2 {font-family: 'NanumSquare', sans-serif;}
 
 @media (max-width: 767px) {
@@ -32,7 +37,6 @@
     .topbn-wrap .slide-banner .bn-ocean .bn-link {background: url(http://img.ocean2you.co.kr/renew/tbn_bustour_m.jpg) no-repeat center center; background-size: cover;}
     .topbn-wrap .slide-banner .bn-snow .bn-link {background: url(http://img.ocean2you.co.kr/renew/tbn_snow_m.jpg) no-repeat center center; background-size: cover;}
     
-	.vid-wrap {position: relative; width: 100%; height: 100%; background: url('http://img.ocean2you.co.kr/renew/main_bg.jpg') no-repeat center center; background-size: cover;}
     
     /*.vid-wrap .m-movie {z-index: 1; position: absolute; width: 100%; height: 100%; top: 0; left: 0;}
     .vid-wrap .m-movie img {display: none; position: absolute; width: 100%; height: 100%; top: 0; left: 0;}
@@ -50,7 +54,7 @@
 	.main > * {position: relative;}
 	
 	.main .txt-box {position: absolute; display: block; width: 100%; text-align: center;
-		top: 50%; margin-top: -175px; color: #fff;}
+		top: 50%; margin-top: -175px; color: #fff; opacity: 1; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";}
 	.main .txt-box .p0 {font-size: 16px; line-height: 1.5;}
 	.main .txt-box .mg- {display: block; height: 1px; width: 78px; margin: 15px auto 0; background: #fff;}
 	.main .txt-box .p1 img {width: 260px;}
@@ -290,6 +294,10 @@
     /*.vid-wrap .m-movie, .vid-wrap .m-movie img {display: none;}*/
     .m-vid {display: none;}
     
+    .main .txt-box {opacity: 0; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; transition: all 1s ease 0s;}
+    .main .txt-box.on {opacity: 1; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";}
+    .main .txt-box.end {opacity: 1; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";}
+    
 	/* 20180228_날씨추가_다솜 */
 	.weath-wrap {display:block; position:relative; overflow:hidden; width:318px; height:68px; margin:0 auto; margin-top:50px; border:2px solid rgba(255, 255, 255, 0.33); border-radius:50px;}
 	.weath-wrap .weath-box {display:table; position:relative; box-sizing:border-box; width:100%; height:100%; padding:0 18px; border-radius:50px; background:rgba(0, 0, 0, 0.33);}
@@ -308,7 +316,6 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-	.vid-wrap {position: relative; width: 100%; height: 100%; background: url('http://img.ocean2you.co.kr/renew/main_bg.jpg') no-repeat center center; background-size: cover;}
 
     
     
@@ -525,8 +532,6 @@
 
 @media (min-width: 992px) and (max-width: 1431px) {
     
-	.vid-wrap {position: relative; width: 100%; height: 100%; background: url('http://img.ocean2you.co.kr/renew/main_bg.jpg') no-repeat center center; background-size: cover;}
-    
 	.vid {position: absolute; width: 100%; height: 100%;}
 
 	.main {position: relative;}
@@ -732,8 +737,6 @@
 	.lg-block {display: block;}
     
     
-	.vid-wrap {position: relative; width: 100%; height: 100%; background: url('http://img.ocean2you.co.kr/renew/main_bg.jpg') no-repeat center center; background-size: cover;}
-
 	.vid {position: absolute; width: 100%; height: 100%;}
 
 	.main {position: relative;}
