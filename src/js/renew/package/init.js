@@ -14,7 +14,13 @@ $(function() {
     $("#pkg-tab li, #pkg-b-tab li").on('click', function() {
         //var idx = $(this).index();
         var numClass = String($(this).attr('class'));
-        var num = Number(numClass.substr( 4, 1 ));
+        //var num = numClass.split("-");
+        if( numClass.length == 5 ){
+            //console.log('1')
+            var num = Number(numClass.substr( 4, 1 ));
+        }else {
+            var num = Number(numClass.substr( 4, 2 ));
+        }
         //console.log(numClass, num)
         
         //$(this).addClass('on').siblings().removeClass('on');
