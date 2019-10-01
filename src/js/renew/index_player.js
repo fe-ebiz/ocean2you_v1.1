@@ -26,6 +26,12 @@ $(window).ready(function(){
         var currentTime = e.time;
         //console.log('end');
     });
+    
+    /*$('#pcVid').on("YTPPlay", function(e){
+        var currentTime = e.time;
+        $('#pcVid').YTPStop();
+        $('#pcVid').YTPPlay();
+    });*/
 
     $('#pcVid').on("YTPTime", function(e){
         var currentTime = e.time;
@@ -44,5 +50,25 @@ $(window).ready(function(){
         }
         
     });
+    
+    resizePcVid();
+	$(window).on('resize', function () {
+        resizePcVid();
+	}); 
 });
 
+function resizePcVid(){ 
+    var wt = $(window).width();
+    
+    if( wt <= 768 ){
+        $('#pcVid').css({'display' : 'none'});
+        //$('#pcVid').YTPPause();
+        $('#pcVid').YTPStop();
+        //console.log('m');
+    }else{
+        $('#pcVid').css({'display' : 'block'});
+        $('#pcVid').YTPPlay();
+        //console.log('pc'); 
+    }
+    
+}

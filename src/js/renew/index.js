@@ -113,11 +113,12 @@ function resizeWin(){
     });
     
     if( wt <= 768 ){
-        $(window).load(function(){
+        $(window).ready(function(){
             //console.log('load')
-            $('#bgMov').get(0).load();
+            //$('#bgMov').get(0).play();
             
             $('.m-vid').fadeIn(500, function(){
+                $('.m-vid').css({'display' : 'block'});
                 $('#bgMov').get(0).play();
                 $(this).find('#bgMov').on('ended',function(){
                     $(this).parents('.m-vid').fadeOut(500);
@@ -135,7 +136,8 @@ function resizeWin(){
         }else{
             $("#bgMo").get(0).pause(); 
         }*/
-        $("#bgMov").stop();
+        $("#bgMov").get(0).pause();
+        $('#bgMov').get(0).currentTime = 0;
         $('.m-vid').css({'display' : 'none'});
         
         if( $('.topbn-wrap').css('display') == 'block' ){
