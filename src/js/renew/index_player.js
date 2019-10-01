@@ -1,5 +1,5 @@
 var myPlayer, curTime, allTime, timeStr;
-$(window).load(function(){
+$(window).ready(function(){
 	var isIframe = function () {
 		var a = !1;
 		try {
@@ -17,6 +17,11 @@ $(window).load(function(){
 
 	myPlayer = $(".vid").YTPlayer({align:"center,left"});
     
+   /* $('#pcVid').on("YTPStart", function(e){
+        var currentTime = e.time;
+        $('#pcVid').addClass('start');
+    });*/
+    
     $('#pcVid').on("YTPEnd", function(e){
         var currentTime = e.time;
         //console.log('end');
@@ -31,7 +36,7 @@ $(window).load(function(){
         
         //console.log('time - ', curTime, '/ alltime - ', allTime, timeStr[1]);
         
-        if( curTime == ('00 : '+ (Number(timeStr[1]) -3)) ){
+        if( curTime == ('00 : '+ (Number(timeStr[1]) -2)) ){
             //console.log('true')
             $('#pcVid').css('opacity', '0');
             $('.txt-box').addClass('end');
