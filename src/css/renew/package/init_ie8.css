@@ -82,21 +82,30 @@
 .pkg-wrap .ul-box .i-s:before {content: "※"; display: inline-block; position: absolute; left: 0;}
 .pkg-wrap .ul-box .i-d {position:relative; padding-left:9px;}
 .pkg-wrap .ul-box .i-d:before {content: ""; display: inline-block; position: absolute; width:5px; height:1px; top:9px; left: 0; background:#7c7c7c}
+.pkg-wrap .ul-box .i-n {position:relative; padding-left:16px; text-indent: -16px;}
     
 .pkg-wrap .ul-box .ul0-1.li-left-2 li {float:left; width:50%; margin-top:0}
 .pkg-wrap .ul-box .ul0-1.li-left-2 .clr-li {clear:both; width:100%; margin-top:0; padding-top:20px}
     
 /* 190319 낚시도구대여 */
 .pkg-wrap .ul-box .btn-dl {display: inline-block; height: 32px; margin-left: 15px; padding: 0 11px; font-size: 16px; font-weight: bold; line-height: 32px; color: #fff; background: #44a8ff;}
+.pkg-wrap .ul-box li {display: table;}
 .pkg-wrap .ul-box li > span {position: relative; display: table-cell;}
 .pkg-wrap .ul-box li > span:first-child {padding-right: 9px;}
-.pkg-wrap .ul-box li > span:first-child:before {content: ':'; position: absolute; top: -1px; right: 3px; vertical-align: middle;}
+.pkg-wrap .ul-box li > span:first-child:before {content: ':'; position: absolute; top: 1px; right: 3px; vertical-align: middle;}
 /* type-2 */
 .pkg-wrap .ul-box.type-2 {font-size: 16px; vertical-align: top; color: #838383;}
 .pkg-wrap .ul-box.type-2:before {width: 68px;}
 .pkg-wrap .ul-box.type-2 h5 {padding: 16px 0 15px;}
 .pkg-wrap .ul-box.type-2 .ul0-1 li {font-size: 16px;}
 .pkg-wrap .ul-box.type-2 .ul0-1 li.mt {margin-top: 25px;}
+/* multi-h5 */
+.pkg-wrap .ul-box.multi-h5 {}
+.pkg-wrap .ul-box.multi-h5:before {content: none;}
+.pkg-wrap .ul-box.multi-h5 h5 {}
+.pkg-wrap .ul-box.multi-h5 h5:before { content:''; display:block; position:absolute; width:68px; height:2px; top:0; background:#44a8ff;}
+.pkg-wrap .ul-box.multi-h5 ul + h5 {margin-top: 35px;}
+
 /* 낚시도구 대여 지도 */
 .pkg-wrap .ul-box .pkg-map-list {padding-top: 5px;}
 .pkg-wrap .ul-box .pkg-map-list li {position: relative; float: left; margin: 35px 0 0 40px;}
