@@ -22,7 +22,8 @@
 	.tab-region > li > a .d-arr {display: none;}
 	.tab-region > li.on > a {background: #99adcb; color: #fff;}
 	.tab-region > li.on > a .d-arr {display: inline-block;}
-	.cont-region {}
+    .cont-region {}
+    .event-sort-box + .event-sort-box {margin-top: 60px; padding-top: 60px; border-top: 1px solid #ccc;}
 	/* .cont-region > li {display: none;}
 	.cont-region > li.on {display: block;} */
 

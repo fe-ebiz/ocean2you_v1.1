@@ -38,7 +38,8 @@
 	.tab-region > li > a .d-arr {display: none;}
 	.tab-region > li.on > a {background: #99adcb; color: #fff;}
 	.tab-region > li.on > a .d-arr {display: inline-block;}
-	.cont-region {}
+    .cont-region {}
+    .event-sort-box + .event-sort-box {margin-top: 30px; padding-top: 30px; border-top: 1px solid #ccc;}
 
 	.bx-wrapper, .bx-wrapper, .event-wrap .container {width: 360px;}
 	#evt-box > section {word-break: keep-all; text-align: center;}
@@ -192,7 +193,8 @@
 	.tab-region > li > a .d-arr {display: none;}
 	.tab-region > li.on > a {background: #99adcb; color: #fff;}
 	.tab-region > li.on > a .d-arr {display: inline-block;}
-	.cont-region {}
+    .cont-region {}
+    .event-sort-box + .event-sort-box {margin-top: 30px; padding-top: 30px; border-top: 1px solid #ccc;}
 	/* .cont-region > li {display: none;}
 	.cont-region > li.on {display: block;} */
     
@@ -352,7 +354,8 @@
 	.tab-region > li > a .d-arr {display: none;}
 	.tab-region > li.on > a {background: #99adcb; color: #fff;}
 	.tab-region > li.on > a .d-arr {display: inline-block;}
-	.cont-region {}
+    .cont-region {}
+    .event-sort-box + .event-sort-box {margin-top: 60px; padding-top: 60px; border-top: 1px solid #ccc;}
 	/* .cont-region > li {display: none;}
 	.cont-region > li.on {display: block;} */
     
@@ -513,12 +516,14 @@
 	.tab-region > li > a .d-arr {display: none;}
 	.tab-region > li.on > a {background: #99adcb; color: #fff;}
 	.tab-region > li.on > a .d-arr {display: inline-block;}
-	.cont-region {}
+    .cont-region {}
+    .event-sort-box + .event-sort-box {margin-top: 60px; padding-top: 60px; border-top: 1px solid #ccc;}
 	/* .cont-region > li {display: none;}
 	.cont-region > li.on {display: block;} */
 
 	.bx-wrapper, .bx-wrapper, .event-wrap .container {width: 1180px;}
-	#evt-box > section {word-break: keep-all; text-align: center;}
+    #evt-box > section {word-break: keep-all; text-align: center;}
+
 	.event-wrap [class*=facil-] h3 {font-size: 21px; margin: 0px auto 25px; color: #595959; font-weight: 600;}
 	.event-wrap .bxBox {position: relative;}
 	.event-wrap .bxBox .bxS > li {z-index: 1 !important; width: 1180px; height: 493px;}
