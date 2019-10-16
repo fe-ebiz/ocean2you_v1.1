@@ -964,7 +964,7 @@ body.of-hidden {overflow: hidden;}
 }
 
 /* block 지정 */
-.show-xxs, .show-xs, .show-sm, .show-md, .show-lg {
+.show-xxs, .show-xs, .show-sm, .show-md, .show-lg, .show-xl {
   display: none !important;
 }
 
@@ -1005,6 +1005,14 @@ body.of-hidden {overflow: hidden;}
     display: none !important;
   }
   .show-lg {
+    display: block !important;
+  }
+}
+@media (min-width: 1432px) {
+  .hidden-xl {
+    display: none !important;
+  }
+  .show-xl {
     display: block !important;
   }
 }

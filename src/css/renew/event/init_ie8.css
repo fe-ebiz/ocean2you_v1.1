@@ -404,7 +404,35 @@
 	.event-wrap .fifasChild .bxBox .li-2 {
 	  background: url(http://img.ocean2you.co.kr/renew/event/event_fifasChild02.jpg) no-repeat;
 	  background-size: cover;
-	}
+    }
+    
+    /* halloween */
+    .event-wrap .halloween .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_halloween.jpg) no-repeat; background-size: cover;}
+    .event-wrap .halloween .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_back_halloween.jpg) no-repeat; background-size: cover;}
+
+    .halloween-tariff-table {
+        width: 100%;
+        margin-top: 40px;
+        color: #5d5d5d;
+        line-height: 1.3;
+        text-align: center;
+    }
+    .halloween-tariff-table colgroup col {
+        width: 33.33%;
+    }
+    .halloween-tariff-table thead,
+    .halloween-tariff-table tbody {border: 1px solid #bfbfbf;}
+    .halloween-tariff-table tbody {border-top: none;}
+    .halloween-tariff-table th,
+    .halloween-tariff-table td {border-left: 1px solid #bfbfbf; vertical-align: middle; height: 52px;}
+    .halloween-tariff-table th .cell,
+    .halloween-tariff-table td .cell {padding: 5px 0;}
+    .halloween-tariff-table th {background-color: #eaeaea; border-bottom: none; font-weight: 500; font-size: 18px;}
+    .halloween-tariff-table td {background-color: #fff; letter-spacing: -1px;}
+    .halloween-tariff-table tbody tr:not(:first-child) td {border-top: 1px solid #eaeaea;}
+    .halloween-tariff-table tbody td:nth-child(1),
+    .halloween-tariff-table tbody td:nth-child(2) {font-size: 18px;}
+    .halloween-tariff-table tbody td:nth-child(2) {font-weight: 500;}
 
 	.event-wrap .evt01-tb {
 	  position: relative;

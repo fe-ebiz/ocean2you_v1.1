@@ -118,15 +118,45 @@
 	.event-wrap .skCitizinDay .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_simin.jpg) no-repeat; background-size: cover;}
 	/* 190814_dmz평화의길 */
 	.event-wrap .dmz .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_dmz01_m.jpg) no-repeat; background-size: cover;}
-  .event-wrap .dmz .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_dmz02_m.jpg) no-repeat; background-size: cover;}
-  /* DMZ POP */
-  .event-wrap .dmzpop .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_dmzpop_m.jpg) no-repeat; background-size: cover;}
-  .event-wrap .dmzpop .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_dmzpop02_m.jpg) no-repeat; background-size: cover;}
+    .event-wrap .dmz .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_dmz02_m.jpg) no-repeat; background-size: cover;}
+    /* DMZ POP */
+    .event-wrap .dmzpop .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_dmzpop_m.jpg) no-repeat; background-size: cover;}
+    .event-wrap .dmzpop .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_dmzpop02_m.jpg) no-repeat; background-size: cover;}
 	/* 190826_금강통일배 유소년클럽 축구대회 */
 	.event-wrap .fifasChild .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_fifasChild01_m.jpg) no-repeat; background-size: cover;}
-	.event-wrap .fifasChild .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_fifasChild02_m.jpg) no-repeat; background-size: cover;}
+    .event-wrap .fifasChild .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_fifasChild02_m.jpg) no-repeat; background-size: cover;}
+    
+    /* halloween */
+    .event-wrap .halloween .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_halloween_m.jpg) no-repeat; background-size: cover;}
+    .event-wrap .halloween .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_back_halloween_m.jpg) no-repeat; background-size: cover;}
+
+    .halloween-tariff-table {
+        width: 100%;
+        margin-top: 20px;
+        color: #5d5d5d;
+        line-height: 1.3;
+        text-align: center;
+    }
+    .halloween-tariff-table colgroup col {
+        width: 33.33%;
+    }
+    .halloween-tariff-table thead,
+    .halloween-tariff-table tbody {border: 1px solid #bfbfbf;}
+    .halloween-tariff-table tbody {border-top: none;}
+    .halloween-tariff-table th,
+    .halloween-tariff-table td {border-left: 1px solid #bfbfbf; vertical-align: middle; height: 52px;}
+    .halloween-tariff-table th {height: 32px;}
+    .halloween-tariff-table th .cell,
+    .halloween-tariff-table td .cell {padding: 5px 0;}
+    .halloween-tariff-table th {background-color: #eaeaea; border-bottom: none; font-weight: 500; font-size: 13px;}
+    .halloween-tariff-table td {background-color: #fff; letter-spacing: -1px;}
+    .halloween-tariff-table tbody tr:not(:first-child) td {border-top: 1px solid #eaeaea;}
+    .halloween-tariff-table tbody td {font-size: 12px;}
+    .halloween-tariff-table tbody td:nth-child(1),
+    .halloween-tariff-table tbody td:nth-child(2) {font-size: 12.5px;}
+    .halloween-tariff-table tbody td:nth-child(2) {font-weight: 500;}
 	
-	.event-wrap .evt01-tb {position: relative; padding: 0 4px; margin: 0 auto; text-align: left; margin-top: 40px; letter-spacing: -1px; line-height: 1.2;}
+	.event-wrap .evt01-tb {position: relative; margin: 0 auto; text-align: left; margin-top: 40px; letter-spacing: -1px; line-height: 1.2;}
 	.event-wrap .evt01-tb > li {/*float: left;*/display:table; width: 100%; border: 1px solid #bfbfbf; margin-top: -1px;} 
 	.event-wrap .evt01-tb > li:first-child {margin-top: 0;}
 	.event-wrap .evt01-tb > li span {display: table-cell;}
@@ -276,19 +306,47 @@
 	.event-wrap .skCitizinDay .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_simin.jpg) no-repeat; background-size: cover;}
 	/* 190814_dmz평화의길 */
 	.event-wrap .dmz .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_dmz01.jpg) no-repeat; background-size: cover;}
-  .event-wrap .dmz .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_dmz02.jpg) no-repeat; background-size: cover;}
-  /* DMZ POP */
-  .event-wrap .dmzpop .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_dmzpop.jpg) no-repeat; background-size: cover;}
-  .event-wrap .dmzpop .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_dmzpop02.jpg) no-repeat; background-size: cover;}
+    .event-wrap .dmz .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_dmz02.jpg) no-repeat; background-size: cover;}
+    /* DMZ POP */
+    .event-wrap .dmzpop .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_dmzpop.jpg) no-repeat; background-size: cover;}
+    .event-wrap .dmzpop .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_dmzpop02.jpg) no-repeat; background-size: cover;}
 	/* 190826_금강통일배 유소년클럽 축구대회 */
 	.event-wrap .fifasChild .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_fifasChild01.jpg) no-repeat; background-size: cover;}
-	.event-wrap .fifasChild .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_fifasChild02.jpg) no-repeat; background-size: cover;}
+    .event-wrap .fifasChild .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_fifasChild02.jpg) no-repeat; background-size: cover;}
+    
+    /* halloween */
+    .event-wrap .halloween .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_halloween.jpg) no-repeat; background-size: cover;}
+    .event-wrap .halloween .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_back_halloween.jpg) no-repeat; background-size: cover;}
+
+    .halloween-tariff-table {
+        width: 100%;
+        margin-top: 40px;
+        color: #5d5d5d;
+        line-height: 1.3;
+        text-align: center;
+    }
+    .halloween-tariff-table colgroup col {
+        width: 33.33%;
+    }
+    .halloween-tariff-table thead,
+    .halloween-tariff-table tbody {border: 1px solid #bfbfbf;}
+    .halloween-tariff-table tbody {border-top: none;}
+    .halloween-tariff-table th,
+    .halloween-tariff-table td {border-left: 1px solid #bfbfbf; vertical-align: middle; height: 52px;}
+    .halloween-tariff-table th .cell,
+    .halloween-tariff-table td .cell {padding: 5px 0;}
+    .halloween-tariff-table th {background-color: #eaeaea; border-bottom: none; font-weight: 500; font-size: 18px;}
+    .halloween-tariff-table td {background-color: #fff; letter-spacing: -1px;}
+    .halloween-tariff-table tbody tr:not(:first-child) td {border-top: 1px solid #eaeaea;}
+    .halloween-tariff-table tbody td:nth-child(1),
+    .halloween-tariff-table tbody td:nth-child(2) {font-size: 18px;}
+    .halloween-tariff-table tbody td:nth-child(2) {font-weight: 500;}
     
 	.fac-mt {margin-top: 40px; padding-top: 40px; border-top: 1px solid #ccc;}
 	.fac-mt-b {margin-bottom: 40px; padding-bottom: 40px; border-bottom: 1px solid #ccc;}
 	
     /* 표 영역 */
-	.event-wrap .evt01-tb {position: relative; padding: 0 10px; text-align: left; margin-top: 54px; letter-spacing: -1px;}
+	.event-wrap .evt01-tb {position: relative; text-align: left; margin-top: 54px; letter-spacing: -1px;}
 	.event-wrap .evt01-tb > li {float: left; width: 100%; border: 1px solid #bfbfbf; margin-top: -1px; line-height: 2.4;} 
 	.event-wrap .evt01-tb > li:first-child {margin-top: 0;}
 	.event-wrap .evt01-tb > li span {display: inline-block; vertical-align: top;}
@@ -441,16 +499,44 @@
 	.event-wrap .skCitizinDay .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_simin.jpg) no-repeat; background-size: cover;}
 	/* 190814_dmz평화의길 */
 	.event-wrap .dmz .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_dmz01.jpg) no-repeat; background-size: cover;}
-  .event-wrap .dmz .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_dmz02.jpg) no-repeat; background-size: cover;}
-  /* DMZ POP */
-  .event-wrap .dmzpop .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_dmzpop.jpg) no-repeat; background-size: cover;}
-  .event-wrap .dmzpop .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_dmzpop02.jpg) no-repeat; background-size: cover;}
+    .event-wrap .dmz .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_dmz02.jpg) no-repeat; background-size: cover;}
+    /* DMZ POP */
+    .event-wrap .dmzpop .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_dmzpop.jpg) no-repeat; background-size: cover;}
+    .event-wrap .dmzpop .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_dmzpop02.jpg) no-repeat; background-size: cover;}
 	/* 190826_금강통일배 유소년클럽 축구대회 */
 	.event-wrap .fifasChild .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_fifasChild01.jpg) no-repeat; background-size: cover;}
-	.event-wrap .fifasChild .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_fifasChild02.jpg) no-repeat; background-size: cover;}
+    .event-wrap .fifasChild .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_fifasChild02.jpg) no-repeat; background-size: cover;}
+    
+    /* halloween */
+    .event-wrap .halloween .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_halloween.jpg) no-repeat; background-size: cover;}
+    .event-wrap .halloween .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_back_halloween.jpg) no-repeat; background-size: cover;}
+
+    .halloween-tariff-table {
+        width: 100%;
+        margin-top: 40px;
+        color: #5d5d5d;
+        line-height: 1.3;
+        text-align: center;
+    }
+    .halloween-tariff-table colgroup col {
+        width: 33.33%;
+    }
+    .halloween-tariff-table thead,
+    .halloween-tariff-table tbody {border: 1px solid #bfbfbf;}
+    .halloween-tariff-table tbody {border-top: none;}
+    .halloween-tariff-table th,
+    .halloween-tariff-table td {border-left: 1px solid #bfbfbf; vertical-align: middle; height: 52px;}
+    .halloween-tariff-table th .cell,
+    .halloween-tariff-table td .cell {padding: 5px 0;}
+    .halloween-tariff-table th {background-color: #eaeaea; border-bottom: none; font-weight: 500; font-size: 18px;}
+    .halloween-tariff-table td {background-color: #fff; letter-spacing: -1px;}
+    .halloween-tariff-table tbody tr:not(:first-child) td {border-top: 1px solid #eaeaea;}
+    .halloween-tariff-table tbody td:nth-child(1),
+    .halloween-tariff-table tbody td:nth-child(2) {font-size: 18px;}
+    .halloween-tariff-table tbody td:nth-child(2) {font-weight: 500;}
     
     /* 표 영역 */
-	.event-wrap .evt01-tb {position: relative; padding: 0 10px; text-align: left; margin-top: 54px; letter-spacing: -1px; /*line-height: 1.2;*/}
+	.event-wrap .evt01-tb {position: relative; text-align: left; margin-top: 54px; letter-spacing: -1px; /*line-height: 1.2;*/}
 	.event-wrap .evt01-tb > li {float: left; width: 100%; border: 1px solid #bfbfbf; margin-top: -1px; line-height: 2.4;} 
 	.event-wrap .evt01-tb > li:first-child {margin-top: 0;}
 	.event-wrap .evt01-tb > li span {display: inline-block; vertical-align: top;}
@@ -608,13 +694,41 @@
 	.event-wrap .skCitizinDay .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_simin.jpg) no-repeat; background-size: cover;}
 	/* 190814_dmz평화의길 */
 	.event-wrap .dmz .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_dmz01.jpg) no-repeat; background-size: cover;}
-  .event-wrap .dmz .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_dmz02.jpg) no-repeat; background-size: cover;}
-  /* DMZ POP */
-  .event-wrap .dmzpop .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_dmzpop.jpg) no-repeat; background-size: cover;}
-  .event-wrap .dmzpop .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_dmzpop02.jpg) no-repeat; background-size: cover;}
+    .event-wrap .dmz .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_dmz02.jpg) no-repeat; background-size: cover;}
+    /* DMZ POP */
+    .event-wrap .dmzpop .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_dmzpop.jpg) no-repeat; background-size: cover;}
+    .event-wrap .dmzpop .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_dmzpop02.jpg) no-repeat; background-size: cover;}
 	/* 190826_금강통일배 유소년클럽 축구대회 */
 	.event-wrap .fifasChild .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_fifasChild01.jpg) no-repeat; background-size: cover;}
-	.event-wrap .fifasChild .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_fifasChild02.jpg) no-repeat; background-size: cover;}
+    .event-wrap .fifasChild .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_fifasChild02.jpg) no-repeat; background-size: cover;}
+    
+    /* halloween */
+    .event-wrap .halloween .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_halloween.jpg) no-repeat; background-size: cover;}
+    .event-wrap .halloween .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_back_halloween.jpg) no-repeat; background-size: cover;}
+
+    .halloween-tariff-table {
+        width: 100%;
+        margin-top: 40px;
+        color: #5d5d5d;
+        line-height: 1.3;
+        text-align: center;
+    }
+    .halloween-tariff-table colgroup col {
+        width: 33.33%;
+    }
+    .halloween-tariff-table thead,
+    .halloween-tariff-table tbody {border: 1px solid #bfbfbf;}
+    .halloween-tariff-table tbody {border-top: none;}
+    .halloween-tariff-table th,
+    .halloween-tariff-table td {border-left: 1px solid #bfbfbf; vertical-align: middle; height: 52px;}
+    .halloween-tariff-table th .cell,
+    .halloween-tariff-table td .cell {padding: 5px 0;}
+    .halloween-tariff-table th {background-color: #eaeaea; border-bottom: none; font-weight: 500; font-size: 18px;}
+    .halloween-tariff-table td {background-color: #fff; letter-spacing: -1px;}
+    .halloween-tariff-table tbody tr:not(:first-child) td {border-top: 1px solid #eaeaea;}
+    .halloween-tariff-table tbody td:nth-child(1),
+    .halloween-tariff-table tbody td:nth-child(2) {font-size: 18px;}
+    .halloween-tariff-table tbody td:nth-child(2) {font-weight: 500;}
 
     
 	.event-wrap .evt01-tb {position: relative; text-align: left; margin-top: 54px; letter-spacing: -1px; line-height: 1.2;}
