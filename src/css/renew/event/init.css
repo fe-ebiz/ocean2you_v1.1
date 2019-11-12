@@ -155,6 +155,9 @@
     .halloween-tariff-table tbody td:nth-child(1),
     .halloween-tariff-table tbody td:nth-child(2) {font-size: 12.5px;}
     .halloween-tariff-table tbody td:nth-child(2) {font-weight: 500;}
+
+    /* open-badminton */
+    .event-wrap .open-badminton .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_badminton_m.jpg) no-repeat; background-size: cover;}
 	
 	.event-wrap .evt01-tb {position: relative; margin: 0 auto; text-align: left; margin-top: 40px; letter-spacing: -1px; line-height: 1.2;}
 	.event-wrap .evt01-tb > li {/*float: left;*/display:table; width: 100%; border: 1px solid #bfbfbf; margin-top: -1px;} 
@@ -341,6 +344,9 @@
     .halloween-tariff-table tbody td:nth-child(1),
     .halloween-tariff-table tbody td:nth-child(2) {font-size: 18px;}
     .halloween-tariff-table tbody td:nth-child(2) {font-weight: 500;}
+
+    /* open-badminton */
+    .event-wrap .open-badminton .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_badminton.jpg) no-repeat; background-size: cover;}
     
 	.fac-mt {margin-top: 40px; padding-top: 40px; border-top: 1px solid #ccc;}
 	.fac-mt-b {margin-bottom: 40px; padding-bottom: 40px; border-bottom: 1px solid #ccc;}
@@ -534,6 +540,9 @@
     .halloween-tariff-table tbody td:nth-child(1),
     .halloween-tariff-table tbody td:nth-child(2) {font-size: 18px;}
     .halloween-tariff-table tbody td:nth-child(2) {font-weight: 500;}
+
+    /* open-badminton */
+    .event-wrap .open-badminton .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_badminton.jpg) no-repeat; background-size: cover;}
     
     /* 표 영역 */
 	.event-wrap .evt01-tb {position: relative; text-align: left; margin-top: 54px; letter-spacing: -1px; /*line-height: 1.2;*/}
@@ -729,6 +738,9 @@
     .halloween-tariff-table tbody td:nth-child(1),
     .halloween-tariff-table tbody td:nth-child(2) {font-size: 18px;}
     .halloween-tariff-table tbody td:nth-child(2) {font-weight: 500;}
+
+    /* open-badminton */
+    .event-wrap .open-badminton .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_badminton.jpg) no-repeat; background-size: cover;}
 
     
 	.event-wrap .evt01-tb {position: relative; text-align: left; margin-top: 54px; letter-spacing: -1px; line-height: 1.2;}
