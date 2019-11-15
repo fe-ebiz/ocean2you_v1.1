@@ -144,12 +144,13 @@
 	.pkg-wrap .sltMenu-intro .ul1 > li .d1 {width: 100%;}
 	.pkg-wrap .sltMenu-intro .ul1 > li .d1 img {width: 100%;}
 	.pkg-wrap .sltMenu-intro .ul1 > li .d2 {position: relative; margin-top: 10px; width: 100%; word-break: keep-all;}
-	.pkg-wrap .sltMenu-intro .ul1 > li .d2 .s-w {display: inline-block; width: 18px; height: 18px; border-radius: 50%; background: #4e4e4e; color: #fff; text-align: center; font-size: 11px; vertical-align: middle; padding-top: 2px; text-indent: -1px; margin-right: -1px;}
+	.pkg-wrap .sltMenu-intro .ul1 > li .d2 .s-w {position: relative; top: -2px; display: inline-block; width: 18px; height: 18px; border-radius: 50%; background: #4e4e4e; color: #fff; text-align: center; font-size: 11px; vertical-align: middle; padding-top: 2px; text-indent: -1px; margin-right: -1px;}
 	.pkg-wrap .sltMenu-intro .ul1 > li .d2 .usePrc {}
 	.pkg-wrap .sltMenu-intro .ul1 > li .d2 .usePrc .p-txt .s-txt {display: block;}
 	.pkg-wrap .sltMenu-intro .ul1 > li .d2 .usePrc .p-txt .s-txt a {color: #7c7c7c;}
 	.pkg-wrap .sltMenu-intro .ul1 > li .d2 .usePrc .p1 {}
-	.pkg-wrap .sltMenu-intro .ul1 > li strong {font-weight: 700; display: block; margin-bottom: 10px; font-size: 14px;}
+    .pkg-wrap .sltMenu-intro .ul1 > li strong {font-weight: 700; display: block; margin-bottom: 10px; font-size: 14px;}
+    .pkg-wrap .sltMenu-intro .ul1 > li strong .new {position: relative; top: -1px; display: inline-block; padding: 0 5px; margin-left: 2px; line-height: 20px; background-color: #000; color: #fff; font-size: 13px;}
 	
 	.pkg-wrap [class*=pkg-] > .p-row {font-size: 17px; text-align: center; padding-top: 25px; margin: 30px auto -20px; line-height: 1.5; border-top: 1px solid #e1e1e1;}
 	
@@ -332,27 +333,29 @@
 	.pkg-wrap .rv-a2 > * {vertical-align: middle;}
 	.pkg-wrap .rv-a2 .gt {position: relative; width: 7px; margin-top: -1px; margin-left: 15px;}
     
-	.pkg-wrap .sltMenu-intro .ul1 > li .p-txt {position: relative; line-height: 1.6; word-break: keep-all; letter-spacing: -0.5px; color: #7c7c7c; font-size: 14px;}
-	.pkg-wrap .sltMenu-intro .ul1 > li .p-txt.i-s {padding-left: 15px;}
+	.pkg-wrap .sltMenu-intro .ul1 > li .p-txt {position: relative; line-height: 1.6; word-break: keep-all; letter-spacing: -0.5px; color: #7c7c7c; font-size: 13px;}
+	.pkg-wrap .sltMenu-intro .ul1 > li .p-txt.i-s {padding-left: 13px;}
 	.pkg-wrap .sltMenu-intro .ul1 > li .p-txt.i-s:before {content: "※"; display: inline-block; position: absolute; left: 0;}
-	.pkg-wrap .sltMenu-intro .ul1 > li .p-txt.i-d {padding-left: 10px;}
+	.pkg-wrap .sltMenu-intro .ul1 > li .p-txt.i-d {padding-left: 18px;}
 	.pkg-wrap .sltMenu-intro .ul1 > li .p-txt.i-d:before {content: "-"; display: inline-block; position: absolute; left: 0;}
 	
 	.pkg-wrap .sltMenu-intro {position: relative; margin-top: 50px; border-top: 1px solid #44a8ff;}
-	.pkg-wrap .sltMenu-intro h5 {font-size: 18px; font-weight: 700; margin-top: 12px;}
-	.pkg-wrap .sltMenu-intro .ul1 {margin-top: 24px;}
-	.pkg-wrap .sltMenu-intro .ul1 > li {position: relative; padding: 20px; border: 1px solid #ebebeb; margin-top: 20px;}
+	.pkg-wrap .sltMenu-intro h5 {font-size: 14px; font-weight: 700; margin-top: 12px;}
+	.pkg-wrap .sltMenu-intro .ul1 {margin-top: 14px;}
+	.pkg-wrap .sltMenu-intro .ul1 > li {position: relative; padding: 10px; border: 1px solid #ebebeb; margin-top: 10px;}
 	.pkg-wrap .sltMenu-intro .ul1 > li > div {float: left;}
-	.pkg-wrap .sltMenu-intro .ul1 > li .d1 {width: 388px;}
-	.pkg-wrap .sltMenu-intro .ul1 > li .d2 {position: relative; margin-left: 22px; width: 316px;}
-	.pkg-wrap .sltMenu-intro .ul1 > li .d2 .s-w {display: inline-block; width: 20px; height: 20px; border-radius: 50%; background: #4e4e4e; color: #fff; text-align: center; font-size: 12px; vertical-align: middle; padding-top: 1px;}
+	.pkg-wrap .sltMenu-intro .ul1 > li .d1 {width: 100%;}
+	.pkg-wrap .sltMenu-intro .ul1 > li .d1 img {width: 100%;}
+	.pkg-wrap .sltMenu-intro .ul1 > li .d2 {position: relative; margin-top: 10px; width: 100%; word-break: keep-all;}
+	.pkg-wrap .sltMenu-intro .ul1 > li .d2 .s-w {position: relative; top: -2px; display: inline-block; width: 18px; height: 18px; border-radius: 50%; background: #4e4e4e; color: #fff; text-align: center; font-size: 11px; vertical-align: middle; padding-top: 2px; text-indent: -1px; margin-right: -1px;}
 	.pkg-wrap .sltMenu-intro .ul1 > li .d2 .usePrc {}
 	.pkg-wrap .sltMenu-intro .ul1 > li .d2 .usePrc .p-txt .s-txt {display: block;}
 	.pkg-wrap .sltMenu-intro .ul1 > li .d2 .usePrc .p-txt .s-txt a {color: #7c7c7c;}
 	.pkg-wrap .sltMenu-intro .ul1 > li .d2 .usePrc .p1 {}
-	.pkg-wrap .sltMenu-intro .ul1 > li strong {font-weight: 700; display: block; margin-bottom: 10px; font-size: 15px; line-height: 1.2; letter-spacing: -0.5px;}
+    .pkg-wrap .sltMenu-intro .ul1 > li strong {font-weight: 700; display: block; margin-bottom: 10px; font-size: 14px;}
+    .pkg-wrap .sltMenu-intro .ul1 > li strong .new {position: relative; top: -1px; display: inline-block; padding: 0 5px; margin-left: 2px; line-height: 20px; background-color: #000; color: #fff; font-size: 13px;}
 	
-	.pkg-wrap [class*=pkg-] > .p-row {font-size: 17px; text-align: center; padding-top: 30px; margin: 40px auto -30px; line-height: 1.5; border-top: 1px solid #e1e1e1;}
+	.pkg-wrap [class*=pkg-] > .p-row {font-size: 17px; text-align: center; padding-top: 25px; margin: 30px auto -20px; line-height: 1.5; border-top: 1px solid #e1e1e1;}
 	
 	/* 180425 하단 패키지 탭 추가_다솜 common.css이동 */
 	/*.pkg-b-tab-box {width:768px; margin:0 auto; text-align:center; padding:0 7px 38px}
@@ -554,14 +557,15 @@
 	.pkg-wrap .sltMenu-intro .ul1 > li > div {float: left;}
 	.pkg-wrap .sltMenu-intro .ul1 > li .d1 {width: 40%;/*width: 388px;*/}
 	.pkg-wrap .sltMenu-intro .ul1 > li .d2 {position: relative; width: 60%; padding-left: 18px; /*margin-left: 50px; width: 540px;*/ /* height: 254px; */}
-	.pkg-wrap .sltMenu-intro .ul1 > li .d2 .s-w {display: inline-block; width: 22px; height: 22px; border-radius: 50%; background: #4e4e4e; color: #fff; text-align: center; font-size: 14px; vertical-align: middle; text-indent: 1.2px;}
+	.pkg-wrap .sltMenu-intro .ul1 > li .d2 .s-w {position: relative; top: -2px; display: inline-block; width: 22px; height: 22px; border-radius: 50%; background: #4e4e4e; color: #fff; text-align: center; font-size: 14px; vertical-align: middle; text-indent: 1.2px;}
 	.pkg-wrap .sltMenu-intro .ul1 > li .d2 .usePrc {}
 	.pkg-wrap .sltMenu-intro .ul1 > li .d2 .usePrc .p-txt .s-txt {display: inline-block;}
 	.pkg-wrap .sltMenu-intro .ul1 > li .d2 .usePrc .p-txt .s-txt:before {content: " / ";}
 	.pkg-wrap .sltMenu-intro .ul1 > li .d2 .usePrc .p-txt .s-txt:nth-child(1):before, .pkg-wrap .sltMenu-intro .ul1 > li .d2 .usePrc .p-txt .s-txt:nth-child(3):before {display: none;}
 	.pkg-wrap .sltMenu-intro .ul1 > li .d2 .usePrc .p-txt .s-txt a {color: #7c7c7c;}
 	.pkg-wrap .sltMenu-intro .ul1 > li .d2 .usePrc .p1 {}
-	.pkg-wrap .sltMenu-intro .ul1 > li strong {font-weight: 700; display: block; margin-bottom: 20px;}
+    .pkg-wrap .sltMenu-intro .ul1 > li strong {font-weight: 700; display: block; margin-bottom: 20px;}
+    .pkg-wrap .sltMenu-intro .ul1 > li strong .new {position: relative; top: -1px; display: inline-block; padding: 0 5px; margin-left: 2px; line-height: 22px; background-color: #000; color: #fff; font-size: 14px;}
 	
 	.pkg-wrap [class*=pkg-] > .p-row {font-size: 24px; text-align: center; padding-top: 40px; margin: 40px auto -45px; line-height: 1.5; border-top: 1px solid #e1e1e1;}
 	
@@ -772,14 +776,15 @@
 	.pkg-wrap .sltMenu-intro .ul1 > li > div {float: left;}
 	.pkg-wrap .sltMenu-intro .ul1 > li .d1 {width: 40%;/*width: 471px;*/}
 	.pkg-wrap .sltMenu-intro .ul1 > li .d2 {position: relative; width: 60%; padding-left: 30px; /*margin-left: 50px; width: 716px;*/ /* height: 254px; */}
-	.pkg-wrap .sltMenu-intro .ul1 > li .d2 .s-w {display: inline-block; width: 22px; height: 22px; border-radius: 50%; background: #4e4e4e; color: #fff; text-align: center; font-size: 14px; vertical-align: middle; text-indent: 1.2px;}
+	.pkg-wrap .sltMenu-intro .ul1 > li .d2 .s-w {position: relative; top: -2px; display: inline-block; width: 22px; height: 22px; border-radius: 50%; background: #4e4e4e; color: #fff; text-align: center; font-size: 14px; vertical-align: middle;}
 	/*.pkg-wrap .sltMenu-intro .ul1 > li .d2 .usePrc {position: absolute; bottom: 0;}*/
 	.pkg-wrap .sltMenu-intro .ul1 > li .d2 .usePrc .p-txt .s-txt {display: inline-block;}
 	.pkg-wrap .sltMenu-intro .ul1 > li .d2 .usePrc .p-txt .s-txt:before {content: " / ";}
 	.pkg-wrap .sltMenu-intro .ul1 > li .d2 .usePrc .p-txt .s-txt:first-child:before {display: none;}
 	.pkg-wrap .sltMenu-intro .ul1 > li .d2 .usePrc .p-txt .s-txt a {color: #7c7c7c;}
 	.pkg-wrap .sltMenu-intro .ul1 > li .d2 .usePrc .p1 {margin-bottom: 5px;}
-	.pkg-wrap .sltMenu-intro .ul1 > li strong {font-weight: 700; display: block; margin-bottom: 20px;}
+    .pkg-wrap .sltMenu-intro .ul1 > li strong {font-weight: 700; display: block; margin-bottom: 20px;}
+    .pkg-wrap .sltMenu-intro .ul1 > li strong .new {position: relative; top: -1px; display: inline-block; padding: 0 5px; margin-left: 2px; line-height: 22px; background-color: #000; color: #fff; font-size: 14px;}
 	
 	.pkg-wrap [class*=pkg-] > .p-row {font-size: 24px; text-align: center; padding-top: 40px; margin: 40px auto -50px; line-height: 1.5; border-top: 1px solid #e1e1e1;}
 	
