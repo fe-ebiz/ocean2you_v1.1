@@ -767,7 +767,16 @@
 	, .event-wrap .evt01-tb .l-td.nth-6 {border-right: 0;}
 	.event-wrap .lh-01 {line-height: 2.4 !important;}
 	.event-wrap .lh-02 {line-height: 1.2 !important;}
-	.event-wrap .br-r-01 {border-right: 0 !important;}
+    .event-wrap .br-r-01 {border-right: 0 !important;}
+    /* .event-wrap .evt01-tb .l-td span[class*=s-] {
+        line-height: 1.2;
+        height: 70px;
+    }
+    .event-wrap .evt01-tb .l-td span[class*=s-]:before {
+        content: '';
+        display: inline-block;
+        vertical-align: middle;
+    } */
 	
 	.event-wrap .kite .l-td.nth-6 .s-txt,
 	.event-wrap .ocKite .l-td.nth-6 .s-txt {font-size: 16px; position: relative; top: 4px;}
