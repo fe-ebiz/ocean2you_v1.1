@@ -16,8 +16,7 @@ dist/
 *.eot
 *.otf
 
-#sftpFile, zip����
-*.json
+#zip
 *.zip
 
 # ImeageFile
