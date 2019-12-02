@@ -483,8 +483,8 @@
             <!-- 191021 패밀리 사이트 추가 -->
             <div id="family-wrapper" class="family-wrapper">
                 <div class="family-site">
-                    <span class="family-site-label">패밀리사이트&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲</span>
-                    <ul class="site">
+                    <span class="family-site-label" onclick="$(this).next().toggle()">패밀리사이트&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲</span>
+                    <ul class="site" style="display: none">
                         <li class="group-name">
                             <div class="fam_btn">[호텔/리조트]</div>
                         </li>
@@ -507,11 +507,6 @@
                     </ul>
                 </div>
             </div>
-            <script>
-                $('#family-wrapper .family-site-label').on('click', function () {
-                    $(this).next().toggle();
-                });
-            </script>
         </div>
         <div class="flt-2 clr">
             <address>
