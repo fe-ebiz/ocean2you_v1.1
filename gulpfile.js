@@ -141,6 +141,7 @@ function watching(cb) {
 	watch([config.template.src_m], templateM);
 	watch([config.template.parts_m], templateMAll);
 	watch(config.sass.src, sassDev)
+	watch(config.sass.parts, sassDevAll)
 	watch(config.css.src, css)
 	watch(config.js.src, js)
 	watch(config.img.src, img);
