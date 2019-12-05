@@ -18,7 +18,7 @@ function bSync() {
 	browserSync.init({
 		// watch: true,
 		port: 3030,
-		startPath: './views/front',
+		startPath: './views/main',
 		server: {
 			baseDir: './dist'
 		}
@@ -215,6 +215,7 @@ exports.sprite = sprite;
 exports.etc = etc;
 exports.testPathServer = testPathServer;
 exports.testPathLocal = testPathLocal;
+exports.default = parallel(bSync, watching);
 exports.serve = parallel(series(parallel(template), sassDev, css, js, img, etc, bSync), watching);
 exports.build = parallel(series(parallel(template), sassDev, css, js, img, etc, bSync), watching);
 exports.test = series(parallel(template), sassPrd, css, js, img, etc, copyTest, testPathServer, bSyncTest);
