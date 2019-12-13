@@ -1,4 +1,13 @@
-@charset 'utf-8';
+@charset "utf-8";
+
+.rWing.rent {
+    position: fixed;
+    z-index: 9;
+    right: 5px;
+    bottom: 30px;
+    display: block;
+    width: 85px;
+}
 
 .vid-wrap {background: url(http://img.ocean2you.co.kr/renew/intro/intro_titBg.jpg) no-repeat top center; padding-top: 98px; position: relative; width: 100%; min-height: 190px; /*height: 205px;*/}
 #wrapper {line-height: 1.5;}

@@ -223,7 +223,7 @@
 			</div>
 		</footer>
 		<?php } ?>
-		<?php	if($page != "reserve" && $page != "view" && USER_FLAG != "W" && $page != "kendo") {	?>
+		<?php	if($page != "reserve" && $page != "view" && USER_FLAG != "W" && $page != "kendo" && $page != "rent") {	?>
 		<?php
 			$reserve_button = ($page == "group") ? "javascript:faq_move();" : "javascript:location.href='/view/'"; 
 		?>
