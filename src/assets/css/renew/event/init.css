@@ -160,6 +160,8 @@
     .event-wrap .open-badminton .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_badminton_m.jpg) no-repeat; background-size: cover;}
     /* northernmost-christmas */
     .event-wrap .northernmost-christmas .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_christmas_m.jpg) no-repeat; background-size: cover;}
+    /* sunrise */
+    .event-wrap .sunrise .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_sunrise_m.jpg) no-repeat; background-size: cover;}
 	
 	.event-wrap .evt01-tb {position: relative; margin: 0 auto; text-align: left; margin-top: 40px; letter-spacing: -1px; line-height: 1.2;}
 	.event-wrap .evt01-tb > li {/*float: left;*/display:table; width: 100%; border: 1px solid #bfbfbf; margin-top: -1px;} 
@@ -351,6 +353,8 @@
     .event-wrap .open-badminton .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_badminton.jpg) no-repeat; background-size: cover;}
     /* northernmost-christmas */
     .event-wrap .northernmost-christmas .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_christmas.jpg) no-repeat; background-size: cover;}
+    /* sunrise */
+    .event-wrap .sunrise .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_sunrise.jpg) no-repeat; background-size: cover;}
     
 	.fac-mt {margin-top: 40px; padding-top: 40px; border-top: 1px solid #ccc;}
 	.fac-mt-b {margin-bottom: 40px; padding-bottom: 40px; border-bottom: 1px solid #ccc;}
@@ -549,6 +553,8 @@
     .event-wrap .open-badminton .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_badminton.jpg) no-repeat; background-size: cover;}
     /* northernmost-christmas */
     .event-wrap .northernmost-christmas .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_christmas.jpg) no-repeat; background-size: cover;}
+    /* sunrise */
+    .event-wrap .sunrise .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_sunrise.jpg) no-repeat; background-size: cover;}
     
     /* 표 영역 */
 	.event-wrap .evt01-tb {position: relative; text-align: left; margin-top: 54px; letter-spacing: -1px; /*line-height: 1.2;*/}
@@ -749,7 +755,8 @@
     .event-wrap .open-badminton .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_badminton.jpg) no-repeat; background-size: cover;}
     /* northernmost-christmas */
     .event-wrap .northernmost-christmas .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_christmas.jpg) no-repeat; background-size: cover;}
-
+    /* sunrise */
+    .event-wrap .sunrise .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_sunrise.jpg) no-repeat; background-size: cover;}
     
 	.event-wrap .evt01-tb {position: relative; text-align: left; margin-top: 54px; letter-spacing: -1px; line-height: 1.2;}
 	.event-wrap .evt01-tb > li {float: left; width: 100%; border: 1px solid #bfbfbf; margin-top: -1px;}
