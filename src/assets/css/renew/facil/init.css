@@ -62,7 +62,8 @@
 	.facil-wrap .fc-list .txt-box {position: absolute; left: 0; top: 50%; margin-top: -32px; width: 100%; color: #fff; 
 		letter-spacing: -1px;}
 	.facil-wrap .fc-list .txt-box .p1 {font-size: 13px; font-weight: 600; display: none;}
-	.facil-wrap .fc-list .txt-box .p2 {font-size: 12px; line-height: 1.3;}
+    .facil-wrap .fc-list .txt-box .p2 {font-size: 12px; line-height: 1.3;}
+    
 	.facil-wrap .fc-list .txt-box .more-a {position: relative; width: 102px; height: 24px; font-size: 13px; padding-top: 3px; display: inline-block; margin-top: 8px; border: 1px solid #44a8ff;}
 	.facil-wrap .fc-list .txt-box .more-a:after {content: " "; display: inline-block; height: 100%; vertical-align: middle;}
 	.facil-wrap .fc-list .txt-box .more-a .gt {display: inline; position: relative; width: 6px; margin-left: 2px; left: 5px; top: -1px;}
@@ -82,7 +83,22 @@
 	
 	.facil-wrap .facil-2 .fc-list > li.nth-3 .bxBox.nth-2 {margin-top: 48px;}
 	.facil-wrap .facil-2 .fc-list .txt-box {margin-top: -32px;}
-	.facil-wrap .facil-2 .fc-list > li.nth-3 .txt-box {margin-top: -36px;}
+    .facil-wrap .facil-2 .fc-list > li.nth-3 .txt-box {margin-top: -36px;}
+    /* .facil-wrap .facil-2 .fc-list>li.condo .txt-box {margin-top: -50px;} */
+    .facil-wrap .facil-2 .fc-list>li.condo .cmt-box {
+        margin-top: 7px;
+    }
+    .facil-wrap .facil-2 .fc-list>li.condo .cmt-box .p3 {
+        font-size: 11.5px;
+        margin-top: 5px;
+        line-height: 1.2;
+        letter-spacing: -1px;
+    }
+
+    .facil-wrap .facil-2 .fc-list>li.condo .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+        bottom: -50px;
+    }
+
 	.facil-wrap .facil-2 .fc-list > li.nth-3 .txt-box .p2 {line-height: 1.2;}
 	
 	#facil-box > section div[class*=d-area-] {position: relative; margin-top: 40px;}
@@ -254,7 +270,12 @@
 	#facil-box > section.on, #facil-box > section div.d-area-1.on + section {opacity: 1; visibility: visible;  height: auto; overflow: visible;}
 	.facil-wrap .fc-list .txt-box {position: absolute; left: 0; top: 70px; width: 100%; color: #fff;}
 	.facil-wrap .fc-list .txt-box .p1 {font-size: 22px;}
-	.facil-wrap .fc-list .txt-box .p2 {font-size: 15px; margin-top: 16px; line-height: 1.6;}
+    .facil-wrap .fc-list .txt-box .p2 {font-size: 15px; margin-top: 16px; line-height: 1.6;}
+    .facil-wrap .fc-list .txt-box .p3 {
+        font-size: 14px;
+        margin-top: 15px;
+        line-height: 1.3;
+    }
 	.facil-wrap .fc-list .txt-box .more-a {width: 142px; height: 35px; font-size: 16px; display: inline-block; padding-top: 2px; margin-top: 20px; border: 1px solid #44a8ff;}
 	.facil-wrap .fc-list .txt-box .more-a:after {content: ""; display: inline-block; height: 100%; vertical-align: middle;}
 	.facil-wrap .fc-list .txt-box .more-a .gt {display: inline; position: relative; width: 7px; margin-left: 2px; left: 10px; top: -1px;}
@@ -276,7 +297,10 @@
 	.facil-wrap .facil-1 .flt-box .d4 .txt-box {top: 60px;}
 
 	
-	.facil-wrap .facil-2 .fc-list > li.nth-3 .bxBox.nth-2 {margin-top: 85px;}
+    .facil-wrap .facil-2 .fc-list > li.nth-3 .bxBox.nth-2 {margin-top: 85px;}
+    .facil-wrap .facil-2 .fc-list>li.condo .txt-box {
+        top: 50px;
+    }
 	/*.facil-wrap .facil-2 .fc-list .txt-box {top: 130px;}*/
 	
 	#facil-box > section div[class*=d-area-] {position: relative; margin-top: 60px;}
@@ -429,7 +453,12 @@
 	#facil-box > section.on, #facil-box > section div.d-area-1.on + section {opacity: 1; visibility: visible;  height: auto; overflow: visible;}
 	.facil-wrap .fc-list .txt-box {position: absolute; left: 0; top: 105px; width: 100%; color: #fff;}
 	.facil-wrap .fc-list .txt-box .p1 {font-size: 30px;}
-	.facil-wrap .fc-list .txt-box .p2 {font-size: 18px; margin-top: 16px; line-height: 1.6;}
+    .facil-wrap .fc-list .txt-box .p2 {font-size: 18px; margin-top: 16px; line-height: 1.6;}
+    .facil-wrap .fc-list .txt-box .p3 {
+        font-size: 14px;
+        margin-top: 15px;
+        line-height: 1.3;
+    }
 	.facil-wrap .fc-list .txt-box .more-a > * {vertical-align: middle;}
 	.facil-wrap .fc-list .txt-box .more-a {width: 142px; height: 35px; font-size: 17px; display: inline-block; margin-top: 20px; border: 1px solid #44a8ff;}
 	.facil-wrap .fc-list .txt-box .more-a:after {content: ""; display: inline-block; height: 91%; vertical-align: middle;}
@@ -454,7 +483,10 @@
 	.facil-wrap .facil-1 .flt-box > .d4, .facil-wrap .facil-1 .flt-box .d4 .txt-box {padding-left: 5px; margin-top: 10px;}
 	
 	.facil-wrap .facil-2 .fc-list > li.nth-3 .bxBox.nth-2 {margin-top: 85px;}
-	.facil-wrap .facil-2 .fc-list .txt-box {top: 100px;}
+    .facil-wrap .facil-2 .fc-list .txt-box {top: 100px;}
+    .facil-wrap .facil-2 .fc-list>li.condo .txt-box {
+        top: 80px;
+    }
 	
 	#facil-box > section div[class*=d-area-] {position: relative; margin-top: 90px;}
 	#facil-box > section div.d-area-1 {margin-top: 100px;}
@@ -587,7 +619,8 @@
 	#facil-box > section.on, #facil-box > section div.d-area-1.on + section {opacity: 1; visibility: visible;  height: auto; overflow: visible;}
 	.facil-wrap .fc-list .txt-box {position: absolute; left: 0; top: 140px; width: 100%; color: #fff;}
 	.facil-wrap .fc-list .txt-box .p1 {font-size: 30px;}
-	.facil-wrap .fc-list .txt-box .p2 {font-size: 18px; margin-top: 16px; line-height: 1.6;}
+    .facil-wrap .fc-list .txt-box .p2 {font-size: 18px; margin-top: 16px; line-height: 1.6;}
+    .facil-wrap .fc-list .txt-box .p3 {font-size: 14px; margin-top: 15px; line-height: 1.3;}
 	.facil-wrap .fc-list .txt-box .more-a > * {vertical-align: middle;}
 	.facil-wrap .fc-list .txt-box .more-a + .more-a {margin-left: 20px;}
 	.facil-wrap .fc-list .txt-box .more-a {width: 142px; height: 35px; font-size: 17px; display: inline-block; margin-top: 20px; border: 1px solid #44a8ff;}
@@ -608,9 +641,12 @@
 	.facil-wrap .facil-1 .flt-box .d1 .txt-box, .facil-wrap .facil-1 .flt-box .d3 .txt-box {padding-right: 10px;}
 	.facil-wrap .facil-1 .flt-box .d2 .txt-box, .facil-wrap .facil-1 .flt-box .d4 .txt-box {padding-left: 10px;}
 
-	.facil-wrap .facil-2 .fc-list > li.nth-3 .bxBox.nth-2 {margin-top: 85px;}
-
+    .facil-wrap .facil-2 .fc-list > li.nth-3 .bxBox.nth-2 {margin-top: 85px;}
+    
 	.facil-wrap .facil-2 .fc-list .txt-box {top: 130px;}
+    .facil-wrap .facil-2 .fc-list>li.condo .txt-box {
+
+    }
 	
 	#facil-box > section div[class*=d-area-] {position: relative; margin-top: 90px;}
 	#facil-box > section div.d-area-1 {margin-top: 100px;}
