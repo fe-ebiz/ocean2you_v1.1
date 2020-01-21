@@ -21,24 +21,27 @@ if($_GET["room"] >= 1 && $_GET["room"] <= 5) {
 					</p>
 			   </div>
 			</div>
-			
+            
 			<ul class="fc-list" id="room-list">
 				<!--171115 내용추가 및 클래스 수정-->
 				<li class="nth-1">
-					<h4>리노베이션 오션뷰 테라스 / 오션 사이드뷰 테라스 </h4>
+					<h4>리노베이션 오션뷰 테라스 / 오션 사이드뷰 테라스</h4>
 					<div class="bxBox">
-						<ul class="bxS">
-							<li><img src="<?=base_img?>/facil/terrace_01.jpg" alt="리노베이션콘도"></li>
-							<li><img src="<?=base_img?>/facil/terrace_02.jpg" alt="리노베이션콘도"></li>
-							<li><img src="<?=base_img?>/facil/terrace_03.jpg" alt="리노베이션콘도"></li>
-							<li><img src="<?=base_img?>/facil/terrace_04.jpg" alt="리노베이션콘도"></li>
-							<li><img src="<?=base_img?>/facil/terrace_05.jpg" alt="리노베이션코도"></li>
-							<li><img src="<?=base_img?>/facil/terrace_06.jpg" alt="리노베이션코도"></li>
-							<li><img src="<?=base_img?>/facil/terrace_07.jpg" alt="리노베이션코도"></li>
-							<li><img src="<?=base_img?>/facil/terrace_08.jpg" alt="리노베이션코도"></li>
-							<li><img src="<?=base_img?>/facil/terrace_09.jpg" alt="리노베이션코도"></li>
-							<li><img src="<?=base_img?>/facil/terrace_10.jpg" alt="리노베이션코도"></li>
-						</ul>
+                        <ul class="bxS">
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_ov_tera_01.jpg" alt="리노베이션콘도"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_ov_tera_02.jpg" alt="리노베이션콘도"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_ov_tera_03.jpg" alt="리노베이션콘도"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_ov_tera_04.jpg" alt="리노베이션콘도"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_ov_tera_05.jpg" alt="리노베이션코도"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_ov_tera_06.jpg" alt="리노베이션코도"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_ov_tera_07.jpg" alt="리노베이션코도"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_ov_tera_08.jpg" alt="리노베이션코도"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_ov_tera_09.jpg" alt="리노베이션코도"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_ov_tera_10.jpg" alt="리노베이션코도"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_ov_tera_11.jpg" alt="리노베이션코도"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_ov_tera_12.jpg" alt="리노베이션코도"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_ov_tera_13.jpg" alt="리노베이션코도"></li>
+                        </ul>
 						<div class="txt-box">
 							<p class="p1">리노베이션 오션뷰 테라스 / 오션 사이드뷰 테라스</p>
 							<p class="p2"><span class="xs-block">바다가 한폭의 그림처럼 펼쳐지며,</span> 원목의 테라스가 있는 프라이빗한 콘도형 디럭스룸 </p>
@@ -69,14 +72,19 @@ if($_GET["room"] >= 1 && $_GET["room"] <= 5) {
 					<h4>오션투유 리노베이션 콘도</h4>
 					<div class="bxBox">
 						<ul class="bxS">
-							<li><img src="<?=base_img?>/facil/facil_reCdOc_01.jpg" alt="리노베이션콘도"></li>
-							<li><img src="<?=base_img?>/facil/facil_reCdOc_02.jpg" alt="리노베이션코도"></li>
-							<li><img src="<?=base_img?>/facil/facil_reCdOc_03.jpg" alt="리노베이션코도"></li>
-							<li><img src="<?=base_img?>/facil/facil_reCdOc_04.jpg" alt="리노베이션코도"></li>
-							<li><img src="<?=base_img?>/facil/facil_reCdOc_05.jpg" alt="리노베이션코도"></li>
-							<li><img src="<?=base_img?>/facil/facil_reCdOc_06.jpg" alt="리노베이션코도"></li>
-							<li><img src="<?=base_img?>/facil/facil_reCdOc_07.jpg" alt="리노베이션코도"></li>
-						</ul>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_co_ov_01.jpg" alt="리노베이션콘도"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_co_ov_02.jpg" alt="리노베이션콘도"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_co_ov_03.jpg" alt="리노베이션콘도"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_co_ov_04.jpg" alt="리노베이션콘도"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_co_ov_05.jpg" alt="리노베이션콘도"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_co_ov_06.jpg" alt="리노베이션콘도"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_co_ov_07.jpg" alt="리노베이션콘도"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_co_ov_08.jpg" alt="리노베이션콘도"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_co_ov_09.jpg" alt="리노베이션콘도"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_co_ov_10.jpg" alt="리노베이션콘도"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_co_ov_11.jpg" alt="리노베이션콘도"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_co_ov_12.jpg" alt="리노베이션콘도"></li>
+                        </ul>
 						<div class="txt-box">
 							<p class="p1">리노베이션 콘도 오션뷰</p>
 							<p class="p2"><span class="xs-block">고급스러운 색채와 편안한 분위기의 침실,</span> 넓은 공간 활용이 매력적이며 취사가 가능한 콘도형 룸</p>
@@ -91,13 +99,19 @@ if($_GET["room"] >= 1 && $_GET["room"] <= 5) {
 					<h4>오션투유 리노베이션 호텔</h4>
 					<div class="bxBox">
 						<ul class="bxS">
-							<li><img src="<?=base_img?>/facil/facil_reHtOc_01.jpg" alt="리노베이션호텔"></li>
-							<li><img src="<?=base_img?>/facil/facil_reHtOc_02.jpg" alt="리노베이션호텔"></li>
-							<li><img src="<?=base_img?>/facil/facil_reHtOc_03.jpg" alt="리노베이션호텔"></li>
-							<li><img src="<?=base_img?>/facil/facil_reHtOc_04.jpg" alt="리노베이션호텔"></li>
-							<li><img src="<?=base_img?>/facil/facil_reHtOc_05.jpg" alt="리노베이션호텔"></li>
-							<li><img src="<?=base_img?>/facil/facil_reHtOc_06.jpg" alt="리노베이션호텔"></li>
-						</ul>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_ho_ov_01.jpg" alt="리노베이션호텔"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_ho_ov_02.jpg" alt="리노베이션호텔"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_ho_ov_03.jpg" alt="리노베이션호텔"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_ho_ov_04.jpg" alt="리노베이션호텔"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_ho_ov_05.jpg" alt="리노베이션호텔"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_ho_ov_06.jpg" alt="리노베이션호텔"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_ho_ov_07.jpg" alt="리노베이션호텔"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_ho_ov_08.jpg" alt="리노베이션호텔"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_ho_ov_09.jpg" alt="리노베이션호텔"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_ho_ov_10.jpg" alt="리노베이션호텔"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_ho_ov_11.jpg" alt="리노베이션호텔"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_ho_ov_12.jpg" alt="리노베이션호텔"></li>
+                        </ul>
 						<div class="txt-box">
 							<p class="p1">리노베이션 호텔 오션뷰</p>
 							<p class="p2"><span class="xs-block">편안하고 아늑한 분위기의 침실과</span> 독립적 공간 활용이 매력적인 호텔형 오션뷰 룸</p>
@@ -112,14 +126,17 @@ if($_GET["room"] >= 1 && $_GET["room"] <= 5) {
 					<h4><span class="hidden-xs">오션투유</span> <span class="show-xs-inb">스탠다드 / 슈페리어 / 디럭스</span> 콘도 오션뷰</h4>
 					<div class="bxBox">
 						<ul class="bxS">
-							<li><img src="<?=base_img?>/facil/facil_oc_01.jpg" alt="일반콘도오션뷰"></li>
-							<li><img src="<?=base_img?>/facil/facil_oc_02.jpg" alt="일반콘도오션뷰"></li>
-							<li><img src="<?=base_img?>/facil/facil_oc_03.jpg" alt="일반콘도오션뷰"></li>
-							<li><img src="<?=base_img?>/facil/facil_oc_04.jpg" alt="일반콘도오션뷰"></li>
-							<li><img src="<?=base_img?>/facil/facil_oc_05.jpg" alt="일반콘도오션뷰"></li>
-							<li><img src="<?=base_img?>/facil/facil_oc_06.jpg" alt="일반콘도오션뷰"></li>
-							<li><img src="<?=base_img?>/facil/facil_oc_07.jpg" alt="일반콘도오션뷰"></li>
-						</ul>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_st_su_dx_ov_01.jpg" alt="일반콘도오션뷰"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_st_su_dx_ov_02.jpg" alt="일반콘도오션뷰"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_st_su_dx_ov_03.jpg" alt="일반콘도오션뷰"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_st_su_dx_ov_04.jpg" alt="일반콘도오션뷰"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_st_su_dx_ov_05.jpg" alt="일반콘도오션뷰"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_st_su_dx_ov_06.jpg" alt="일반콘도오션뷰"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_st_su_dx_ov_07.jpg" alt="일반콘도오션뷰"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_st_su_dx_ov_08.jpg" alt="일반콘도오션뷰"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_st_su_dx_ov_09.jpg" alt="일반콘도오션뷰"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_st_su_dx_ov_10.jpg" alt="일반콘도오션뷰"></li>
+                        </ul>
 						<div class="txt-box">
 							<p class="p1">스탠다드 / 슈페리어 / 디럭스 콘도 오션뷰</p>
 							<p class="p2">
@@ -147,10 +164,21 @@ if($_GET["room"] >= 1 && $_GET["room"] <= 5) {
                     <h4><span class="hidden-xs">오션투유</span> <span class="show-xs-inb">스탠다드 / 슈페리어 / 디럭스</span> 콘도 마운틴뷰</h4>
                     <div class="bxBox">
 						<ul class="bxS">
-							<li><img src="<?=base_img?>/facil/facil_mt_01.jpg" alt="일반콘도마운틴뷰"></li>
-							<li><img src="<?=base_img?>/facil/facil_mt_02.jpg" alt="일반콘도마운틴뷰"></li>
-							<li><img src="<?=base_img?>/facil/facil_mt_03.jpg" alt="일반콘도마운틴뷰"></li>
-						</ul>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_st_su_dx_mv_01.jpg" alt="일반콘도마운틴뷰"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_st_su_dx_mv_02.jpg" alt="일반콘도마운틴뷰"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_st_su_dx_mv_03.jpg" alt="일반콘도마운틴뷰"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_st_su_dx_mv_04.jpg" alt="일반콘도마운틴뷰"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_st_su_dx_mv_05.jpg" alt="일반콘도마운틴뷰"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_st_su_dx_mv_06.jpg" alt="일반콘도마운틴뷰"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_st_su_dx_mv_07.jpg" alt="일반콘도마운틴뷰"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_st_su_dx_mv_08.jpg" alt="일반콘도마운틴뷰"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_st_su_dx_mv_09.jpg" alt="일반콘도마운틴뷰"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_st_su_dx_mv_10.jpg" alt="일반콘도마운틴뷰"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_st_su_dx_mv_11.jpg" alt="일반콘도마운틴뷰"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_st_su_dx_mv_12.jpg" alt="일반콘도마운틴뷰"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_st_su_dx_mv_13.jpg" alt="일반콘도마운틴뷰"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_st_su_dx_mv_14.jpg" alt="일반콘도마운틴뷰"></li>
+                        </ul>
 						<div class="txt-box">
                             <p class="p1">스탠다드 / 슈페리어 / 디럭스 콘도 마운틴뷰</p>
 							<p class="p2">

@@ -66,14 +66,39 @@
     
 	.facil-wrap .fc-list .txt-box .more-a {position: relative; width: 102px; height: 24px; font-size: 13px; padding-top: 3px; display: inline-block; margin-top: 8px; border: 1px solid #44a8ff;}
 	.facil-wrap .fc-list .txt-box .more-a:after {content: " "; display: inline-block; height: 100%; vertical-align: middle;}
-	.facil-wrap .fc-list .txt-box .more-a .gt {display: inline; position: relative; width: 6px; margin-left: 2px; left: 5px; top: -1px;}
+    .facil-wrap .fc-list .txt-box .more-a .gt {display: inline; position: relative; width: 6px; margin-left: 2px; left: 5px; top: -1px;}
+    
+    /* .facil-2 > .fc-lis: 객실사진 별도 스타일 관리 */
+    .facil-wrap .facil-2>.fc-list .bxBox .bx-wrapper .bx-viewport {
+        /* height: 550px !important; */
+    }
+
+    .facil-wrap .facil-2>.fc-list .bxBox .bx-wrapper .bxS>li:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, .45);
+    }
+
+    .facil-wrap .facil-2>.fc-list .bxS .img {
+        position: relative;
+        /* top: -20px; */
+    }
+
+    .facil-wrap .facil-1 {
+        margin-top: 80px;
+    }
 	
 	.facil-wrap .facil-1 .fc-list li.nth-2 .bxBox .txt-box
 	, .facil-wrap .facil-1 .fc-list li.nth-4 .bxBox .txt-box {margin-top: -22px;}
 	.facil-wrap .facil-1 .fc-list li.nth-3 .bxBox .txt-box {margin-top: -38px;}
 	.facil-wrap .facil-1 .fc-list li.nth-3 .bxBox .txt-box .p2 {font-size: 12px;}
 	
-	.facil-wrap .facil-1 .flt-box {position: relative; margin-top:30px;}
+	.facil-wrap .facil-1 .flt-box {position: relative; margin-top: 10px;}
 	.facil-wrap .facil-1 .flt-box > div {position: relative; height: 120px; overflow: hidden; margin-top: 15px;}
 	.facil-wrap .facil-1 .flt-box > div img {position: relative; top: -30px; width: 100%;}
 	.facil-wrap .facil-1 .flt-box > div .txt-box {text-align: center; letter-spacing: -1px; margin-top: -15px;}
@@ -171,9 +196,32 @@
 	.fcdetail-tabpanel .sec .sec-body .sec-sub .subtit-img {margin-top: 15px;}
 	.fcdetail-tabpanel .sec .sec-body .sec-sub .subtit-img img {width: 190px;}
 	.fcdetail-tabpanel .sec .sec-body .sec-sub .subtxt {margin-top: 5px; color: #595959;}
-	.fcdetail-tabpanel .sec .sec-body .sec-sub .btn-rsv {position: absolute; top: 0; right: 0; display: inline-block; height: 95px; line-height: 88px; padding: 0 50px; background-color: #3297F1; color: #fff; font-size: 22px; font-weight: 500;}
-	.fcdetail-tabpanel .sec .sec-body .sec-sub .btn-rsv * {position: relative; display: inline-block; vertical-align: middle;}
-	.fcdetail-tabpanel .sec .sec-body .sec-sub .btn-rsv img {margin-left: 25px; top: -2px;}
+    /* .fcdetail-tabpanel .sec .sec-body .sec-sub .btn-rsv {position: absolute; top: 0; right: 0; display: inline-block; height: 95px; line-height: 88px; padding: 0 50px; background-color: #3297F1; color: #fff; font-size: 22px; font-weight: 500;} */
+    /* .fcdetail-tabpanel .sec .sec-body .sec-sub .btn-rsv img {margin-left: 25px; top: -2px;} */
+    .fcdetail-tabpanel .sec .sec-body .sec-sub .btn-rsv {
+        display: block;
+        margin: 0 auto;
+        margin-top: 10px;
+        width: 160px;
+        padding: 10px 0px;
+        text-indent: 10px;
+        background-color: #3297F1;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .fcdetail-tabpanel .sec .sec-body .sec-sub .btn-rsv * {
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .fcdetail-tabpanel .sec .sec-body .sec-sub .btn-rsv img {
+        left: 10px;
+        top: -2px;
+        width: 20px;
+    }
 	.fcdetail-tabpanel .sec .sec-body .sec-detail {}
 	.fcdetail-tabpanel .sec .sec-body .sec-detail .item {float: left; line-height: 1.5; margin-top: 5px; font-size: 0;}
 	.fcdetail-tabpanel .sec .sec-body .sec-detail .item dt,
@@ -278,11 +326,37 @@
     }
 	.facil-wrap .fc-list .txt-box .more-a {width: 142px; height: 35px; font-size: 16px; display: inline-block; padding-top: 2px; margin-top: 20px; border: 1px solid #44a8ff;}
 	.facil-wrap .fc-list .txt-box .more-a:after {content: ""; display: inline-block; height: 100%; vertical-align: middle;}
-	.facil-wrap .fc-list .txt-box .more-a .gt {display: inline; position: relative; width: 7px; margin-left: 2px; left: 10px; top: -1px;}
+    .facil-wrap .fc-list .txt-box .more-a .gt {display: inline; position: relative; width: 7px; margin-left: 2px; left: 10px; top: -1px;}
+
+    /* .facil-2 > .fc-lis: 객실사진 별도 스타일 관리 */
+    .facil-wrap .facil-2>.fc-list .bxBox .bx-wrapper .bx-viewport {
+        /* height: 550px !important; */
+    }
+
+    .facil-wrap .facil-2>.fc-list .bxBox .bx-wrapper .bxS>li:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, .45);
+    }
+
+    .facil-wrap .facil-2>.fc-list .bxS .img {
+        position: relative;
+        /* top: -20px; */
+    }
+
+    .facil-wrap .facil-1 {
+        margin-top: 150px;
+    }
+    
 	.facil-wrap .facil-1 .fc-list li.nth-2 .bxBox .txt-box
 	, .facil-wrap .facil-1 .fc-list li.nth-4 .bxBox .txt-box {top: 92px;}
 	
-	.facil-wrap .facil-1 .flt-box {position: relative; margin-top: 60px;}
+	.facil-wrap .facil-1 .flt-box {position: relative; margin-top: 20px;}
 	.facil-wrap .facil-1 .flt-box > div {position: relative; float: left; width: 50%;}
 	.facil-wrap .facil-1 .flt-box > div img {}
 	.facil-wrap .facil-1 .flt-box > .d1, .facil-wrap .facil-1 .flt-box > .d3 {text-align: left;}
@@ -298,10 +372,10 @@
 
 	
     .facil-wrap .facil-2 .fc-list > li.nth-3 .bxBox.nth-2 {margin-top: 85px;}
-    .facil-wrap .facil-2 .fc-list>li.condo .txt-box {
+    .facil-wrap .facil-2 > .fc-list .txt-box {top: 160px;}
+    /* .facil-wrap .facil-2 .fc-list>li.condo .txt-box {
         top: 50px;
-    }
-	/*.facil-wrap .facil-2 .fc-list .txt-box {top: 130px;}*/
+    } */
 	
 	#facil-box > section div[class*=d-area-] {position: relative; margin-top: 60px;}
 	#facil-box > section div.d-area-1 {margin-top: 80px;}
@@ -369,7 +443,31 @@
 	.fcdetail-tabpanel .sec .sec-body .sec-sub {position: relative; margin-top: 70px; text-align: center;}
 	.fcdetail-tabpanel .sec .sec-body .sec-sub .subtit {font-size: 20px; color: #373737; font-weight: 700;}
 	.fcdetail-tabpanel .sec .sec-body .sec-sub .subtit-img {margin-top: 15px;}
-	.fcdetail-tabpanel .sec .sec-body .sec-sub .subtxt {margin-top: 5px; color: #595959;}
+    /* .fcdetail-tabpanel .sec .sec-body .sec-sub .subtxt {margin-top: 5px; color: #595959;} */
+    .fcdetail-tabpanel .sec .sec-body .sec-sub .btn-rsv {
+        display: block;
+        margin: 0 auto;
+        margin-top: 10px;
+        width: 160px;
+        padding: 10px 0px;
+        text-indent: 10px;
+        background-color: #3297F1;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .fcdetail-tabpanel .sec .sec-body .sec-sub .btn-rsv * {
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .fcdetail-tabpanel .sec .sec-body .sec-sub .btn-rsv img {
+        left: 10px;
+        top: -2px;
+        width: 20px;
+    }
 	.fcdetail-tabpanel .sec .sec-body .sec-detail {}
 	.fcdetail-tabpanel .sec .sec-body .sec-detail .item {float: left; line-height: 1.5; margin-top: 5px; font-size: 0; width: 50%;}
 	.fcdetail-tabpanel .sec .sec-body .sec-detail .item dt,
@@ -462,11 +560,37 @@
 	.facil-wrap .fc-list .txt-box .more-a > * {vertical-align: middle;}
 	.facil-wrap .fc-list .txt-box .more-a {width: 142px; height: 35px; font-size: 17px; display: inline-block; margin-top: 20px; border: 1px solid #44a8ff;}
 	.facil-wrap .fc-list .txt-box .more-a:after {content: ""; display: inline-block; height: 91%; vertical-align: middle;}
-	.facil-wrap .fc-list .txt-box .more-a .gt {display: inline; position: relative; top: 2px; width: 8px; margin-left: 2px; left: 10px;}
+    .facil-wrap .fc-list .txt-box .more-a .gt {display: inline; position: relative; top: 2px; width: 8px; margin-left: 2px; left: 10px;}
+
+    /* .facil-2 > .fc-lis: 객실사진 별도 스타일 관리 */
+    .facil-wrap .facil-2>.fc-list .bxBox .bx-wrapper .bx-viewport {
+        height: 550px !important;
+    }
+
+    .facil-wrap .facil-2>.fc-list .bxBox .bx-wrapper .bxS>li:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, .45);
+    }
+
+    .facil-wrap .facil-2>.fc-list .bxS .img {
+        position: relative;
+        top: -20px;
+    }
+
+    .facil-wrap .facil-1 {
+        margin-top: 150px;
+    }
+    
 	.facil-wrap .facil-1 .fc-list li.nth-2 .bxBox .txt-box
 	, .facil-wrap .facil-1 .fc-list li.nth-4 .bxBox .txt-box {top: 126px;}
 		
-	.facil-wrap .facil-1 .flt-box {position: relative; margin-top: 60px;}
+	.facil-wrap .facil-1 .flt-box {position: relative; margin-top: 35px;}
 	.facil-wrap .facil-1 .flt-box > div {position: relative; float: left; width: 50%;}
 	.facil-wrap .facil-1 .flt-box > div img {}
 	.facil-wrap .facil-1 .flt-box > .d1, .facil-wrap .facil-1 .flt-box > .d3 {text-align: left;}
@@ -483,10 +607,12 @@
 	.facil-wrap .facil-1 .flt-box > .d4, .facil-wrap .facil-1 .flt-box .d4 .txt-box {padding-left: 5px; margin-top: 10px;}
 	
 	.facil-wrap .facil-2 .fc-list > li.nth-3 .bxBox.nth-2 {margin-top: 85px;}
-    .facil-wrap .facil-2 .fc-list .txt-box {top: 100px;}
-    .facil-wrap .facil-2 .fc-list>li.condo .txt-box {
+    .facil-wrap .facil-1 .fc-list .txt-box {top: 100px;}
+    .facil-wrap .facil-2 > .fc-list .txt-box {top: 200px;}
+
+    /* .facil-wrap .facil-2 .fc-list>li.condo .txt-box {
         top: 80px;
-    }
+    } */
 	
 	#facil-box > section div[class*=d-area-] {position: relative; margin-top: 90px;}
 	#facil-box > section div.d-area-1 {margin-top: 100px;}
@@ -616,7 +742,7 @@
 
 	.facil-wrap {padding: 60px 0 80px;}
 	#facil-box > section, #facil-box > section div.d-area-1 + section {word-break: keep-all; text-align: center; opacity: 0; visibility: hidden; height: 0; overflow: hidden;}
-	#facil-box > section.on, #facil-box > section div.d-area-1.on + section {opacity: 1; visibility: visible;  height: auto; overflow: visible;}
+    #facil-box > section.on, #facil-box > section div.d-area-1.on + section {opacity: 1; visibility: visible;  height: auto; overflow: visible;}
 	.facil-wrap .fc-list .txt-box {position: absolute; left: 0; top: 140px; width: 100%; color: #fff;}
 	.facil-wrap .fc-list .txt-box .p1 {font-size: 30px;}
     .facil-wrap .fc-list .txt-box .p2 {font-size: 18px; margin-top: 16px; line-height: 1.6;}
@@ -626,11 +752,36 @@
 	.facil-wrap .fc-list .txt-box .more-a {width: 142px; height: 35px; font-size: 17px; display: inline-block; margin-top: 20px; border: 1px solid #44a8ff;}
 	.facil-wrap .fc-list .txt-box .more-a:after {content: ""; display: inline-block; height: 91%; vertical-align: middle;}
 	.facil-wrap .fc-list .txt-box .more-a .gt {display: inline; position: relative; top: 2px; width: 8px; margin-left: 2px; left: 10px;}
-	
+    
+    /* .facil-2 > .fc-lis: 객실사진 별도 스타일 관리 */
+    .facil-wrap .facil-2 > .fc-list .bxBox .bx-wrapper .bx-viewport {
+        height: 550px !important;
+    }
+
+    .facil-wrap .facil-2 > .fc-list .bxBox .bx-wrapper .bxS>li:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, .45);
+    }
+
+    .facil-wrap .facil-2 > .fc-list .bxS .img {
+        position: relative;
+        top: -75px;
+    }
+    
+    .facil-wrap .facil-1 {
+        margin-top: 150px;
+    }
+
 	.facil-wrap .facil-1 .fc-list li.nth-2 .bxBox .txt-box
 	, .facil-wrap .facil-1 .fc-list li.nth-4 .bxBox .txt-box {top: 155px;}
 	
-	.facil-wrap .facil-1 .flt-box {position: relative; margin-top: 60px;}
+	.facil-wrap .facil-1 .flt-box {position: relative; margin-top: 35px;}
 	.facil-wrap .facil-1 .flt-box > div {position: relative; float: left; width: 50%;}
 	.facil-wrap .facil-1 .flt-box > div img {}
 	.facil-wrap .facil-1 .flt-box > .d1, .facil-wrap .facil-1 .flt-box > .d3 {text-align: left;}
@@ -642,11 +793,9 @@
 	.facil-wrap .facil-1 .flt-box .d2 .txt-box, .facil-wrap .facil-1 .flt-box .d4 .txt-box {padding-left: 10px;}
 
     .facil-wrap .facil-2 .fc-list > li.nth-3 .bxBox.nth-2 {margin-top: 85px;}
+    .facil-wrap .facil-1 .fc-list .txt-box {top: 130px;}
     
-	.facil-wrap .facil-2 .fc-list .txt-box {top: 130px;}
-    .facil-wrap .facil-2 .fc-list>li.condo .txt-box {
-
-    }
+	.facil-wrap .facil-2 > .fc-list .txt-box {top: 200px;}
 	
 	#facil-box > section div[class*=d-area-] {position: relative; margin-top: 90px;}
 	#facil-box > section div.d-area-1 {margin-top: 100px;}
