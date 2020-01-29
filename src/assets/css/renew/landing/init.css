@@ -11,7 +11,7 @@ body { font-family: "Nanum Gothic", sans-serif; color: #333; }
 
 em { font-weight: 700; }
 
-.landing-wrapper { position: relative; max-width: 320px; margin: 0 auto; }
+.landing-wrapper { position: relative; max-width: 768px; margin: 0 auto; }
 
 /* 오션투유 룸서비스 */
 .landing-wrapper.roomservice .landing-contents .visual .tel-num { display: block; position: absolute; width: 100%; bottom: 7.3%; text-align: center; }
@@ -42,9 +42,11 @@ em { font-weight: 700; }
 
 .landing-wrapper.wifi .landing-contents .sec.visual .title, .landing-wrapper.wifi .landing-contents .sec.visual .text { color: #003863; font-weight: 700; }
 
-.landing-wrapper.wifi .landing-contents .sec.visual .title { font-size: 19px; }
+.landing-wrapper.wifi .landing-contents .sec.visual .title { font-size: 21px; }
 
-.landing-wrapper.wifi .landing-contents .sec.visual .text { margin-top: 5px; font-size: 14px; line-height: 1.5; }
+.landing-wrapper.wifi .landing-contents .sec.visual .text { margin-top: 5px; font-size: 16px; line-height: 1.5; }
+
+@media (max-width: 320px) { .landing-wrapper.wifi .landing-contents .sec.visual .text { font-size: 15px; } }
 
 .landing-wrapper.wifi .landing-contents .sec.visual .logo { margin-top: 5px; }
 
@@ -92,11 +94,11 @@ em { font-weight: 700; }
 
 .landing-wrapper.wifi .landing-contents .sec.service .service-list .service-item .picture-list.count-3 .picture-item:nth-child(3) figcaption { padding-left: 5%; text-indent: 8px; }
 
-.landing-wrapper.wifi .landing-contents .sec.service .service-list .service-item .service-use { padding-left: 10px; font-size: 13px; font-weight: 700; color: #003863; }
+.landing-wrapper.wifi .landing-contents .sec.service .service-list .service-item .service-use { padding-left: 10px; font-size: 15px; font-weight: 700; color: #003863; }
 
 .landing-wrapper.wifi .landing-contents .sec.service .service-list .service-item .service-use .use-title { margin-top: 8px; }
 
-.landing-wrapper.wifi .landing-contents .sec.service .service-list .service-item .service-use .use-text { margin-top: 2px; letter-spacing: -0.8px; }
+.landing-wrapper.wifi .landing-contents .sec.service .service-list .service-item .service-use .use-text { margin-top: 2px; letter-spacing: -1px; }
 
 .landing-wrapper.wifi .landing-footer { padding: 20px 0; background-color: #6c89b3; text-align: center; }
 

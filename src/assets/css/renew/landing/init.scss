@@ -1,5 +1,11 @@
 @charset 'utf-8';
 
+@mixin screen-xxs {
+    @media (max-width: 320px) {
+        @content;
+    }
+}
+
 body {
     font-family: "Nanum Gothic", sans-serif;
     color: #333;
@@ -34,7 +40,8 @@ em {
 .landing-wrapper {
     position: relative;
     // max-width: 640px;
-    max-width: 320px;
+    // max-width: 320px;
+    max-width: 768px;
     margin: 0 auto;
 }
 
@@ -139,13 +146,19 @@ em {
             }
 
             .title {
-                font-size: 19px;
+                // font-size: 19px;
+                font-size: 21px;
             }
 
             .text {
                 margin-top: 5px;
-                font-size: 14px;
+                // font-size: 14px;
+                font-size: 16px;
                 line-height: 1.5;
+
+                @include screen-xxs {
+                    font-size: 15px;
+                }
             }
 
             .logo {
@@ -261,7 +274,8 @@ em {
 
                     .service-use {
                         padding-left: 10px;
-                        font-size: 13px;
+                        // font-size: 13px;
+                        font-size: 15px;
                         font-weight: 700;
                         color: $blue-dark;
 
@@ -271,7 +285,8 @@ em {
 
                         .use-text {
                             margin-top: 2px;
-                            letter-spacing: -0.8px;
+                            // letter-spacing: -0.8px;
+                            letter-spacing: -1px;
                         }
                     }
                 }
