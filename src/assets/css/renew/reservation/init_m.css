@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+img {vertical-align: middle !important;}
+#room_w #room_infogo h4 {
+    padding-top: 15px;
+}
+
 .rWing.rent {
     position: fixed;
     z-index: 9;
