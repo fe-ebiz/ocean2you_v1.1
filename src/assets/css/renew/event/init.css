@@ -130,6 +130,12 @@
     .event-wrap .halloween .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_halloween_m.jpg) no-repeat; background-size: cover;}
     .event-wrap .halloween .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_back_halloween_m.jpg) no-repeat; background-size: cover;}
 
+    /* granfondo-2020 */
+    .event-wrap .granfondo-2020 .bxBox li {
+        background: url(http://img.ocean2you.co.kr/renew/event/event_2020granfondo_m.jpg) no-repeat;
+        background-size: cover;
+    }
+
     .halloween-tariff-table {
         width: 100%;
         margin-top: 20px;
@@ -324,6 +330,12 @@
     /* halloween */
     .event-wrap .halloween .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_halloween.jpg) no-repeat; background-size: cover;}
     .event-wrap .halloween .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_back_halloween.jpg) no-repeat; background-size: cover;}
+
+    /* granfondo-2020 */
+    .event-wrap .granfondo-2020 .bxBox li {
+        background: url(http://img.ocean2you.co.kr/renew/event/event_2020granfondo.jpg) no-repeat;
+        background-size: cover;
+    }
 
     .halloween-tariff-table {
         width: 100%;
@@ -524,6 +536,12 @@
     /* halloween */
     .event-wrap .halloween .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_halloween.jpg) no-repeat; background-size: cover;}
     .event-wrap .halloween .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_back_halloween.jpg) no-repeat; background-size: cover;}
+
+    /* granfondo-2020 */
+    .event-wrap .granfondo-2020 .bxBox li {
+        background: url(http://img.ocean2you.co.kr/renew/event/event_2020granfondo.jpg) no-repeat;
+        background-size: cover;
+    }
 
     .halloween-tariff-table {
         width: 100%;
@@ -726,6 +744,12 @@
     /* halloween */
     .event-wrap .halloween .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_halloween.jpg) no-repeat; background-size: cover;}
     .event-wrap .halloween .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_back_halloween.jpg) no-repeat; background-size: cover;}
+
+    /* granfondo-2020 */
+    .event-wrap .granfondo-2020 .bxBox li {
+        background: url(http://img.ocean2you.co.kr/renew/event/event_2020granfondo.jpg) no-repeat;
+        background-size: cover;
+    }
 
     .halloween-tariff-table {
         width: 100%;
