@@ -182,7 +182,7 @@
 
 					<ul class="evt01-tb clr">
 						<li class="l-th ftfm-mg nth-1">
-								2019 가족여행과 함께하는 고성 오션투유 삼포해수욕장 연날리기 축제
+								2019 가족여행과 함께하는 고성 <br class="show-xs">오션투유 삼포해수욕장 연날리기 축제
 						</li>
 						<li class="l-td nth-2">
 							<span class="s-lbl">기간</span>
@@ -552,7 +552,7 @@
 					</ul>
 				</section>
 
-				<section class="facil-1 hill" data-date="190608">
+				<!-- <section class="facil-1 hill" data-date="190608">
 					<ul class="fc-list">
 						<li class="nth-1">
 							<h3 class="ftfm-mg">제14회 고성 미시령 힐클라임대회</h3>
@@ -607,7 +607,7 @@
 							<span class="s-txt" style="cursor:pointer;" onclick="window.open('https://www.thebike.co.kr/race/view.php?r_idx=164','_blank')">▶ 여기를 클릭해 주세요</span>
 						</li>
 					</ul>
-				</section>
+				</section> -->
 
 				<section class="facil-1 midnight" data-date="190712">
 					<ul class="fc-list">
@@ -1146,14 +1146,14 @@
                 <section class="facil-1 granfondo-2020" data-date="200627">
                     <ul class="fc-list">
                         <li class="nth-1">
-                            <h3 class="ftfm-mg">고성미시령 그란폰도(구.고성미시령 힐클라임대회)</h3>
+                            <h3 class="ftfm-mg">제15회 고성 미시령 메디오폰도<br class="hidden-md hidden-lg">(구.고성미시령 힐클라임대회)</h3>
                             <div class="bxBox" id="bxBox-openBadminton">
                                 <ul class="bxS">
                                     <li class="li-1"></li>
                                     <li class="li-2">
                                         <div class="fc-li-box">
                                             <div class="fc-txt-box">
-                                                <p class="fc-li-tit">고성미시령 그란폰도<br class="hidden-md hidden-lg">(구.고성미시령 힐클라임대회)</p>
+                                                <p class="fc-li-tit">제15회 고성 미시령 메디오폰도<br class="hidden-md hidden-lg">(구.고성미시령 힐클라임대회)</p>
                                                 <p class="fc-li-txt">
                                                     고성군 천혜의 자연환경인 미시령과 진부령을 달릴 수 있는 코스로<br class="hidden-xs hidden-sm">
                                                     참가자들에게 보다 특별한 경험을 선사하고 자신의 한계를 뛰어넘는<br class="hidden-xs hidden-sm">
@@ -1171,7 +1171,7 @@
 
                     <ul class="evt01-tb clr">
                         <li class="l-th ftfm-mg nth-1">
-                            고성미시령 그란폰도(구.고성미시령 힐클라임대회)
+                            제15회 고성 미시령 메디오폰도<br class="hidden-md hidden-lg">(구.고성미시령 힐클라임대회)
                         </li>
                         <li class="l-td nth-2">
                             <span class="s-lbl">기간</span>
@@ -1179,25 +1179,25 @@
                         </li>
                         <li class="l-td nth-3">
                             <span class="s-lbl">주최</span>
-                            <span class="s-txt">고성군 체육회</span>
+                            <span class="s-txt">고성군 체육회, 더바이크</span>
                         </li>
                         <li class="l-td nth-4">
                             <span class="s-lbl">요금</span>
-                            <span class="s-txt">참가비 5만원/기념품(선착순 2,000명)</span>
+                            <span class="s-txt">참가비 5만원</span>
                         </li>
                         <li class="l-td nth-5">
                             <span class="s-lbl">시간</span>
                             <span class="s-txt">
-                                미정
+                                07:00 ~ 14:00
                             </span>
                         </li>
                         <li class="l-td nth-6">
                             <span class="s-lbl">위치</span>
-                            <span class="s-txt">강원도 고성군 고성종합운동장</span>
+                            <span class="s-txt">강원도 미시령 및 진부령 일대</span>
                         </li>
                         <li class="l-td nth-7">
                             <span class="s-lbl">상세보기</span>
-                            <span class="s-txt" style="cursor:pointer;" onclick="window.open('https://www.thebike.co.kr/bbs/board.php?bo_table=10&wr_id=2179','_blank')">▶여기를 클릭해 주세요.</span>
+                            <span class="s-txt" style="cursor:pointer;" onclick="window.open('https://www.thebike.co.kr/bbs/board.php?bo_table=10&wr_id=2184&sfl=wr_subject%7C%7Cwr_content&stx=%EB%AF%B8%EC%8B%9C%EB%A0%B9&sop=and','_blank')">▶여기를 클릭해 주세요.</span>
                         </li>
                     </ul>
                 </section>
