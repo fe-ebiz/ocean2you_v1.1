@@ -120,7 +120,8 @@
 					<div class="sec-notice">
 						<ul class="list">
 							<li class="dot-1">예약문의 : 1666-1243</li>
-							<li class="dot-1">기준인원은 4인이며, 인원추가시 추가비용이 발생합니다.</li>
+                            <li class="dot-1">기준인원은 4인이며, 인원추가시 추가비용이 발생합니다.</li>
+                            <li class="dot-1">하우스키핑 요금이 일 객실요금에 포함되어 있습니다.</li>
 						</ul>
 					</div>
 					<div class="sec-btngroup show-xs show-sm">
@@ -230,7 +231,8 @@
 					<div class="sec-notice">
 						<ul class="list">
 							<li class="dot-1">예약문의 : 1666-1243</li>
-							<li class="dot-1">기준인원은 4인이며, 인원추가시 추가비용이 발생합니다.</li>
+                            <li class="dot-1">기준인원은 4인이며, 인원추가시 추가비용이 발생합니다.</li>
+                            <li class="dot-1">하우스키핑 요금이 일 객실요금에 포함되어 있습니다.</li>
 						</ul>
 					</div>
 				</div>
@@ -337,7 +339,8 @@
 					<div class="sec-notice">
 						<ul class="list">
 							<li class="dot-1">예약문의 : 1666-1243</li>
-							<li class="dot-1">기준인원은 4인이며, 인원추가시 추가비용이 발생합니다.</li>
+                            <li class="dot-1">기준인원은 4인이며, 인원추가시 추가비용이 발생합니다.</li>
+                            <li class="dot-1">하우스키핑 요금이 일 객실요금에 포함되어 있습니다.</li>
 						</ul>
 					</div>
 				</div>
@@ -442,7 +445,8 @@
 					<div class="sec-notice">
 						<ul class="list">
 							<li class="dot-1">예약문의 : 1666-1243</li>
-							<li class="dot-1">기준인원은 4인이며, 인원추가시 추가비용이 발생합니다.</li>
+                            <li class="dot-1">기준인원은 4인이며, 인원추가시 추가비용이 발생합니다.</li>
+                            <li class="dot-1">하우스키핑 요금이 일 객실요금에 포함되어 있습니다.</li>
 						</ul>
 					</div>
 				</div>
@@ -551,7 +555,8 @@
 					<div class="sec-notice">
 						<ul class="list">
 							<li class="dot-1">예약문의 : 1666-1243</li>
-							<li class="dot-1">기준인원은 4인이며, 인원추가시 추가비용이 발생합니다.</li>
+                            <li class="dot-1">기준인원은 4인이며, 인원추가시 추가비용이 발생합니다.</li>
+                            <li class="dot-1">하우스키핑 요금이 일 객실요금에 포함되어 있습니다.</li>
 						</ul>
 					</div>
 				</div>

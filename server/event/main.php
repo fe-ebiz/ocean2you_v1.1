@@ -1329,60 +1329,60 @@
 				</section>
 
 				<!-- 속초 봄빛 축제  -->
-				<section class="facil-1 skNuri" data-date="190503">
-					<ul class="fc-list">
-						<li class="nth-1">
-							<h3 class="ftfm-mg">2019 속초 봄빛 축제 "청초누리, 환희의 시작"</h3>
-							<div class="bxBox" id="bxBox-3">
-								<ul class="bxS">
-									<li class="li-1"></li>
-									<li class="li-2">
-										<div class="fc-li-box">
-											<div class="fc-txt-box">
-												<p class="fc-li-tit">2019 속초 봄빛 축제 "청초누리, 환희의 시작"</p>
-												<p class="fc-li-txt">
-													이번 축제는 어린이와 가족을 위한 각종 공연과 콘텐츠로 다양한 프로그램을 선보입니다.<br>
-													축제장 입구는 '청초로'로 꾸며지며 매직·아트쇼, 버스킹, 즉석 장기자랑 등이 펼쳐지는 누리무대도 마련됩니다.
-												</p>
-											</div>
-										</div>
-									</li>
-								</ul>
+				<section class="facil-1 skNuri" data-date="20200502">
+                    <ul class="fc-list">
+                        <li class="nth-1">
+                            <h3 class="ftfm-mg">속초 봄빛 축제 "청초누리" 2020</h3>
+                            <div class="bxBox" id="bxBox-3">
+                                <ul class="bxS">
+                                    <li class="li-1"></li>
+                                    <li class="li-2">
+                                        <div class="fc-li-box">
+                                            <div class="fc-txt-box">
+                                                <p class="fc-li-tit">속초 봄빛 축제 "청초누리" 2020</p>
+                                                <p class="fc-li-txt">
+                                                    이번 축제는 어린이와 가족을 위한 각종 공연과 콘텐츠로 다양한 프로그램을 선보입니다.<br>
+                                                    축제장 입구는 '청초로'로 꾸며지며 매직·아트쇼, 버스킹, 즉석 장기자랑 등이 펼쳐지는 누리무대도 마련됩니다.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
 
-							</div>
-						</li>
-					</ul>
+                            </div>
+                        </li>
+                    </ul>
 
-					<ul class="evt01-tb clr">
-						<li class="l-th ftfm-mg nth-1">
-							 2019 속초 봄빛 축제 "청초누리, 환희의 시작"
-						</li>
-						<li class="l-td nth-2">
-							<span class="s-lbl">기간</span>
-							<span class="s-txt">2019.05.03(금) ~ 2019.05.05(일)</span>
-						</li>
-						<li class="l-td nth-3">
-							<span class="s-lbl">주최</span>
-							<span class="s-txt">속초시 / ALMALOCO</span>
-						</li>
-						<li class="l-td nth-4">
-							<span class="s-lbl">요금</span>
-							<span class="s-txt">무료</span>
-						</li>
-						<li class="l-td nth-5">
-							<span class="s-lbl">시간</span>
-							<span class="s-txt">5월 3일 18시 ~ 5월 5일 21시 30분</span>
-						</li>
-						<li class="l-td nth-6">
-							<span class="s-lbl">위치</span>
-							<span class="s-txt">강원도 속초 청초호 호수공원</span>
-						</li>
-						<li class="l-td nth-7">
-							<span class="s-lbl">상세보기</span>
-							<span class="s-txt" style="cursor:pointer;" onclick="window.open('https://www.sokchotour.com/korean/sub/tour_news.asp?subtop=07&submenu=01&mode=view&part=notice&sno=9473','_blank')">▶여기를 클릭해 주세요.</span>
-						</li>
-					</ul>
-				</section>
+                    <ul class="evt01-tb clr">
+                        <li class="l-th ftfm-mg nth-1">
+                            속초 봄빛 축제 "청초누리" 2020
+                        </li>
+                        <li class="l-td nth-2">
+                            <span class="s-lbl">기간</span>
+                            <span class="s-txt">2020.05.02(토) ~ 2020.05.05(화)</span>
+                        </li>
+                        <li class="l-td nth-3">
+                            <span class="s-lbl">주최</span>
+                            <span class="s-txt">속초시</span>
+                        </li>
+                        <li class="l-td nth-4">
+                            <span class="s-lbl">요금</span>
+                            <span class="s-txt">무료</span>
+                        </li>
+                        <li class="l-td nth-5">
+                            <span class="s-lbl">시간</span>
+                            <span class="s-txt">14:00 ~ 22:00</span>
+                        </li>
+                        <li class="l-td nth-6">
+                            <span class="s-lbl">위치</span>
+                            <span class="s-txt">속초시 청초호 호수공원 일원</span>
+                        </li>
+                        <li class="l-td nth-7">
+                            <span class="s-lbl">상세보기</span>
+                            <span class="s-txt" style="cursor:pointer;" onclick="window.open('https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=e4307f13-d8ca-4e99-aafe-9b9d9c4c028f','_blank')">▶여기를 클릭해 주세요.</span>
+                        </li>
+                    </ul>
+                </section>
 
 				<section class="facil-1 musicFire" data-date="190503">
 					<ul class="fc-list">
