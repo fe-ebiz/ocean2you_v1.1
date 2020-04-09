@@ -5,8 +5,8 @@
 .bk-menu {z-index: 99999; position: absolute; box-sizing: border-box; width: 144px; top: 0; right: 0; text-align: center; background: #ea3433;}
 .bk-menu a {position: relative; display: block; line-height: 1; color: #fff;}
 .bk-menu a[class*='btn-bk'] {font-size: 18px; font-weight: 600; }
-.bk-menu .btn-bk {padding: 53px 0 26px; background: url(http://img.ramadapt.co.kr/common/ico_bk_menu.png) no-repeat center 22px; background-size: 22px auto;}
-.bk-menu .btn-bk2 {padding: 50px 0 23px; background: url(http://img.ramadapt.co.kr/common/ico_bk_menu2.png) no-repeat center 15px; background-size: 28px auto;}
+.bk-menu .btn-bk {padding: 53px 0 26px; background: url(http://img.ocean2you.co.kr/renew/common/ico_bk_menu.png) no-repeat center 22px; background-size: 22px auto;}
+.bk-menu .btn-bk2 {padding: 50px 0 23px; background: url(http://img.ocean2you.co.kr/renew/common/ico_bk_menu2.png) no-repeat center 15px; background-size: 28px auto;}
 .bk-menu .bk-list {display: none;}
 .bk-menu .bk-list li {border-top: 1px solid #a41c1c;}
 .bk-menu .bk-list li a {padding: 21px 0 20px; font-size: 16px; font-weight: 500;}
