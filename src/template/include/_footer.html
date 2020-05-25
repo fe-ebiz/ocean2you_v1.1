@@ -424,6 +424,8 @@
             </li>
             <li><a href="javascript:;" onclick="$('#privacy-bg, #privacy-bg .privacy-wrap').show(); $('body').css('overflow', 'hidden');">개인정보처리방침</a>
             </li>
+            <li><a href="http://ocean2you.co.kr/?go_scroll=wayto">오시는 길</a>
+            </li>
         </ul>
 
         <div class="flt-1 clr">
@@ -526,6 +528,18 @@
         </div>
     </div>
 </footer>
+
+<script>
+    $(document).ready(function(){
+        let page_url = window.location.href;
+        let page_id = page_url.substring(page_url.lastIndexOf("?go-oc2-fun"));
+        if(page_id=="?go-oc2-fun"){
+            $('html, body').animate({
+                scrollTop: $('#oc2-fun').offset().top
+            }, 400);
+        }
+    });
+</script>
 
 <a href="javascript:;" id="goTop"><img src="http://img.ocean2you.co.kr/renew/goTop.jpg" alt="위로"></a>
 <!--20180213 수정부분-->

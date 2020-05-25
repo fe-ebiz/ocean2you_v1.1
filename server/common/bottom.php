@@ -24,6 +24,8 @@
 						<!--171218 레이어팝업노출-->
 						<li><a href="javascript:;" onclick="$('#privacy-bg, #privacy-bg .term-wrap').show(); $('body').css('overflow', 'hidden');">이용약관</a></li>
 						<li><a href="javascript:;" onclick="$('#privacy-bg, #privacy-bg .privacy-wrap').show(); $('body').css('overflow', 'hidden');">개인정보처리방침</a></li>
+						<li><a href="http://ocean2you.co.kr/?go_scroll=wayto">오시는 길</a>
+            </li>
 					</ul>
 				<?php #} ?>
 				<div class="flt-1 clr">
@@ -101,10 +103,8 @@
 									<div class="fam_btn"><a href="http://ocean2you.co.kr/" target="_blank">오션투유리조트</a></div>
 								</li>
 								<li>
-									<div class="fam_btn"><a href="http://ramadapt.co.kr/" target="_blank">평택라마다앙코르호텔</a></div>
-								</li>
-								<li>
 									<div class="fam_btn"><a href="http://seabay.co.kr/" target="_blank">씨베이호텔</a></div>
+									<div class="fam_btn"><a href="http://hotelairsky.co.kr/" target="_blank">에어스카이호텔</a></div>
 								</li>
 								<li class="group-division" style="border-top: 1px dashed #a3a3a3; margin: 5px 10px"></li>
 								<li class="group-name">
@@ -337,6 +337,18 @@
 	});
 	</script>
 	
+	<script>
+		/* 모바일 스크롤 */
+		$(document).ready(function(){
+			let page_url = window.location.href;
+			let page_id = page_url.substring(page_url.lastIndexOf("?go-oc2-fun"));
+			if(page_id=="?go-oc2-fun"){
+				$('html, body').animate({
+					scrollTop: $('#oc2-fun').offset().top
+				}, 400);
+			}
+		});
+	</script>
 </body>
 </html>
 
