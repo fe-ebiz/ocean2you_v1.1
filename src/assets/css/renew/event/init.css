@@ -63,6 +63,10 @@
 	
 	.event-wrap .ocKite .bxBox .li-1 {background: url(http://img.ocean2you.co.kr/renew/event/event_ocKite01_m.jpg) no-repeat; background-size: cover;}
 	.event-wrap .ocKite .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_ocKite02_m.jpg) no-repeat; background-size: cover;}
+
+	.event-wrap .oxfam .bxBox .li-1 {background: url(http://img.ocean2you.co.kr/renew/event/event_2020oxfam_m.jpg) no-repeat ; background-size: cover;}
+	
+	.event-wrap .oxfam .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_2020oxfam_m.jpg) no-repeat; background-size: cover;}
 	
 	.fac-mt {margin-top: 30px; padding-top: 30px; border-top: 1px solid #ccc;}
 	.fac-mt-b {margin-bottom: 30px; padding-bottom: 30px; border-bottom: 1px solid #ccc;}
@@ -266,6 +270,11 @@
 	
 	.event-wrap .ocKite .bxBox .li-1 {background: url(http://img.ocean2you.co.kr/renew/event/event_ocKite01_t.jpg) no-repeat; background-size: cover;}
 	.event-wrap .ocKite .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_ocKite02_t.jpg) no-repeat; background-size: cover;}
+
+	.event-wrap .oxfam .bxBox .li-1 {background: url(http://img.ocean2you.co.kr/renew/event/event_2020oxfam.jpg) no-repeat ; background-size: cover;}
+	
+	.event-wrap .oxfam .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_2020oxfam.jpg) no-repeat; background-size: cover;}
+
     .event-wrap .ocKite .evt01-tb .l-td.nth-6 .s-txt {letter-spacing: -1.7px;} 
 	
 	/* 181015_축제 6종 추가 + 텍스트로 변경_다솜 */
@@ -473,6 +482,11 @@
 	
 	.event-wrap .ocKite .bxBox .li-1 {background: url(http://img.ocean2you.co.kr/renew/event/event_ocKite01.jpg) no-repeat; background-size: cover;}
 	.event-wrap .ocKite .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_ocKite02.jpg) no-repeat; background-size: cover;}
+
+	.event-wrap .oxfam .bxBox .li-1 {background: url(http://img.ocean2you.co.kr/renew/event/event_2020oxfam.jpg) no-repeat; background-size: cover;}
+	
+	.event-wrap .oxfam .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_2020oxfam.jpg) no-repeat; background-size: cover;}
+		
 	
 	/* 181015_축제 6종 추가 + 텍스트로 변경_다솜 */
     .event-wrap .facil-1 {position: relative; text-align: center;}
@@ -678,6 +692,10 @@
 	
 	.event-wrap .ocKite .bxBox .li-1 {background: url(http://img.ocean2you.co.kr/renew/event/event_ocKite01.jpg) no-repeat; background-size: cover;}
 	.event-wrap .ocKite .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_ocKite02.jpg) no-repeat; background-size: cover;}
+
+	.event-wrap .oxfam .bxBox .li-1 {background: url(http://img.ocean2you.co.kr/renew/event/event_2020oxfam.jpg) no-repeat ; background-size: cover;}
+	
+	.event-wrap .oxfam .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_2020oxfam.jpg) no-repeat; background-size: cover;}
 
 	.fac-mt {margin-top: 60px; padding-top: 60px; border-top: 1px solid #ccc;}
 	.fac-mt-b {margin-bottom: 60px; padding-bottom: 60px; border-bottom: 1px solid #ccc;}

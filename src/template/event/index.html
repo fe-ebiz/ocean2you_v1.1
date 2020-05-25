@@ -80,7 +80,6 @@
 
                 <ul class="cont-region">
                     <li class="goseong on">
-
                         <section class="facil-1 ocKite" data-region="own" data-date="190101">
                             <ul class="fc-list">
                                 <li class="nth-1">
@@ -1145,7 +1144,64 @@
                                 </li>
                             </ul>
                         </section>
+                        <!--2020 옥스팜 트레일 워커-->
+                        <section class="facil-1 oxfam" data-date="200525">
+                            <ul class="fc-list">
+                                <li class="nth-1">
+                                    <h3 class="ftfm-mg">2020 옥스팜 트레일워커</h3>
+                                    <div class="bxBox" id="bxBox-3">
+                                        <ul class="bxS">
+                                            <li class="li-1"></li>
+                                            <li class="li-2">
+                                                <div class="fc-li-box">
+                                                    <div class="fc-txt-box">
+                                                        <p class="fc-li-tit">2020 옥스팜 트레일워커</p>
+                                                        <p class="fc-li-txt">
+                                                            옥스팜 트레일워커는 100km를 4인1조가 되어 38시간 이내에 완주하는<br class="hidden-xs hidden-sm">
+                                                            도전 형석의 기부 프로젝트입니다. 지정된 시간 안에 완주하는 것은<br class="hidden-xs hidden-sm">
+                                                            육체적, 정신적 한계를 뛰어넘는 나를 위한 도전이며 기부금을 통해 전 세계<br class="hidden-xs hidden-sm">
+                                                            가난으로 고통받는 사람들을 돕기 위한 가난극복, 생명회생을 위한 도전입니다.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
 
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <ul class="evt01-tb clr">
+                                <li class="l-th ftfm-mg nth-1">
+                                    2020 옥스팜 트레일워커
+                                </li>
+                                <li class="l-td nth-2">
+                                    <span class="s-lbl">기간</span>
+                                    <span class="s-txt">2020.08.29(토) ~ 08.30(일)</span>
+                                </li>
+                                <li class="l-td nth-3">
+                                    <span class="s-lbl">주최</span>
+                                    <span class="s-txt">옥스팜, 강원도</span>
+                                </li>
+                                <li class="l-td nth-4">
+                                    <span class="s-lbl">요금</span>
+                                    <span class="s-txt">기부펀딩 (상세정보 확인)</span>
+                                </li>
+                                <li class="l-td nth-5 lh-02">
+                                    <span class="s-lbl lh-01">시간</span>
+                                    <span class="s-txt">8월 29일(토) 06:00 [예정]<br>
+                                    개회식 05:30</span>
+                                </li>
+                                <li class="l-td nth-6 lh-01">
+                                    <span class="s-lbl lh-01">위치</span>
+                                    <span class="s-txt">강원도 고성군 일대</span>
+                                </li>
+                                <li class="l-td nth-7 lh-01">
+                                    <span class="s-lbl">상세보기</span>
+                                    <span class="s-txt" style="cursor:pointer;" onclick="window.open('https://www.oxfamtrailwalker.or.kr/ko','_blank')">▶여기를 클릭해 주세요.</span>
+                                </li>
+                            </ul>
+                        </section>
                         <div id="eventGoseongOwn" class="event-sort-box"></div>
                         <div id="eventGoseongAnotherSoon" class="event-sort-box"></div>
                         <div id="eventGoseongAnotherGone" class="event-sort-box"></div>
@@ -1832,9 +1888,9 @@
                             </ul>
                         </section>
 
-                        <div id="eventSokchoOwn" class="event-sort-box"></div>
+                        <!-- <div id="eventSokchoOwn" class="event-sort-box"></div>
                         <div id="eventSokchoAnotherSoon" class="event-sort-box"></div>
-                        <div id="eventSokchoAnotherGone" class="event-sort-box"></div>
+                        <div id="eventSokchoAnotherGone" class="event-sort-box"></div> -->
 
                     </li>
                     <!-- // 속초 축제 끝 -->
@@ -1865,7 +1921,7 @@
                         var eventListAnother_sch = $('#evt-box .cont-region .sokcho').children('section:not([data-region])').detach();
 
                         eventListOwn_gs.sort(function (a, b) {
-                            return a['dataset']['date'] - b['dataset']['date']
+                            return b['dataset']['date'] - a['dataset']['date']
                         })
                         eventListOwn_gs.appendTo(own_gs);
 
