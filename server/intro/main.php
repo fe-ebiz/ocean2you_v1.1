@@ -171,7 +171,7 @@
 						</div>
 						<div class="txt-small txt-keyword">
 							<p class="p-tit"><span>키워드</span></p>
-							<p class="p-content"><span>조개잡이, 조개컈기 체험</span></p>
+							<p class="p-content"><span>조개잡이, 조개캐기 체험</span></p>
 						</div>
 						<div class="txt-small txt-blogger">
 							<p class="p-tit"><span>블로거</span></p>

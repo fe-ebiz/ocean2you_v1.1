@@ -530,12 +530,14 @@
 </footer>
 
 <script>
+    /*고객리뷰 가져오기*/
     $(document).ready(function(){
         let page_url = window.location.href;
         let page_id = page_url.substring(page_url.lastIndexOf("?go-oc2-fun"));
         if(page_id=="?go-oc2-fun"){
+            let header_height = $('.header').outerHeight();
             $('html, body').animate({
-                scrollTop: $('#oc2-fun').offset().top
+                scrollTop: $('#oc2-fun').offset().top -header_height
             }, 400);
         }
     });

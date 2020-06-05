@@ -338,16 +338,17 @@
 	</script>
 	
 	<script>
-		/* 모바일 스크롤 */
+		/* 고객리뷰 페이지로 스크롤 */
 		$(document).ready(function(){
-			let page_url = window.location.href;
-			let page_id = page_url.substring(page_url.lastIndexOf("?go-oc2-fun"));
-			if(page_id=="?go-oc2-fun"){
-				$('html, body').animate({
-					scrollTop: $('#oc2-fun').offset().top
-				}, 400);
-			}
-		});
+        let page_url = window.location.href;
+        let page_id = page_url.substring(page_url.lastIndexOf("?go-oc2-fun"));
+        if(page_id=="?go-oc2-fun"){
+            let header_height = $('.header').outerHeight();
+            $('html, body').animate({
+                scrollTop: $('#oc2-fun').offset().top -header_height
+            }, 400);
+        }
+    });
 	</script>
 </body>
 </html>
