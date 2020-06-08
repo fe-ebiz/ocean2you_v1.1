@@ -167,7 +167,7 @@
 					</div>
 					<div class="fun-txt-box">
 						<div class="fun-txt-title">
-							<h5>강원도 고성 삼포해변, 올해 첫 조개수확</h5>
+							<h5><span class="span-title">강원도 고성 삼포해변, 올해 첫 조개수확</span><span class="span-review"> &nbsp;[리뷰보기]</span></h5>
 						</div>
 						<div class="txt-small txt-keyword">
 							<p class="p-tit"><span>키워드</span></p>
@@ -181,157 +181,17 @@
 				</a>
 			</li>
 			<li>
-				<a href="https://blog.naver.com/ggujibbong/221329866263" target="_blank">
+				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
 					<div class="fun-img-box">
 						<img src="http://img.ocean2you.co.kr/renew/review/review02.jpg" alt="이미지">
 					</div>
 					<div class="fun-txt-box">
 						<div class="fun-txt-title">
-							<h5>아이들과 조개잡이 하기 좋은 곳 강원도 고성, 삼포해수욕장</h5>
+							<h5><span class="span-title">아이들과 조개잡이 하기 좋은 곳 강원도 고성, 삼포해수욕장</span><span class="span-review"> &nbsp;[리뷰보기]</span></h5>
 						</div>
 						<div class="txt-small txt-keyword">
 							<p class="p-tit"><span>키워드</span></p>
-							<p class="p-content"><span>비단조개잡이, 물놀이</span></p>
-						</div>
-						<div class="txt-small txt-blogger">
-							<p class="p-tit"><span>블로거</span></p>
-							<p class="p-content"><span>주도와</span></p>
-						</div>
-					</div>
-				</a>
-			</li>
-			<li>
-				<a href="https://blog.naver.com/ktmbada/221404850019" target="_blank">
-					<div class="fun-img-box">
-						<img src="http://img.ocean2you.co.kr/renew/review/review03.jpg" alt="이미지">
-					</div>
-					<div class="fun-txt-box">
-						<div class="fun-txt-title">
-							<h5>강원도 고성여행, 삼포해수욕장 오션투유리조트</h5>
-						</div>
-						<div class="txt-small txt-keyword">
-							<p class="p-tit"><span>키워드</span></p>
-							<p class="p-content"><span>서핑, 게잡이, 게낚시, 일출, 캠프</span></p>
-						</div>
-						<div class="txt-small txt-blogger">
-							<p class="p-tit"><span>블로거</span></p>
-							<p class="p-content"><span>아스크라</span></p>
-						</div>
-					</div>
-				</a>
-			</li>
-			<li>
-				<a href="https://blog.naver.com/queen77577/221607348275" target="_blank">
-					<div class="fun-img-box">
-						<img src="http://img.ocean2you.co.kr/renew/review/review04.jpg" alt="이미지">
-					</div>
-					<div class="fun-txt-box">
-						<div class="fun-txt-title">
-							<h5>강원도 고성 삼포해수욕장 당일치기 조개잡기 추천!</h5>
-						</div>
-						<div class="txt-small txt-keyword">
-							<p class="p-tit"><span>키워드</span></p>
-							<p class="p-content"><span>조개잡이. 조개캐기 체험, 여름해변</span></p>
-						</div>
-						<div class="txt-small txt-blogger">
-							<p class="p-tit"><span>블로거</span></p>
-							<p class="p-content"><span>날아라마녀씨</span></p>
-						</div>
-					</div>
-				</a>
-			</li>
-			<li>
-				<a href="https://blog.naver.com/jeseram/221301339747" target="_blank">
-					<div class="fun-img-box">
-						<img src="http://img.ocean2you.co.kr/renew/review/review05.jpg" alt="이미지">
-					</div>
-					<div class="fun-txt-box">
-						<div class="fun-txt-title">
-							<h5>삼포해수욕장 멸치출몰 + 조개잡기, 미역따기</h5>
-						</div>
-						<div class="txt-small txt-keyword">
-							<p class="p-tit"><span>키워드</span></p>
-							<p class="p-content"><span>멸치, 조개, 미역따기, 물놀이, 불꽃놀이</span></p>
-						</div>
-						<div class="txt-small txt-blogger">
-							<p class="p-tit"><span>블로거</span></p>
-							<p class="p-content"><span>미니둥이</span></p>
-						</div>
-					</div>
-				</a>
-			</li>
-			<li>
-				<a href="https://blog.naver.com/fsglcahu/221978147288" target="_blank">
-					<div class="fun-img-box">
-						<img src="http://img.ocean2you.co.kr/renew/review/review06.jpg" alt="이미지">
-					</div>
-					<div class="fun-txt-box">
-						<div class="fun-txt-title">
-							<h5>속초 오션투유리조트 후기!</h5>
-						</div>
-						<div class="txt-small txt-keyword">
-							<p class="p-tit"><span>키워드</span></p>
-							<p class="p-content"><span>조개잡이, 넓은객실, 풍부한부대시설</span></p>
-						</div>
-						<div class="txt-small txt-blogger">
-							<p class="p-tit"><span>블로거</span></p>
-							<p class="p-content"><span>문</span></p>
-						</div>
-					</div>
-				</a>
-			</li>
-			<li>
-				<a href="https://blog.naver.com/heetai0417/221975623708" target="_blank">
-					<div class="fun-img-box">
-						<img src="http://img.ocean2you.co.kr/renew/review/review07.jpg" alt="이미지">
-					</div>
-					<div class="fun-txt-box">
-						<div class="fun-txt-title">
-							<h5>삼포해수욕장 멸치출몰 + 조개잡기, 미역따기</h5>
-						</div>
-						<div class="txt-small txt-keyword">
-							<p class="p-tit"><span>키워드</span></p>
-							<p class="p-content"><span>애견동반, 펫룸, 바베큐, 라바짜, 조식</span></p>
-						</div>
-						<div class="txt-small txt-blogger">
-							<p class="p-tit"><span>블로거</span></p>
-							<p class="p-content"><span>heetai0417</span></p>
-						</div>
-					</div>
-				</a>
-			</li>
-			<li>
-				<a href="https://blog.naver.com/wlyssj/221762692693" target="_blank">
-					<div class="fun-img-box">
-						<img src="http://img.ocean2you.co.kr/renew/review/review08.jpg" alt="이미지">
-					</div>
-					<div class="fun-txt-box">
-						<div class="fun-txt-title">
-							<h5>삼포해수욕장 멸치출몰 + 조개잡기, 미역따기</h5>
-						</div>
-						<div class="txt-small txt-keyword">
-							<p class="p-tit"><span>키워드</span></p>
-							<p class="p-content"><span>야경, 룸서비스, 불꽃놀이, 청결한객실</span></p>
-						</div>
-						<div class="txt-small txt-blogger">
-							<p class="p-tit"><span>블로거</span></p>
-							<p class="p-content"><span>앙쥬랑공간스케치</span></p>
-						</div>
-					</div>
-				</a>
-			</li>
-			<li>
-				<a href="https://blog.naver.com/bunddo/221555700035" target="_blank">
-					<div class="fun-img-box">
-						<img src="http://img.ocean2you.co.kr/renew/review/review09.jpg" alt="이미지">
-					</div>
-					<div class="fun-txt-box">
-						<div class="fun-txt-title">
-							<h5>속초 가족여행 먹방투어</h5>
-						</div>
-						<div class="txt-small txt-keyword">
-							<p class="p-tit"><span>키워드</span></p>
-							<p class="p-content"><span>룸서비스, 조개잡이, 주변관광</span></p>
+							<p class="p-content"><span>조개잡이, 조개캐기 체험</span></p>
 						</div>
 						<div class="txt-small txt-blogger">
 							<p class="p-tit"><span>블로거</span></p>
@@ -341,157 +201,306 @@
 				</a>
 			</li>
 			<li>
-				<a href="https://blog.naver.com/ggujibbong/221331180284" target="_blank">
+				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
+					<div class="fun-img-box">
+						<img src="http://img.ocean2you.co.kr/renew/review/review03.jpg" alt="이미지">
+					</div>
+					<div class="fun-txt-box">
+						<div class="fun-txt-title">
+							<h5><span class="span-title">강원도 고성여행, 삼포해수욕장 오션투유리조트</span><span class="span-review"> &nbsp;[리뷰보기]</span></h5>
+						</div>
+						<div class="txt-small txt-keyword">
+							<p class="p-tit"><span>키워드</span></p>
+							<p class="p-content"><span>조개잡이, 조개캐기 체험</span></p>
+						</div>
+						<div class="txt-small txt-blogger">
+							<p class="p-tit"><span>블로거</span></p>
+							<p class="p-content"><span>검정고무신</span></p>
+						</div>
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
+					<div class="fun-img-box">
+						<img src="http://img.ocean2you.co.kr/renew/review/review04.jpg" alt="이미지">
+					</div>
+					<div class="fun-txt-box">
+						<div class="fun-txt-title">
+							<h5><span class="span-title">강원도 고성 삼포해수욕장 당일치기 조개잡기 추천!</span><span class="span-review"> &nbsp;[리뷰보기]</span></h5>
+						</div>
+						<div class="txt-small txt-keyword">
+							<p class="p-tit"><span>키워드</span></p>
+							<p class="p-content"><span>조개잡이, 조개캐기 체험</span></p>
+						</div>
+						<div class="txt-small txt-blogger">
+							<p class="p-tit"><span>블로거</span></p>
+							<p class="p-content"><span>검정고무신</span></p>
+						</div>
+					</div>
+				</a>
+			</li>
+			<li style="display: list-item;">
+				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
+					<div class="fun-img-box">
+						<img src="http://img.ocean2you.co.kr/renew/review/review05.jpg" alt="이미지">
+					</div>
+					<div class="fun-txt-box">
+						<div class="fun-txt-title">
+							<h5><span class="span-title">삼포해수욕장 멸치출몰 + 조개잡기, 미역따기</span><span class="span-review"> &nbsp;[리뷰보기]</span></h5>
+						</div>
+						<div class="txt-small txt-keyword">
+							<p class="p-tit"><span>키워드</span></p>
+							<p class="p-content"><span>조개잡이, 조개캐기 체험</span></p>
+						</div>
+						<div class="txt-small txt-blogger">
+							<p class="p-tit"><span>블로거</span></p>
+							<p class="p-content"><span>검정고무신</span></p>
+						</div>
+					</div>
+				</a>
+			</li>
+			<li style="display: list-item;">
+				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
+					<div class="fun-img-box">
+						<img src="http://img.ocean2you.co.kr/renew/review/review06.jpg" alt="이미지">
+					</div>
+					<div class="fun-txt-box">
+						<div class="fun-txt-title">
+							<h5><span class="span-title">속초 오션투유리조트 후기!</span><span class="span-review"> &nbsp;[리뷰보기]</span></h5>
+						</div>
+						<div class="txt-small txt-keyword">
+							<p class="p-tit"><span>키워드</span></p>
+							<p class="p-content"><span>조개잡이, 조개캐기 체험</span></p>
+						</div>
+						<div class="txt-small txt-blogger">
+							<p class="p-tit"><span>블로거</span></p>
+							<p class="p-content"><span>검정고무신</span></p>
+						</div>
+					</div>
+				</a>
+			</li>
+			<li style="display: list-item;">
+				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
+					<div class="fun-img-box">
+						<img src="http://img.ocean2you.co.kr/renew/review/review07.jpg" alt="이미지">
+					</div>
+					<div class="fun-txt-box">
+						<div class="fun-txt-title">
+							<h5><span class="span-title">애견과 함께 1박2일 고성(속초)여행</span><span class="span-review"> &nbsp;[리뷰보기]</span></h5>
+						</div>
+						<div class="txt-small txt-keyword">
+							<p class="p-tit"><span>키워드</span></p>
+							<p class="p-content"><span>조개잡이, 조개캐기 체험</span></p>
+						</div>
+						<div class="txt-small txt-blogger">
+							<p class="p-tit"><span>블로거</span></p>
+							<p class="p-content"><span>검정고무신</span></p>
+						</div>
+					</div>
+				</a>
+			</li>
+			<li style="display: list-item;">
+				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
+					<div class="fun-img-box">
+						<img src="http://img.ocean2you.co.kr/renew/review/review08.jpg" alt="이미지">
+					</div>
+					<div class="fun-txt-box">
+						<div class="fun-txt-title">
+							<h5><span class="span-title">아이들과 함께 급으로떠난 강원여행 코스추천</span><span class="span-review"> &nbsp;[리뷰보기]</span></h5>
+						</div>
+						<div class="txt-small txt-keyword">
+							<p class="p-tit"><span>키워드</span></p>
+							<p class="p-content"><span>조개잡이, 조개캐기 체험</span></p>
+						</div>
+						<div class="txt-small txt-blogger">
+							<p class="p-tit"><span>블로거</span></p>
+							<p class="p-content"><span>검정고무신</span></p>
+						</div>
+					</div>
+				</a>
+			</li>
+			<li style="display: list-item;">
+				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
+					<div class="fun-img-box">
+						<img src="http://img.ocean2you.co.kr/renew/review/review09.jpg" alt="이미지">
+					</div>
+					<div class="fun-txt-box">
+						<div class="fun-txt-title">
+							<h5><span class="span-title">속초 가족여행 먹방투어</span><span class="span-review"> &nbsp;[리뷰보기]</span></h5>
+						</div>
+						<div class="txt-small txt-keyword">
+							<p class="p-tit"><span>키워드</span></p>
+							<p class="p-content"><span>조개잡이, 조개캐기 체험</span></p>
+						</div>
+						<div class="txt-small txt-blogger">
+							<p class="p-tit"><span>블로거</span></p>
+							<p class="p-content"><span>검정고무신</span></p>
+						</div>
+					</div>
+				</a>
+			</li>
+			<li style="display: list-item;">
+				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
 					<div class="fun-img-box">
 						<img src="http://img.ocean2you.co.kr/renew/review/review10.jpg" alt="이미지">
 					</div>
 					<div class="fun-txt-box">
 						<div class="fun-txt-title">
-							<h5>삼포해변 오션투유리조트 & 조식 이용후기</h5>
+							<h5><span class="span-title">삼포해변 오션투유리조트 &amp; 조식 이용후기</span><span class="span-review"> &nbsp;[리뷰보기]</span></h5>
 						</div>
 						<div class="txt-small txt-keyword">
 							<p class="p-tit"><span>키워드</span></p>
-							<p class="p-content"><span>풍부한조식, 다연레스토랑</span></p>
+							<p class="p-content"><span>조개잡이, 조개캐기 체험</span></p>
 						</div>
 						<div class="txt-small txt-blogger">
 							<p class="p-tit"><span>블로거</span></p>
-							<p class="p-content"><span>주도와</span></p>
+							<p class="p-content"><span>검정고무신</span></p>
 						</div>
 					</div>
 				</a>
 			</li>
-			<li>
-				<a href="https://fsglcahu.blog.me/221783028297" target="_blank">
+			<li style="display: list-item;">
+				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
 					<div class="fun-img-box">
 						<img src="http://img.ocean2you.co.kr/renew/review/review11.jpg" alt="이미지">
 					</div>
 					<div class="fun-txt-box">
 						<div class="fun-txt-title">
-							<h5>오션투유리조트 1박 후기 만족만족</h5>
+							<h5><span class="span-title">오션투유리조트 1박 후기 만족만족</span><span class="span-review"> &nbsp;[리뷰보기]</span></h5>
 						</div>
 						<div class="txt-small txt-keyword">
 							<p class="p-tit"><span>키워드</span></p>
-							<p class="p-content"><span>오션뷰, 조식메뉴</span></p>
+							<p class="p-content"><span>조개잡이, 조개캐기 체험</span></p>
 						</div>
 						<div class="txt-small txt-blogger">
 							<p class="p-tit"><span>블로거</span></p>
-							<p class="p-content"><span>문</span></p>
+							<p class="p-content"><span>검정고무신</span></p>
 						</div>
 					</div>
 				</a>
 			</li>
-			<li>
-				<a href="https://blog.naver.com/sst0920/221721176422" target="_blank">
+			<li style="display: list-item;">
+				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
 					<div class="fun-img-box">
 						<img src="http://img.ocean2you.co.kr/renew/review/review12.jpg" alt="이미지">
 					</div>
 					<div class="fun-txt-box">
 						<div class="fun-txt-title">
-							<h5>가족 호캉스는 오션투유리조트 강추!</h5>
+							<h5><span class="span-title">가족 호캉스는 오션투유리조트 강추!</span><span class="span-review"> &nbsp;[리뷰보기]</span></h5>
 						</div>
 						<div class="txt-small txt-keyword">
 							<p class="p-tit"><span>키워드</span></p>
-							<p class="p-content"><span>호캉스, 좋은객실, 오션뷰</span></p>
+							<p class="p-content"><span>조개잡이, 조개캐기 체험</span></p>
 						</div>
 						<div class="txt-small txt-blogger">
 							<p class="p-tit"><span>블로거</span></p>
-							<p class="p-content"><span>공구지기</span></p>
+							<p class="p-content"><span>검정고무신</span></p>
 						</div>
 					</div>
 				</a>
 			</li>
-			<li>
-				<a href="https://blog.naver.com/fjvfeewt/221741460365" target="_blank">
+			<li style="display: list-item;">
+				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
 					<div class="fun-img-box">
 						<img src="http://img.ocean2you.co.kr/renew/review/review13.jpg" alt="이미지">
 					</div>
 					<div class="fun-txt-box">
 						<div class="fun-txt-title">
-							<h5>오션투유리조트 가성비 최고!</h5>
+							<h5><span class="span-title">오션투유리조트 가성비 최고!</span><span class="span-review"> &nbsp;[리뷰보기]</span></h5>
 						</div>
 						<div class="txt-small txt-keyword">
 							<p class="p-tit"><span>키워드</span></p>
-							<p class="p-content"><span>무인판매기, 넓은객실, 오션뷰</span></p>
+							<p class="p-content"><span>조개잡이, 조개캐기 체험</span></p>
 						</div>
 						<div class="txt-small txt-blogger">
 							<p class="p-tit"><span>블로거</span></p>
-							<p class="p-content"><span>개냥이세상</span></p>
+							<p class="p-content"><span>검정고무신</span></p>
 						</div>
 					</div>
 				</a>
 			</li>
-			<li>
-				<a href="https://blog.naver.com/surrr4/221755313881" target="_blank">
+			<li style="display: list-item;">
+				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
 					<div class="fun-img-box">
 						<img src="http://img.ocean2you.co.kr/renew/review/review14.jpg" alt="이미지">
 					</div>
 					<div class="fun-txt-box">
 						<div class="fun-txt-title">
-							<h5>강원도 고성 삼포해변 오션투유리조트</h5>
+							<h5><span class="span-title">강원도 고성 삼포해변 오션투유리조트</span><span class="span-review"> &nbsp;[리뷰보기]</span></h5>
 						</div>
 						<div class="txt-small txt-keyword">
 							<p class="p-tit"><span>키워드</span></p>
-							<p class="p-content"><span>겨울여행, 오션뷰, 넓은객실</span></p>
+							<p class="p-content"><span>조개잡이, 조개캐기 체험</span></p>
 						</div>
 						<div class="txt-small txt-blogger">
 							<p class="p-tit"><span>블로거</span></p>
-							<p class="p-content"><span>청담하이푸클리닉</span></p>
+							<p class="p-content"><span>검정고무신</span></p>
 						</div>
 					</div>
 				</a>
 			</li>
-			<li>
-				<a href="https://blog.naver.com/lsukhee0311/221726793093" target="_blank">
+			<li style="display: list-item;">
+				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
 					<div class="fun-img-box">
 						<img src="http://img.ocean2you.co.kr/renew/review/review15.jpg" alt="이미지">
 					</div>
 					<div class="fun-txt-box">
 						<div class="fun-txt-title">
-							<h5>고성 오션투유리조트 오션뷰 엄지척!</h5>
+							<h5><span class="span-title">고성 오션투유리조트 오션뷰 엄지척!</span><span class="span-review"> &nbsp;[리뷰보기]</span></h5>
 						</div>
 						<div class="txt-small txt-keyword">
 							<p class="p-tit"><span>키워드</span></p>
-							<p class="p-content"><span>넓은객실, 오션뷰, 룸서비스</span></p>
+							<p class="p-content"><span>조개잡이, 조개캐기 체험</span></p>
 						</div>
 						<div class="txt-small txt-blogger">
 							<p class="p-tit"><span>블로거</span></p>
-							<p class="p-content"><span>다나음한의원</span></p>
+							<p class="p-content"><span>검정고무신</span></p>
 						</div>
 					</div>
 				</a>
-			</li>
-			<li>
-				<a href="https://blog.naver.com/lthddd/221753950961" target="_blank">
+			</li><li style="display: list-item;">
+				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
 					<div class="fun-img-box">
 						<img src="http://img.ocean2you.co.kr/renew/review/review16.jpg" alt="이미지">
 					</div>
 					<div class="fun-txt-box">
 						<div class="fun-txt-title">
-							<h5>오션투유리조트 마운틴뷰 이용후기!</h5>
+							<h5><span class="span-title">오션투유리조트 마운틴뷰 이용후기!</span><span class="span-review"> &nbsp;[리뷰보기]</span></h5>
 						</div>
 						<div class="txt-small txt-keyword">
 							<p class="p-tit"><span>키워드</span></p>
-							<p class="p-content"><span>마운틴뷰, 리모델링, 넓은객실</span></p>
+							<p class="p-content"><span>조개잡이, 조개캐기 체험</span></p>
 						</div>
 						<div class="txt-small txt-blogger">
 							<p class="p-tit"><span>블로거</span></p>
-							<p class="p-content"><span>미소</span></p>
+							<p class="p-content"><span>검정고무신</span></p>
 						</div>
 					</div>
 				</a>
 			</li>
 		</ul>
-		<button type="button" class="btn-show-fun">더 많은 리뷰보기</button>
 	</div>
 </section>
 <script>
-	//오션튜유 즐기기 리스트 보기 버튼
 	$(document).ready(function(){
+		//오션튜유 즐기기 스크롤 보기
 		let hideList = $('.oc2-fun .fun-ul>li:nth-of-type(n+5)');
+		//리스트 숨기기
 		hideList.hide();
-		$('.btn-show-fun').on('click',function(){
-			hideList.show()
-			$(this).hide();
-		});
+		let scrollShow = $('.oc2-fun .fun-ul>li:nth-of-type(4)');
+		//스크롤 바텀기준
+		if(scrollShow.length > 0){
+			let scrollShowPos = $(document).height() - scrollShow.offset().top - scrollShow.height() - 180;
+		
+			//스크롤시 작동
+			$(window).on('scroll',function(){
+				let currentScroll = $(document).height() -$(window).height() - $(window).scrollTop();
+				//리스트 보이기
+				if(scrollShowPos > currentScroll){
+					hideList.show();
+				}
+			});
+		}
 	});
 </script>
