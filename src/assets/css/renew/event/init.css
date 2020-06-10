@@ -12,6 +12,18 @@
 .event-wrap .fc-list .txt-box .more-a
 {color: #fff;}
 
+/*=========이벤트==========*/
+/* DMZ 평화이음 콘서트 */
+.event-wrap .dmz-concert .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_dmzConcert.jpg) no-repeat; background-size: cover;}
+.event-wrap .dmz-concert .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_dmzConcert.jpg) no-repeat; background-size: cover;}
+
+@media (max-width: 767px){
+	.event-wrap .dmz-concert .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_dmzConcert_m.jpg) no-repeat; background-size: cover;}
+	.event-wrap .dmz-concert .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_dmzConcert_m.jpg) no-repeat; background-size: cover;}
+}
+
+/*====이벤트!끝====*/
+
 @media (max-width: 767px) {
 	.xs-block {display: block;}
 	.xs-hidden {display: none;}
