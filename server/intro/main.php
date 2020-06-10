@@ -180,7 +180,7 @@
 					</div>
 				</a>
 			</li><li>
-				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
+				<a href="https://blog.naver.com/ggujibbong/221329866263" target="_blank">
 					<div class="fun-img-box">
 						<img src="http://img.ocean2you.co.kr/renew/review/review02.jpg" alt="이미지">
 					</div>
@@ -199,7 +199,7 @@
 					</div>
 				</a>
 			</li><li>
-				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
+				<a href="https://blog.naver.com/ktmbada/221404850019" target="_blank">
 					<div class="fun-img-box">
 						<img src="http://img.ocean2you.co.kr/renew/review/review03.jpg" alt="이미지">
 					</div>
@@ -218,7 +218,7 @@
 					</div>
 				</a>
 			</li><li>
-				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
+				<a href="https://blog.naver.com/queen77577/221607348275" target="_blank">
 					<div class="fun-img-box">
 						<img src="http://img.ocean2you.co.kr/renew/review/review04.jpg" alt="이미지">
 					</div>
@@ -237,7 +237,7 @@
 					</div>
 				</a>
 			</li><li style="display: list-item;">
-				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
+				<a href="https://blog.naver.com/jeseram/221301339747" target="_blank">
 					<div class="fun-img-box">
 						<img src="http://img.ocean2you.co.kr/renew/review/review05.jpg" alt="이미지">
 					</div>
@@ -256,7 +256,7 @@
 					</div>
 				</a>
 			</li><li style="display: list-item;">
-				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
+				<a href="https://blog.naver.com/fsglcahu/221978147288" target="_blank">
 					<div class="fun-img-box">
 						<img src="http://img.ocean2you.co.kr/renew/review/review06.jpg" alt="이미지">
 					</div>
@@ -275,7 +275,7 @@
 					</div>
 				</a>
 			</li><li style="display: list-item;">
-				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
+				<a href="https://blog.naver.com/heetai0417/221975623708" target="_blank">
 					<div class="fun-img-box">
 						<img src="http://img.ocean2you.co.kr/renew/review/review07.jpg" alt="이미지">
 					</div>
@@ -294,7 +294,7 @@
 					</div>
 				</a>
 			</li><li style="display: list-item;">
-				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
+				<a href="https://blog.naver.com/wlyssj/221762692693" target="_blank">
 					<div class="fun-img-box">
 						<img src="http://img.ocean2you.co.kr/renew/review/review08.jpg" alt="이미지">
 					</div>
@@ -313,7 +313,7 @@
 					</div>
 				</a>
 			</li><li style="display: list-item;">
-				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
+				<a href="https://blog.naver.com/bunddo/221555700035" target="_blank">
 					<div class="fun-img-box">
 						<img src="http://img.ocean2you.co.kr/renew/review/review09.jpg" alt="이미지">
 					</div>
@@ -332,7 +332,7 @@
 					</div>
 				</a>
 			</li><li style="display: list-item;">
-				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
+				<a href="https://blog.naver.com/ggujibbong/221331180284" target="_blank">
 					<div class="fun-img-box">
 						<img src="http://img.ocean2you.co.kr/renew/review/review10.jpg" alt="이미지">
 					</div>
@@ -351,7 +351,7 @@
 					</div>
 				</a>
 			</li><li style="display: list-item;">
-				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
+				<a href="https://fsglcahu.blog.me/221783028297" target="_blank">
 					<div class="fun-img-box">
 						<img src="http://img.ocean2you.co.kr/renew/review/review11.jpg" alt="이미지">
 					</div>
@@ -370,7 +370,7 @@
 					</div>
 				</a>
 			</li><li style="display: list-item;">
-				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
+				<a href="https://blog.naver.com/sst0920/221721176422" target="_blank">
 					<div class="fun-img-box">
 						<img src="http://img.ocean2you.co.kr/renew/review/review12.jpg" alt="이미지">
 					</div>
@@ -389,7 +389,7 @@
 					</div>
 				</a>
 			</li><li style="display: list-item;">
-				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
+				<a href="https://blog.naver.com/fjvfeewt/221741460365" target="_blank">
 					<div class="fun-img-box">
 						<img src="http://img.ocean2you.co.kr/renew/review/review13.jpg" alt="이미지">
 					</div>
@@ -408,7 +408,7 @@
 					</div>
 				</a>
 			</li><li style="display: list-item;">
-				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
+				<a href="https://blog.naver.com/surrr4/221755313881" target="_blank">
 					<div class="fun-img-box">
 						<img src="http://img.ocean2you.co.kr/renew/review/review14.jpg" alt="이미지">
 					</div>
@@ -427,7 +427,7 @@
 					</div>
 				</a>
 			</li><li style="display: list-item;">
-				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
+				<a href="https://blog.naver.com/lsukhee0311/221726793093" target="_blank">
 					<div class="fun-img-box">
 						<img src="http://img.ocean2you.co.kr/renew/review/review15.jpg" alt="이미지">
 					</div>
@@ -446,7 +446,7 @@
 					</div>
 				</a>
 			</li><li style="display: list-item;">
-				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
+				<a href="https://blog.naver.com/lthddd/221753950961" target="_blank">
 					<div class="fun-img-box">
 						<img src="http://img.ocean2you.co.kr/renew/review/review16.jpg" alt="이미지">
 					</div>

@@ -222,6 +222,7 @@
                 $(funListArr).each(function(index, item){
                     listSample.find("h5 .span-title").text(item.title);
                     listSample.find(".fun-img-box img").attr("src",item.img);
+                    listSample.find("li>a").attr("href", item.url);
                     listSample.find(".txt-keyword .p-content span").text(item.keyword);
                     listSample.find(".txt-blogger .p-content span").text(item.blogger);
                     let funUl = $('.oc2-fun .fun-ul').append(listSample.html()); 
