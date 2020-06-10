@@ -159,7 +159,7 @@
 				<span>#펫룸 #강아지동반 #애견동반여행 #애견동반리조트 #반려견동반호텔</span>
 			</p>
 		</div>
-		<ul class="fun-ul">
+		<ul class="fun-ul">        
 			<li>
 				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
 					<div class="fun-img-box">
@@ -179,8 +179,7 @@
 						</div>
 					</div>
 				</a>
-			</li>
-			<li>
+			</li><li>
 				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
 					<div class="fun-img-box">
 						<img src="http://img.ocean2you.co.kr/renew/review/review02.jpg" alt="이미지">
@@ -191,16 +190,15 @@
 						</div>
 						<div class="txt-small txt-keyword">
 							<p class="p-tit"><span>키워드</span></p>
-							<p class="p-content"><span>조개잡이, 조개캐기 체험</span></p>
+							<p class="p-content"><span>비단조개잡이, 물놀이</span></p>
 						</div>
 						<div class="txt-small txt-blogger">
 							<p class="p-tit"><span>블로거</span></p>
-							<p class="p-content"><span>검정고무신</span></p>
+							<p class="p-content"><span>주도와</span></p>
 						</div>
 					</div>
 				</a>
-			</li>
-			<li>
+			</li><li>
 				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
 					<div class="fun-img-box">
 						<img src="http://img.ocean2you.co.kr/renew/review/review03.jpg" alt="이미지">
@@ -211,16 +209,15 @@
 						</div>
 						<div class="txt-small txt-keyword">
 							<p class="p-tit"><span>키워드</span></p>
-							<p class="p-content"><span>조개잡이, 조개캐기 체험</span></p>
+							<p class="p-content"><span>서핑, 게잡이, 게낚시, 일출, 캠프</span></p>
 						</div>
 						<div class="txt-small txt-blogger">
 							<p class="p-tit"><span>블로거</span></p>
-							<p class="p-content"><span>검정고무신</span></p>
+							<p class="p-content"><span>아스크라</span></p>
 						</div>
 					</div>
 				</a>
-			</li>
-			<li>
+			</li><li>
 				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
 					<div class="fun-img-box">
 						<img src="http://img.ocean2you.co.kr/renew/review/review04.jpg" alt="이미지">
@@ -231,16 +228,15 @@
 						</div>
 						<div class="txt-small txt-keyword">
 							<p class="p-tit"><span>키워드</span></p>
-							<p class="p-content"><span>조개잡이, 조개캐기 체험</span></p>
+							<p class="p-content"><span>조개잡이. 조개캐기 체험, 여름해변</span></p>
 						</div>
 						<div class="txt-small txt-blogger">
 							<p class="p-tit"><span>블로거</span></p>
-							<p class="p-content"><span>검정고무신</span></p>
+							<p class="p-content"><span>날아라마녀씨</span></p>
 						</div>
 					</div>
 				</a>
-			</li>
-			<li style="display: list-item;">
+			</li><li style="display: list-item;">
 				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
 					<div class="fun-img-box">
 						<img src="http://img.ocean2you.co.kr/renew/review/review05.jpg" alt="이미지">
@@ -251,16 +247,15 @@
 						</div>
 						<div class="txt-small txt-keyword">
 							<p class="p-tit"><span>키워드</span></p>
-							<p class="p-content"><span>조개잡이, 조개캐기 체험</span></p>
+							<p class="p-content"><span>멸치, 조개, 미역따기, 물놀이, 불꽃놀이</span></p>
 						</div>
 						<div class="txt-small txt-blogger">
 							<p class="p-tit"><span>블로거</span></p>
-							<p class="p-content"><span>검정고무신</span></p>
+							<p class="p-content"><span>미니둥이</span></p>
 						</div>
 					</div>
 				</a>
-			</li>
-			<li style="display: list-item;">
+			</li><li style="display: list-item;">
 				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
 					<div class="fun-img-box">
 						<img src="http://img.ocean2you.co.kr/renew/review/review06.jpg" alt="이미지">
@@ -271,16 +266,15 @@
 						</div>
 						<div class="txt-small txt-keyword">
 							<p class="p-tit"><span>키워드</span></p>
-							<p class="p-content"><span>조개잡이, 조개캐기 체험</span></p>
+							<p class="p-content"><span>조개잡이, 넓은객실, 풍부한부대시설</span></p>
 						</div>
 						<div class="txt-small txt-blogger">
 							<p class="p-tit"><span>블로거</span></p>
-							<p class="p-content"><span>검정고무신</span></p>
+							<p class="p-content"><span>문</span></p>
 						</div>
 					</div>
 				</a>
-			</li>
-			<li style="display: list-item;">
+			</li><li style="display: list-item;">
 				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
 					<div class="fun-img-box">
 						<img src="http://img.ocean2you.co.kr/renew/review/review07.jpg" alt="이미지">
@@ -291,16 +285,15 @@
 						</div>
 						<div class="txt-small txt-keyword">
 							<p class="p-tit"><span>키워드</span></p>
-							<p class="p-content"><span>조개잡이, 조개캐기 체험</span></p>
+							<p class="p-content"><span>애견동반, 펫룸, 바베큐, 라바짜, 조식</span></p>
 						</div>
 						<div class="txt-small txt-blogger">
 							<p class="p-tit"><span>블로거</span></p>
-							<p class="p-content"><span>검정고무신</span></p>
+							<p class="p-content"><span>heetai0417</span></p>
 						</div>
 					</div>
 				</a>
-			</li>
-			<li style="display: list-item;">
+			</li><li style="display: list-item;">
 				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
 					<div class="fun-img-box">
 						<img src="http://img.ocean2you.co.kr/renew/review/review08.jpg" alt="이미지">
@@ -311,16 +304,15 @@
 						</div>
 						<div class="txt-small txt-keyword">
 							<p class="p-tit"><span>키워드</span></p>
-							<p class="p-content"><span>조개잡이, 조개캐기 체험</span></p>
+							<p class="p-content"><span>야경, 룸서비스, 불꽃놀이, 청결한객실</span></p>
 						</div>
 						<div class="txt-small txt-blogger">
 							<p class="p-tit"><span>블로거</span></p>
-							<p class="p-content"><span>검정고무신</span></p>
+							<p class="p-content"><span>앙쥬랑공간스케치</span></p>
 						</div>
 					</div>
 				</a>
-			</li>
-			<li style="display: list-item;">
+			</li><li style="display: list-item;">
 				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
 					<div class="fun-img-box">
 						<img src="http://img.ocean2you.co.kr/renew/review/review09.jpg" alt="이미지">
@@ -331,7 +323,7 @@
 						</div>
 						<div class="txt-small txt-keyword">
 							<p class="p-tit"><span>키워드</span></p>
-							<p class="p-content"><span>조개잡이, 조개캐기 체험</span></p>
+							<p class="p-content"><span>룸서비스, 조개잡이, 주변관광</span></p>
 						</div>
 						<div class="txt-small txt-blogger">
 							<p class="p-tit"><span>블로거</span></p>
@@ -339,8 +331,7 @@
 						</div>
 					</div>
 				</a>
-			</li>
-			<li style="display: list-item;">
+			</li><li style="display: list-item;">
 				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
 					<div class="fun-img-box">
 						<img src="http://img.ocean2you.co.kr/renew/review/review10.jpg" alt="이미지">
@@ -351,16 +342,15 @@
 						</div>
 						<div class="txt-small txt-keyword">
 							<p class="p-tit"><span>키워드</span></p>
-							<p class="p-content"><span>조개잡이, 조개캐기 체험</span></p>
+							<p class="p-content"><span>풍부한조식, 다연레스토랑</span></p>
 						</div>
 						<div class="txt-small txt-blogger">
 							<p class="p-tit"><span>블로거</span></p>
-							<p class="p-content"><span>검정고무신</span></p>
+							<p class="p-content"><span>주도와</span></p>
 						</div>
 					</div>
 				</a>
-			</li>
-			<li style="display: list-item;">
+			</li><li style="display: list-item;">
 				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
 					<div class="fun-img-box">
 						<img src="http://img.ocean2you.co.kr/renew/review/review11.jpg" alt="이미지">
@@ -371,16 +361,15 @@
 						</div>
 						<div class="txt-small txt-keyword">
 							<p class="p-tit"><span>키워드</span></p>
-							<p class="p-content"><span>조개잡이, 조개캐기 체험</span></p>
+							<p class="p-content"><span>오션뷰, 조식메뉴</span></p>
 						</div>
 						<div class="txt-small txt-blogger">
 							<p class="p-tit"><span>블로거</span></p>
-							<p class="p-content"><span>검정고무신</span></p>
+							<p class="p-content"><span>문</span></p>
 						</div>
 					</div>
 				</a>
-			</li>
-			<li style="display: list-item;">
+			</li><li style="display: list-item;">
 				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
 					<div class="fun-img-box">
 						<img src="http://img.ocean2you.co.kr/renew/review/review12.jpg" alt="이미지">
@@ -391,16 +380,15 @@
 						</div>
 						<div class="txt-small txt-keyword">
 							<p class="p-tit"><span>키워드</span></p>
-							<p class="p-content"><span>조개잡이, 조개캐기 체험</span></p>
+							<p class="p-content"><span>호캉스, 좋은객실, 오션뷰</span></p>
 						</div>
 						<div class="txt-small txt-blogger">
 							<p class="p-tit"><span>블로거</span></p>
-							<p class="p-content"><span>검정고무신</span></p>
+							<p class="p-content"><span>공구지기</span></p>
 						</div>
 					</div>
 				</a>
-			</li>
-			<li style="display: list-item;">
+			</li><li style="display: list-item;">
 				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
 					<div class="fun-img-box">
 						<img src="http://img.ocean2you.co.kr/renew/review/review13.jpg" alt="이미지">
@@ -411,16 +399,15 @@
 						</div>
 						<div class="txt-small txt-keyword">
 							<p class="p-tit"><span>키워드</span></p>
-							<p class="p-content"><span>조개잡이, 조개캐기 체험</span></p>
+							<p class="p-content"><span>무인판매기, 넓은객실, 오션뷰</span></p>
 						</div>
 						<div class="txt-small txt-blogger">
 							<p class="p-tit"><span>블로거</span></p>
-							<p class="p-content"><span>검정고무신</span></p>
+							<p class="p-content"><span>개냥이세상</span></p>
 						</div>
 					</div>
 				</a>
-			</li>
-			<li style="display: list-item;">
+			</li><li style="display: list-item;">
 				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
 					<div class="fun-img-box">
 						<img src="http://img.ocean2you.co.kr/renew/review/review14.jpg" alt="이미지">
@@ -431,16 +418,15 @@
 						</div>
 						<div class="txt-small txt-keyword">
 							<p class="p-tit"><span>키워드</span></p>
-							<p class="p-content"><span>조개잡이, 조개캐기 체험</span></p>
+							<p class="p-content"><span>겨울여행, 오션뷰, 넓은객실</span></p>
 						</div>
 						<div class="txt-small txt-blogger">
 							<p class="p-tit"><span>블로거</span></p>
-							<p class="p-content"><span>검정고무신</span></p>
+							<p class="p-content"><span>청담하이푸클리닉</span></p>
 						</div>
 					</div>
 				</a>
-			</li>
-			<li style="display: list-item;">
+			</li><li style="display: list-item;">
 				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
 					<div class="fun-img-box">
 						<img src="http://img.ocean2you.co.kr/renew/review/review15.jpg" alt="이미지">
@@ -451,11 +437,11 @@
 						</div>
 						<div class="txt-small txt-keyword">
 							<p class="p-tit"><span>키워드</span></p>
-							<p class="p-content"><span>조개잡이, 조개캐기 체험</span></p>
+							<p class="p-content"><span>넓은객실, 오션뷰, 룸서비스</span></p>
 						</div>
 						<div class="txt-small txt-blogger">
 							<p class="p-tit"><span>블로거</span></p>
-							<p class="p-content"><span>검정고무신</span></p>
+							<p class="p-content"><span>다나음한의원</span></p>
 						</div>
 					</div>
 				</a>
@@ -470,11 +456,11 @@
 						</div>
 						<div class="txt-small txt-keyword">
 							<p class="p-tit"><span>키워드</span></p>
-							<p class="p-content"><span>조개잡이, 조개캐기 체험</span></p>
+							<p class="p-content"><span>마운틴뷰, 리모델링, 넓은객실</span></p>
 						</div>
 						<div class="txt-small txt-blogger">
 							<p class="p-tit"><span>블로거</span></p>
-							<p class="p-content"><span>검정고무신</span></p>
+							<p class="p-content"><span>미소</span></p>
 						</div>
 					</div>
 				</a>
