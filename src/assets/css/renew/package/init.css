@@ -836,3 +836,7 @@
 /* 20180413 바베큐장 이용안내 슬라이드 화살표 숨김 */ 
 .bxBox.none-slider .bx-controls-direction {display:none}
 
+/*룸서비스 강조*/
+.roomservice-highlight-bule{
+	color: #3c6aff;
+}
