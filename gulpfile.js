@@ -33,6 +33,19 @@ function bSyncTest() {
 		}
 	});
 };
+
+//랜딩페이지로
+function bSyncLanding() {
+	browserSync.init({
+		// watch: true,
+		port: 3030,
+		startPath: './views/landing_new/roomservice_intro.html',
+		server: {
+			baseDir: './dist'
+		}
+	});
+};
+
 function template() {
 	return src(config.template.src, {since: lastRun(template)})
 		.pipe(fileinclude({
@@ -218,4 +231,7 @@ exports.testPathLocal = testPathLocal;
 exports.default = parallel(bSync, watching);
 exports.serve = parallel(series(parallel(template), sassDev, css, js, img, etc, bSync), watching);
 exports.build = parallel(series(parallel(template), sassDev, css, js, img, etc, bSync), watching);
+
+exports.land = parallel(series(parallel(template), sassDev, css, js, img, etc, bSyncLanding), watching);
+
 exports.test = series(parallel(template), sassPrd, css, js, img, etc, copyTest, testPathServer, bSyncTest);
