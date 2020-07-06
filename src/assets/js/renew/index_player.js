@@ -1,5 +1,5 @@
 var myPlayer, curTime, allTime, timeStr;
-$(window).ready(function(){
+$(document).ready(function(){
 	var isIframe = function () {
 		var a = !1;
 		try {
@@ -16,7 +16,6 @@ $(window).ready(function(){
 	};
 
 	myPlayer = $(".vid").YTPlayer({align:"center,left"});
-    
    /* $('#pcVid').on("YTPStart", function(e){
         var currentTime = e.time;
         $('#pcVid').addClass('start');

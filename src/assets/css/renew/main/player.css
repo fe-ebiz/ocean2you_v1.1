@@ -1,0 +1,46 @@
+.bg-player-box{
+    /* width: 150%;
+    height: 100vh; */
+    position: absolute;
+    width:100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+
+    display: block;
+}
+
+
+.bg-player-box .video-pc{
+    position: absolute;
+    width: calc( 560/560*160vmax);
+    height: calc( 315/560*160vmax);
+    /* height: 200vmax; */
+    top: calc(-30/560*160vmax);
+    left: -5%;
+    /* width: 150%;
+    height: 150%; */
+    /* height: 100%; */
+    /* display: none; */
+}
+
+.bg-player-box .video-pc-vertical{
+    position: absolute;
+    width: calc( 560/315*130vmax);
+    height: calc( 315/315*130vmax);
+    /* height: 200vmax; */
+    top: calc(-60/315*130vmax);
+    left: calc(-150/315*130vmax);
+    /* width: 150%;
+    height: 150%; */
+    /* height: 100%; */
+
+}
+
+
+@media (max-width: 767px) {
+    .bg-player-box{
+        display: none;
+    }
+}
