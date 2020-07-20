@@ -1,5 +1,5 @@
 <?php
-if($_GET["room"] >= 1 && $_GET["room"] <= 5) {
+if($_GET["room"] >= 1 && $_GET["room"] <= 6) {
 	include_once (INC_DIR."/ocean2you/web-home/facil/room_detail.php");
 	return;
 }
@@ -23,6 +23,32 @@ if($_GET["room"] >= 1 && $_GET["room"] <= 5) {
 			</div>
             
 			<ul class="fc-list" id="room-list">
+				<!--내용추가 20200724 -->
+				<li class="nth-1">
+					<h4>로얄스위트 오션뷰 테라스</h4>
+					<div class="bxBox">
+                        <ul class="bxS">
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_roy_01.jpg" alt="리노베이션콘도"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_roy_02.jpg" alt="리노베이션콘도"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_roy_03.jpg" alt="리노베이션콘도"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_roy_04.jpg" alt="리노베이션콘도"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_roy_05.jpg" alt="리노베이션코도"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_roy_06.jpg" alt="리노베이션코도"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_roy_07.jpg" alt="리노베이션코도"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_roy_08.jpg" alt="리노베이션코도"></li>
+                        </ul>
+						<div class="txt-box">
+							<p class="p1">로얄스위트 오션뷰 테라스</p>
+							<p class="p2"><span class="xs-block">동해가 완벽하게 펼쳐진 개방형 객실뷰, </span> 럭셔리타입의 프라이빗 스타일룸</p>
+							<p class="btn-row">
+								<a href="/facil/?room=1" class="more-a"><span class="s0">자세히보기</span></a>
+								<a href="<?=base_url?>/view/" class="more-a"><span class="s0">예약하기</span></a>
+							</p>
+						</div>
+					</div>
+				</li>
+				<!--////내용추가 20200724 -->
+
 				<!--171115 내용추가 및 클래스 수정-->
 				<li class="nth-1">
 					<h4>리노베이션 오션뷰 테라스 / 오션 사이드뷰 테라스</h4>
@@ -46,7 +72,7 @@ if($_GET["room"] >= 1 && $_GET["room"] <= 5) {
 							<p class="p1">리노베이션 오션뷰 테라스 / 오션 사이드뷰 테라스</p>
 							<p class="p2"><span class="xs-block">바다가 한폭의 그림처럼 펼쳐지며,</span> 원목의 테라스가 있는 프라이빗한 콘도형 디럭스룸 </p>
 							<p class="btn-row">
-								<a href="/facil/?room=1" class="more-a"><span class="s0">자세히보기</span></a>
+								<a href="/facil/?room=2" class="more-a"><span class="s0">자세히보기</span></a>
 								<a href="<?=base_url?>/view/" class="more-a"><span class="s0">예약하기</span></a>
 							</p>
 						</div>
@@ -89,7 +115,7 @@ if($_GET["room"] >= 1 && $_GET["room"] <= 5) {
 							<p class="p1">리노베이션 콘도 오션뷰</p>
 							<p class="p2"><span class="xs-block">고급스러운 색채와 편안한 분위기의 침실,</span> 넓은 공간 활용이 매력적이며 취사가 가능한 콘도형 룸</p>
 							<p class="btn-row">
-								<a href="/facil/?room=2" class="more-a"><span class="s0">자세히보기</span></a>
+								<a href="/facil/?room=3" class="more-a"><span class="s0">자세히보기</span></a>
 								<a href="<?=base_url?>/view/" class="more-a"><span class="s0">예약하기</span></a>
 							</p>
 						</div>
@@ -116,7 +142,7 @@ if($_GET["room"] >= 1 && $_GET["room"] <= 5) {
 							<p class="p1">리노베이션 호텔 오션뷰</p>
 							<p class="p2"><span class="xs-block">편안하고 아늑한 분위기의 침실과</span> 독립적 공간 활용이 매력적인 호텔형 오션뷰 룸</p>
 							<p class="btn-row">
-								<a href="/facil/?room=3" class="more-a"><span class="s0">자세히보기</span></a>
+								<a href="/facil/?room=4" class="more-a"><span class="s0">자세히보기</span></a>
 								<a href="<?=base_url?>/view/" class="more-a"><span class="s0">예약하기</span></a>
 							</p>
 						</div>
@@ -144,7 +170,7 @@ if($_GET["room"] >= 1 && $_GET["room"] <= 5) {
 								23평/ 4인실(최대7명)
 							</p>
 							<p class="btn-row">
-								<a href="/facil/?room=4" class="more-a"><span class="s0">자세히보기</span></a>
+								<a href="/facil/?room=5" class="more-a"><span class="s0">자세히보기</span></a>
 								<a href="<?=base_url?>/view/" class="more-a"><span class="s0">예약하기</span></a>
                             </p>
                             <p class="p3 hidden-xs">
@@ -186,7 +212,7 @@ if($_GET["room"] >= 1 && $_GET["room"] <= 5) {
 								23평/ 4인실(최대7명)
 							</p>
 							<p class="btn-row">
-								<a href="/facil/?room=5" class="more-a"><span class="s0">자세히보기</span></a>
+								<a href="/facil/?room=6" class="more-a"><span class="s0">자세히보기</span></a>
 								<a href="<?=base_url?>/view/" class="more-a"><span class="s0">예약하기</span></a>
                             </p>
                             <p class="p3 hidden-xs">

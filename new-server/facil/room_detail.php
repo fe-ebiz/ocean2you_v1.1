@@ -18,7 +18,117 @@
 		</div>
 	</div>
 	<div class="fcdetail-tabpanel" id="fcdetail-tabpanel">
-		<section class="sec terrace-sec on">
+		<!--추가 20200724-->
+		<section class="sec royalSuite-sec on">
+			<div class="container">
+				<h1 class="sec-header">로얄스위트 오션뷰 테라스</h1>
+				<div class="sec-body">
+					<div class="sec-slider">
+						<ul class="bxS">
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_roy_01.jpg" alt="리노베이션콘도"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_roy_02.jpg" alt="리노베이션콘도"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_roy_03.jpg" alt="리노베이션콘도"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_roy_04.jpg" alt="리노베이션콘도"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_roy_05.jpg" alt="리노베이션코도"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_roy_06.jpg" alt="리노베이션코도"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_roy_07.jpg" alt="리노베이션코도"></li>
+                            <li><img class="img" src="<?=base_img?>/facil/roomtype_re_roy_08.jpg" alt="리노베이션코도"></li>
+                        </ul>
+					</div>
+					<div class="sec-sub">
+						<h2 class="subtit">로얄스위트 오션뷰 테라스</h2>
+						<div class="subtit-img">
+							<img src="http://img.ocean2you.co.kr/renew/facil/fcdetail/accom_text.png" alt="객실안내">
+						</div>
+						<div class="subtxt">동해가 완벽하게 펼쳐진 개방형 객실뷰, <br class="show-xs"> 럭셔리타입의 프라이빗 스타일룸</div>
+
+						<a href="/view/" class="btn-rsv hidden-xs hidden-sm"><span>예약하기</span><img src="http://img.ocean2you.co.kr/renew/facil/fcdetail/arr_r.png" alt="이동하기"></a>
+					</div>
+					<hr class="line">
+					<div class="sec-detail">
+						<div class="row">
+							<dl class="item item-1">
+								<dt>체크인</dt>
+								<dd>PM03:00</dd>
+							</dl>
+							<dl class="item item-2">
+								<dt>체크아웃</dt>
+								<dd>AM11:00</dd>
+							</dl>
+							<dl class="item item-3">
+								<dt>유형</dt>
+								<dd>Double</dd>
+							</dl>
+							<dl class="item item-4">
+								<dt>수용인원</dt>
+                                <dd>기존인원6인/최대인원8인</dd>
+							</dl>
+							<dl class="item item-5">
+								<dt>크기</dt>
+								<dd>46평</dd>
+							</dl>
+							<dl class="item item-6">
+								<dt>서비스</dt>
+								<dd>어메니티 제공</dd>
+							</dl>
+						</div>
+						<div class="row">
+							<dl class="item full-wd">
+								<dt>부대시설</dt>
+								<dd>
+									<span class="figure">
+										<span class="figimg"><img src="http://img.ocean2you.co.kr/renew/facil/fcdetail/icon/breakfast.png" alt="조식운영"></span>
+										<span class="figcap">조식운영</span>
+									</span>
+									<span class="figure">
+										<span class="figimg"><img src="http://img.ocean2you.co.kr/renew/facil/fcdetail/icon/park.png" alt="주차장"></span>
+										<span class="figcap">주차장</span>
+									</span>
+									<span class="figure">
+										<span class="figimg"><img src="http://img.ocean2you.co.kr/renew/facil/fcdetail/icon/hall.png" alt="연회장"></span>
+										<span class="figcap">연회장</span>
+									</span>
+									<span class="figure">
+										<span class="figimg"><img src="http://img.ocean2you.co.kr/renew/facil/fcdetail/icon/restaurant.png" alt="식당"></span>
+										<span class="figcap">식당</span>
+									</span>
+									<span class="figure">
+										<span class="figimg"><img src="http://img.ocean2you.co.kr/renew/facil/fcdetail/icon/bbq.png" alt="공용바베큐장"></span>
+										<span class="figcap">공용<br class="show-xs">바베큐장</span>
+									</span>
+									<span class="figure">
+										<span class="figimg"><img src="http://img.ocean2you.co.kr/renew/facil/fcdetail/icon/cart.png" alt="편의점"></span>
+										<span class="figcap">편의점</span>
+									</span>
+									<span class="figure">
+										<span class="figimg"><img src="http://img.ocean2you.co.kr/renew/facil/fcdetail/icon/dog.png" alt="애완동물 입실"></span>
+										<span class="figcap">애완동물<br class="show-xs"> 입실</span>
+									</span>
+									<span class="figure">
+										<span class="figimg"><img src="http://img.ocean2you.co.kr/renew/facil/fcdetail/icon/wifi.png" alt="공용 Wi-Fi"></span>
+										<span class="figcap">공용 Wi-Fi</span>
+									</span>
+								</dd>
+							</dl>
+						</div>
+					</div>
+					<hr class="line">
+					<div class="sec-notice">
+						<ul class="list">
+							<li class="dot-1">예약문의 : 1666-1243</li>
+                            <li class="dot-1">기준인원은 6인이며, 인원추가시 추가비용이 발생합니다.</li>
+                            <li class="dot-1">하우스키핑 요금이 일 객실요금에 포함되어 있습니다.</li>
+						</ul>
+					</div>
+					<div class="sec-btngroup show-xs show-sm">
+						<a href="/view/" class="btn-rsv"><span>예약하기</span><img src="http://img.ocean2you.co.kr/renew/facil/fcdetail/arr_r.png" alt="이동하기"></a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--////추가 20200724-->
+
+		<section class="sec terrace-sec">
 			<div class="container">
 				<h1 class="sec-header">리노베이션 오션뷰 테라스 / 오션 사이드뷰 테라스</h1>
 				<div class="sec-body">

@@ -1,5 +1,5 @@
 <?php
-if($_GET["room"] >= 1 && $_GET["room"] <= 5) {
+if($_GET["room"] >= 1 && $_GET["room"] <= 6) {
 	include_once (INC_DIR."/ocean2you/web-home/facil/room_detail.php");
 	return;
 }

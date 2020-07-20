@@ -477,12 +477,6 @@ if("aa" == "bb") { //190111오션 bs 라마다평택 앱설치유도 관련 전�
 			        <source src="http://img.ocean2you.co.kr/renew/movie_m/ocean2you_mobile.mp4" type="video/mp4"> 
 			    </video>
 			</section>
-			<?php	/*}*/	?>
-			<?php	}	?>
-			<?php	//190917 영상 url 백업 videoURL:'oZrehVk6uFY' : 성다솜	?>
-			<section style="display:none;" id="pcVid" class="vid"
-            data-property="{videoURL:'xPx-uKiJucw', containment:'#pcVid', showControls:false, autoPlay:true, loop:false, mute:true, startAt:0, opacity:1, addRaster:true, quality:'default', stopMovieOnBlur: false, showYTLogo: false, addRaster: true}">
-			</section>
 			<!--유튜브 비디오 부분-->
 			<section class="bg-player-box">
                 <iframe id="player" class="video-pc" src="https://www.youtube.com/embed/xPx-uKiJucw?rel=0&enablejsapi=1&version3&playerapiid=ytplayer&autoplay=1&mute=1&controls=0&modestbranding=1&loop=1&vq=hd1080" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -514,6 +508,13 @@ if("aa" == "bb") { //190111오션 bs 라마다평택 앱설치유도 관련 전�
                 }
 			</script>
 			<!--//유튜브 비디오 부분 -->
+			<?php	/*}*/	?>
+			<?php	}	?>
+			<?php	//190917 영상 url 백업 videoURL:'oZrehVk6uFY' : 성다솜	?>
+			<section style="display:none;" id="pcVid" class="vid"
+            data-property="{videoURL:'xPx-uKiJucw', containment:'#pcVid', showControls:false, autoPlay:true, loop:false, mute:true, startAt:0, opacity:1, addRaster:true, quality:'default', stopMovieOnBlur: false, showYTLogo: false, addRaster: true}">
+			</section>
+			
 			
 			<?php	//190115 main일 경우 헤더에 클래스 추가 (무료숙박권 위치조정 때문에) : 성다솜	?>
 			<?php if($page != "main") { ?>

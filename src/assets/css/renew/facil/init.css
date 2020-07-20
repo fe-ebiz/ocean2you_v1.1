@@ -27,12 +27,13 @@
 	.title .facil-tab {position: relative; margin: 22px auto 0; width: 350px; font-size: 0;}
 
 	.title .facil-tab > li {position: relative; display: inline-block; width: 50%; margin-top: 5px;}
-	.title .facil-tab > li.nth-1 {width: 100%; margin-top: 0;}
+	/* .title .facil-tab > li.nth-1 {width: 100%; margin-top: 0;} */
 	.title .facil-tab > li a {position: relative; display: inline-block; width: 100%; border: 2px solid rgba(255,255,255, 0.5); height: 45px; font-size: 15px; font-weight: 400; color: #fff;}
-	.title .facil-tab > li.nth-2,
+	/* .title .facil-tab > li.nth-2,
 	.title .facil-tab > li.nth-4 {padding-right: 2.5px;}
 	.title .facil-tab > li.nth-3,
-	.title .facil-tab > li.nth-5 {padding-left: 2.5px;}
+	.title .facil-tab > li.nth-5 {padding-left: 2.5px;} */
+	.title .facil-tab > li:nth-of-type(odd) {padding-right: 2.5px;}
 	.title .facil-tab > li.on a {border: 2px solid #fff;}
 	.title .facil-tab > li a:after {content: ""; display: inline-block; height: 108%; vertical-align: middle;}
 	
@@ -286,12 +287,13 @@
 	.title .facil-tab {position: relative; margin: 22px auto 0; width: 350px; font-size: 0;}
 
 	.title .facil-tab > li {position: relative; display: inline-block; width: 50%; margin-top: 5px;}
-	.title .facil-tab > li.nth-1 {width: 100%; margin-top: 0;}
+	/* .title .facil-tab > li.nth-1 {width: 100%; margin-top: 0;} */
 	.title .facil-tab > li a {position: relative; display: inline-block; width: 100%; border: 2px solid rgba(255,255,255, 0.5); height: 45px; font-size: 15px; font-weight: 400; color: #fff;}
-	.title .facil-tab > li.nth-2,
+	/* .title .facil-tab > li.nth-2,
 	.title .facil-tab > li.nth-4 {padding-right: 2.5px;}
 	.title .facil-tab > li.nth-3,
-	.title .facil-tab > li.nth-5 {padding-left: 2.5px;}
+	.title .facil-tab > li.nth-5 {padding-left: 2.5px;} */
+	.title .facil-tab > li:nth-of-type(odd) {padding-right: 2.5px;}
 	.title .facil-tab > li.on a {border: 2px solid #fff;}
 	.title .facil-tab > li a:after {content: ""; display: inline-block; height: 108%; vertical-align: middle;}
 	
@@ -517,15 +519,16 @@
 	.title .tit-box h2 {font-size: 24px;}
 	.title .tit-box .mg- {display: block; height: 1px; width: 60px; margin: 18px auto 20px; background: #fff;}
 	.title .titTxt img {width: 650px;}
-	.title .facil-tab {position: relative; margin: 22px auto 0; width: 412px; left: 1.5px; font-size: 0;}
+	.title .facil-tab {position: relative; margin: 22px auto 0; width: 440px; left: 1.5px; font-size: 0;}
 
 	.title .facil-tab > li {position: relative; display: inline-block; width: 50%; margin-top: 5px;}
-	.title .facil-tab > li.nth-1 {width: 100%; margin-top: 0;}
+	/* .title .facil-tab > li.nth-1 {width: 100%; margin-top: 0;} */
 	.title .facil-tab > li a {position: relative; display: inline-block; width: 100%; border: 2px solid rgba(255,255,255, 0.5); padding: 0 20px; height: 45px; font-size: 16px; font-weight: 400; color: #fff;}
-	.title .facil-tab > li.nth-2,
+	/* .title .facil-tab > li.nth-2,
 	.title .facil-tab > li.nth-4 {padding-right: 2.5px;}
 	.title .facil-tab > li.nth-3,
-	.title .facil-tab > li.nth-5 {padding-left: 2.5px;}
+	.title .facil-tab > li.nth-5 {padding-left: 2.5px;} */
+	.title .facil-tab > li:nth-of-type(odd) {padding-right: 2.5px;}
 	.title .facil-tab > li.on a {border: 2px solid #fff;}
 	.title .facil-tab > li a:after {content: ""; display: inline-block; height: 108%; vertical-align: middle;}
 
@@ -716,9 +719,9 @@
 	.title .tit-box .mg- {display: block; height: 1px; width: 60px; margin: 18px auto 20px; background: #fff;}
 	.title .facil-tab {position: relative; margin: 22px auto 0; width: 1180px; left: 1.5px; font-size: 0;}
 
-	.title .facil-tab > li {position: relative; display: inline-block; top: 0; width: auto !important; border: 2px solid transparent; border-left: 1px solid #a8a6a4; margin-left: -1px; padding-left: 31px; padding-right: 30px;}
+	.title .facil-tab > li {position: relative; display: inline-block; top: 0; width: auto !important; border: 2px solid transparent; border-left: 1px solid #a8a6a4; margin-left: -1px; padding-left: 19px; padding-right: 18px;}
 	.title .facil-tab > li.nth-1 {border-left: none; margin-left: 0;}
-	.title .facil-tab > li.on {border: 2px solid #fff; z-index: 1; padding-left: 30px;}
+	.title .facil-tab > li.on {border: 2px solid #fff; z-index: 1; padding-left: 18px}
 	.title .facil-tab > li a {display: block; width: 100%; height: 45px; font-size: 16px; font-weight: 400; color: #fff;}
 	.title .facil-tab > li a:after {content: ""; display: inline-block; height: 108%; vertical-align: middle;}
 	
