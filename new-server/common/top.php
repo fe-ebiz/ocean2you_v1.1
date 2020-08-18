@@ -478,6 +478,7 @@ if("aa" == "bb") { //190111오션 bs 라마다평택 앱설치유도 관련 전�
 			    </video>
 			</section>
 			<!--유튜브 비디오 부분-->
+			<!--[if !ie]>--> 
 			<section class="bg-player-box">
                 <iframe id="player" class="video-pc" src="https://www.youtube.com/embed/xPx-uKiJucw?rel=0&enablejsapi=1&version3&playerapiid=ytplayer&autoplay=1&mute=1&controls=0&modestbranding=1&loop=1&vq=hd1080" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </section>
@@ -507,6 +508,7 @@ if("aa" == "bb") { //190111오션 bs 라마다평택 앱설치유도 관련 전�
                     }
                 }
 			</script>
+			<!-- <![endif]-->
 			<!--//유튜브 비디오 부분 -->
 			<?php	/*}*/	?>
 			<?php	}	?>

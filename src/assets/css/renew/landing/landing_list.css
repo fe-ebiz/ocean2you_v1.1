@@ -1,5 +1,5 @@
 /*룸서비스 관련(20200702)*/
-/*[룸서비스-인트로]*/
+/*[룸서비스-인트로_고코용]*/
 html{
     /* font-size: 62.5%; */
     font-size: 62.5%;
@@ -193,3 +193,13 @@ body{
 select::-ms-expand{
     display: none;
 } */
+
+
+/*룸서비스2020_07(오션투유용)*/
+.roomservice2020_07-main{
+    width: 100%;
+    /* width: 640px; */
+    /* margin:0 auto; */
+    position: relative;
+    /* padding-bottom: 5.981vw; */
+}
