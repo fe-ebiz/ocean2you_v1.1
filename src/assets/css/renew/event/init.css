@@ -22,6 +22,25 @@
 	.event-wrap .dmz-concert .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_dmzConcert_m.jpg) no-repeat; background-size: cover;}
 }
 
+/* 대한민국 안전여행 참여 이벤트 */
+.event-wrap .safe-travel .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_koreatour.jpg) no-repeat; background-size: cover;}
+.event-wrap .safe-travel .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_koreatour.jpg) no-repeat; background-size: cover;}
+
+@media (max-width: 767px){
+	.event-wrap .safe-travel .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_koreatour_m.jpg) no-repeat; background-size: cover;}
+	.event-wrap .safe-travel .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_koreatour_m.jpg) no-repeat; background-size: cover;}
+}
+
+/* DMZ 평화이음 썸썸 콘서트 */
+.event-wrap .dmz-sumsum-concert .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_dmzpop2.jpg) no-repeat; background-size: cover;}
+.event-wrap .dmz-sumsum-concert .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_dmzpop2.jpg) no-repeat; background-size: cover;}
+
+@media (max-width: 767px){
+	.event-wrap .dmz-sumsum-concert .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_dmzpop2_m.jpg) no-repeat; background-size: cover;}
+	.event-wrap .dmz-sumsum-concert .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_dmzpop2_m.jpg) no-repeat; background-size: cover;}
+}
+
+
 /*====이벤트!끝====*/
 
 @media (max-width: 767px) {
