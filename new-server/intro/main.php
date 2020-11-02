@@ -258,7 +258,7 @@
 			</li><li style="display: list-item;">
 				<a href="https://blog.naver.com/bunddo/221547032286" target="_blank">
 					<div class="fun-img-box">
-						<img src="http://img.ocean2you.co.kr/renew/review/review20.jpg" alt="이미지">
+						<img src="http://img.ocean2you.co.kr/renew/review/review01.jpg" alt="이미지">
 					</div>
 					<div class="fun-txt-box">
 						<div class="fun-txt-title">

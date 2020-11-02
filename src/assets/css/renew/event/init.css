@@ -40,6 +40,15 @@
 	.event-wrap .dmz-sumsum-concert .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_dmzpop2_m.jpg) no-repeat; background-size: cover;}
 }
 
+/* DMZ 평화이음 불감자 콘서트 */
+.event-wrap .dmz-potato-concert .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_dmzpop4.jpg) no-repeat; background-size: cover;}
+.event-wrap .dmz-potato-concert .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_dmzpop4.jpg) no-repeat; background-size: cover;}
+
+@media (max-width: 767px){
+	.event-wrap .dmz-potato-concert .bxBox li {background: url(hhttp://img.ocean2you.co.kr/renew/event/event_dmzpop4_m.jpg) no-repeat; background-size: cover;}
+	.event-wrap .dmz-potato-concert .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_dmzpop4_m.jpg) no-repeat; background-size: cover;}
+}
+
 
 /*====이벤트!끝====*/
 

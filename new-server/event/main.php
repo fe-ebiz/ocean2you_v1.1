@@ -1343,8 +1343,7 @@
                             </ul>
                         </section>
                         <!--대한민국 안전여행 참여 이벤트-->
-                        <section class="facil-1 
-                        safe-travel" data-date="200706">
+                        <!-- <section class="facil-1 safe-travel" data-date="200706">
                             <ul class="fc-list">
                                 <li class="nth-1">
                                     <h3 class="ftfm-mg">대한민국 안전여행 참여 이벤트</h3>
@@ -1399,7 +1398,7 @@
                                     <span class="s-txt" style="cursor:pointer;" onclick="window.open('http://www.ktourtop10.kr/kr/event/info.php','_blank')">▶여기를 클릭해 주세요.</span>
                                 </li>
                             </ul>
-                        </section>
+                        </section> -->
                         <!--DMZ 평화이음 썸썸 콘서트-->
                         <section class="facil-1 dmz-sumsum-concert" data-date="202008">
                             <ul class="fc-list">

@@ -6,10 +6,7 @@
 <script src="http://static.ocean2you.co.kr/js/renew/index_player.js"></script> -->
 
 <!-- <script src="../../static/js/renew/index_player.js"></script>-->
-
-<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/main/player.css">
-<!-- <link rel="stylesheet" href="../../static/css/renew/main/player.css"> -->
-
+<link rel="stylesheet" href="../../static/css/renew/main/player.css">
 
 </head>
 
@@ -49,6 +46,42 @@
                     <source src="http://img.ocean2you.co.kr/renew/movie_m/ocean2you_mobile.mp4" type="video/mp4" />
                 </video>
             </section>
+
+            <!--교체 부분(pc-영상)-->
+            <!--[if !ie]>-->
+            <section class="pc-vid">
+                <video class="vid-box" playsinline="" webkit-playsinline="" preload="" autoplay="" muted="">
+                    <source src="http://img.ocean2you.co.kr/renew/movie_m/ocean2you_pc.mp4" type="video/mp4" />
+                </video>
+            </section>
+
+            <script>
+                //백그라운드 비디오 관련
+                $(document).ready(function(){
+                    
+                    //16초 뒤 사라짐
+                    // setTimeout(function(){
+                    //     $(".pc-vid").hide();
+                    // },16000);
+                    setTimeout(function(){
+                        let vid = $(".pc-vid");
+                        // vid.pause();
+                        document.getElementsByClassName("pc-vid");
+                        // console.log();
+                    },3000);
+                    $(".pc-vid .vid-box").on("ended",function(){
+                        // $(".pc-vid").hide();
+                        let vid = $(".pc-vid");
+                        
+                    });
+                });
+
+              
+            </script>
+            <!-- <![endif]-->
+            <!--//교체 부분-->
+
+
             <!-- <section id="pcVid" class="vid" data-property="{videoURL:'xPx-uKiJucw', containment:'#pcVid', showControls:false, autoPlay:true, loop:false, mute:true, startAt:0, opacity:1, addRaster:true, quality:'default', stopMovieOnBlur: false, showYTLogo: false, addRaster: true}"></section> -->
 
             <!-- <section class="vid-box">
@@ -58,7 +91,7 @@
 
             <!-- <script src="https://www.youtube.com/iframe_api"></script> -->
             <!--[if !ie]>-->
-            <section class="bg-player-box">
+            <!-- <section class="bg-player-box">
                 <iframe id="player" class="video-pc" src="https://www.youtube.com/embed/xPx-uKiJucw?rel=0&enablejsapi=1&version3&playerapiid=ytplayer&autoplay=1&mute=1&controls=0&modestbranding=1&vq=hd1080" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </section>
 
@@ -77,8 +110,6 @@
                     $(window).resize(function(){
                         playerSizeSet();
                     })
-
-
                 });
                 let playerSizeSet = function(){
                     let winW = $(window).width();
@@ -90,21 +121,8 @@
                         $(".video-pc").removeClass("video-pc-vertical");
                     }
                 }
-
-                
-
-            </script>
-            <!-- <![endif]-->
-            <!-- <script>
-                $(document).ready(function(){
-                    var agent = navigator.userAgent.toLowerCase();
-                    if ( (navigator.appName == 'Netscape' && agent.indexOf('trident') != -1) || (agent.indexOf("msie") != -1)) {
-                        $(".bg-player-box").hide();
-                    }else{
-                        $(".bg-player-box").hide();
-                    }
-                });
             </script> -->
+            <!-- <![endif]-->
 
             <!-- <section class="bg-player-box">
                 <iframe class="video-pc" src="https://www.youtube.com/embed/NupIKt3LM1Q?rel=0&enablejsapi=1" allow="autoplay; encrypted-media" frameborder="0" allowfullscreen=""></iframe>
@@ -579,9 +597,6 @@
             </div>
         </section>
 
-        <!--위메프 팝업(10/30 18:00 ~ 11/3 18:00까지) -->
-        @@include('../include/_popup/_pop_event.html')
-        <!--//위메프 팝업-->
 
         @@include('../include/_footer.html', {
         "page": "main"

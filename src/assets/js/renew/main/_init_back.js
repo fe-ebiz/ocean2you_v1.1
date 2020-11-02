@@ -1,12 +1,10 @@
 $(document).ready(function(){
     var agent = navigator.userAgent.toLowerCase();
-    //console.log(navigator.appName);
-    if ( (navigator.appName == 'Netscape' && (agent.indexOf('trident') != -1) || (agent.indexOf("msie") != -1))) {
+    if ( (navigator.appName == 'Netscape' && agent.indexOf('trident') != -1) || (agent.indexOf("msie") != -1)) {
         $(".bg-player-box").hide();
     }else{
-        // $(".bg-player-box").hide();
+        $(".bg-player-box").hide();
     }
-    //console.log("작동중");
 });
 
 $(function () {

@@ -937,3 +937,25 @@
 	
 	
 }
+
+
+
+/*팝업*/
+.popup-event { /*주석처리 대신css로 안보이게*/ display: block; z-index: 1000; position: absolute; top: 280px; right: 160px; width: 400px; }
+
+.popup-event img { width: 100%; }
+
+.popup-event .popup-box a { display: block; }
+
+.popup-event .popup-box .pop-url-mobile { display: none; }
+
+.popup-event .btn-pop-close-box { position: absolute; top: 2%; right: 2%; }
+
+.popup-event .btn-pop-close-box .btn-pop-close { color: #ddd; font-size: 22px; font-weight: 800; border: none; background-color: rgba(0, 0, 0, 0); outline: none;  cursor: pointer; transform: scaleX(1.3);}
+
+@media (max-width: 767px) { .popup-event { top: 150px; left: 50%; -webkit-transform: translateX(-50%); transform: translateX(-50%); width: 80%; }
+  .popup-event .popup-box .pop-url-mobile { display: block; }
+  .popup-event .popup-box .pop-url-pc { display: none; }
+  .popup-event .btn-pop-close-box .btn-pop-close { font-size: 5.0vw; } }
+
+

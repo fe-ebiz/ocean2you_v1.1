@@ -44,3 +44,34 @@
         display: none;
     }
 }
+
+
+.pc-vid{
+    width: 100%;
+    position: absolute;
+    width:100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+.pc-vid .vid-box{
+    /* width: 100vmax; */
+    width: 100%;
+    /* width: 100vmax; */
+    /* height: 100vmax; */
+    /* height: 100%; */
+}
+
+/* .pc-vid .video-pc-vertical{
+    width: auto;
+    height: 100%;
+} */
+
+@media (max-width: 767px) {
+    .pc-vid{
+        display: none;
+    }
+}

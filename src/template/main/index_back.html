@@ -1,12 +1,8 @@
 @@include('../include/_head.html', {
 "page": "main"
 })
-
-<!-- <script src="http://static.ocean2you.co.kr/js/renew/jquery.mb.YTPlayer.min.js"></script>
-<script src="http://static.ocean2you.co.kr/js/renew/index_player.js"></script> -->
-
-<!-- <script src="../../static/js/renew/index_player.js"></script>-->
-<link rel="stylesheet" href="../../static/css/renew/main/player.css">
+<script src="http://static.ocean2you.co.kr/js/renew/jquery.mb.YTPlayer.min.js"></script>
+<script src="http://static.ocean2you.co.kr/js/renew/index_player.js"></script>
 
 </head>
 
@@ -46,60 +42,11 @@
                     <source src="http://img.ocean2you.co.kr/renew/movie_m/ocean2you_mobile.mp4" type="video/mp4" />
                 </video>
             </section>
-            <!-- <section id="pcVid" class="vid" data-property="{videoURL:'xPx-uKiJucw', containment:'#pcVid', showControls:false, autoPlay:true, loop:false, mute:true, startAt:0, opacity:1, addRaster:true, quality:'default', stopMovieOnBlur: false, showYTLogo: false, addRaster: true}"></section> -->
 
-            <!-- <section class="vid-box">
-                <iframe id="player" class="vidPc" src="https://www.youtube.com/embed/NupIKt3LM1Q?rel=0&amp;enablejsapi=1&amp;autoplay=1&amp;mute=1" allow="autoplay; encrypted-media" frameborder="0" allowfullscreen="" style="display: none;"></iframe>
-                <script type="text/javascript" src="http://static.seabay.co.kr/svc/js/init_player.js">
-            </script></section> -->
-
-            <!-- <script src="https://www.youtube.com/iframe_api"></script> -->
-           
-            <section class="bg-player-box">
-                <iframe id="player" class="video-pc" src="https://www.youtube.com/embed/xPx-uKiJucw?rel=0&enablejsapi=1&version3&playerapiid=ytplayer&autoplay=1&mute=1&controls=0&modestbranding=1&vq=hd1080" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </section>
-            <script>
-                //백그라운드 비디오 관련
-                $(document).ready(function(){
-                    playerSizeSet();
-                   
-                    //16초 뒤 사라짐
-                    setTimeout(function(){
-                        $(".bg-player-box").hide();
-                    },16000);
-
-                    //리사이즈시 작동
-                    $(window).resize(function(){
-                        playerSizeSet();
-                    })
-                });
-                let playerSizeSet = function(){
-                    let winW = $(window).width();
-                    let winH = $(window).height();
-                    if(winW < winH){
-                        $(".video-pc").addClass("video-pc-vertical");
-                    }
-                    else{
-                        $(".video-pc").removeClass("video-pc-vertical");
-                    }
-                }
-            </script>
-
-            <!-- <section class="bg-player-box">
-                <iframe class="video-pc" src="https://www.youtube.com/embed/NupIKt3LM1Q?rel=0&enablejsapi=1" allow="autoplay; encrypted-media" frameborder="0" allowfullscreen=""></iframe>
-            </section> -->
-            <!-- <script src="../../static/js/renew/main/init_player.js">
-            </script> -->
-            <!-- <script src="http://static.ocean2you.co.kr/js/renew/main/init-player.js"></script> -->
-            
+            <section id="pcVid" class="vid" data-property="{videoURL:'xPx-uKiJucw', containment:'#pcVid', showControls:false, autoPlay:true, loop:false, mute:true, startAt:0, opacity:1, addRaster:true, quality:'default', stopMovieOnBlur: false, showYTLogo: false, addRaster: true}"></section>
             <!--<section class="vid"
             data-property="{videoURL:'oZrehVk6uFY', containment:'self', showControls:false, autoPlay:true, loop:false, mute:false, startAt:0, opacity:1, addRaster:true, quality:'default', stopMovieOnBlur: false, showYTLogo: false, addRaster: true}">
         </section>-->
-            <!-- <section id="pcVid" class="vid">
-               <iframe id="iframe_pcVid" class="playerBox" style="position: absolute; z-index: 0; width: 1036px; height: 583px; top: 0px; left: 0px; overflow: hidden; opacity: 1; user-select: none; margin-top: -143px; margin-left: 0px; max-width: initial; transition-property: opacity; transition-duration: 1000ms;" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="640" height="360" src="https://www.youtube.com/embed/xPx-uKiJucw?modestbranding=1&amp;autoplay=0&amp;controls=0&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1&amp;version=3&amp;playerapiid=iframe_pcVid&amp;origin=http%3A%2F%2Flocalhost%3A3030&amp;allowfullscreen=true&amp;wmode=transparent&amp;iv_load_policy=3&amp;playsinline=1&amp;html5=1&amp;widgetid=1" unselectable="on"></iframe>
-            </section> -->
-
-
             <!-- videoURL:'xPx-uKiJucw' -->
             <!-- videoURL:'oZrehVk6uFY' -->
 
