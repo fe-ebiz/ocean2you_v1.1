@@ -45,8 +45,19 @@
 .event-wrap .dmz-potato-concert .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_dmzpop4.jpg) no-repeat; background-size: cover;}
 
 @media (max-width: 767px){
-	.event-wrap .dmz-potato-concert .bxBox li {background: url(hhttp://img.ocean2you.co.kr/renew/event/event_dmzpop4_m.jpg) no-repeat; background-size: cover;}
+	.event-wrap .dmz-potato-concert .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_dmzpop4_m.jpg) no-repeat; background-size: cover;}
 	.event-wrap .dmz-potato-concert .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_dmzpop4_m.jpg) no-repeat; background-size: cover;}
+}
+
+
+
+/* 제9회 금강통일배 전국유소년클럽 축구대회 */
+.event-wrap .soccer-competition .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_youthsocc.jpg) no-repeat; background-size: cover;}
+.event-wrap .soccer-competition .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_youthsocc.jpg) no-repeat; background-size: cover;}
+
+@media (max-width: 767px){
+	.event-wrap .soccer-competition .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_youthsocc_m.jpg) no-repeat; background-size: cover;}
+	.event-wrap .soccer-competition .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_youthsocc_m.jpg) no-repeat; background-size: cover;}
 }
 
 
