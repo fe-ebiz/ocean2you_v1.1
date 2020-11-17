@@ -959,3 +959,44 @@
   .popup-event .btn-pop-close-box .btn-pop-close { font-size: 5.0vw; } }
 
 
+
+/*최상단탑배너[숙박대전]*/
+.top-banner-lodgment { width: 100%; }
+
+.top-banner-lodgment .btn-go-area { background-color: #ee7a01; display: block; width: 100%; }
+
+.top-banner-lodgment .btn-go-area .img-box { width: 100%; margin: 0 auto; text-align: center; }
+.top-banner-lodgment .btn-go-area .img-box img { max-width: 1305px; width: 100%; }
+
+.top-banner-lodgment .btn-go-area .img-box .img-mobile { display: none; }
+
+@media (max-width: 991px) { .top-banner-lodgment { width: 100%; }
+  .top-banner-lodgment .btn-go-area { background-color: #ea7800; display: block; width: 100%; }
+  .top-banner-lodgment .btn-go-area .img-box { width: 100%; margin: 0 auto; text-align: center; }
+  .top-banner-lodgment .btn-go-area .img-box img { max-width: 1305px; width: 100%; }
+  .top-banner-lodgment .btn-go-area .img-box .img-pc { display: none; }
+  .top-banner-lodgment .btn-go-area .img-box .img-mobile { display: block; } }
+
+
+/*메인팝업[숙박대전]*/
+.pop-overflow-hidden { overflow: hidden; }
+
+.popup-lodgment { width: 100%; position: fixed; top: 0; z-index: 200000; background: rgba(0, 0, 0, 0.5); height: 100%; overflow-y: scroll; display: none; }
+
+.popup-lodgment * { -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.popup-lodgment img { width: 100%; }
+
+.popup-lodgment .pop-wrap { position: relative; display: -webkit-box; display: -ms-flexbox; display: flex; margin: 0 auto; padding-top: 80px; padding-bottom: 80px; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.popup-lodgment .pop-wrap .pop-contents { position: relative; }
+
+.popup-lodgment .pop-wrap .pop-contents .img-box { display: block; }
+
+.popup-lodgment .pop-wrap .pop-contents .btn-close-pop { background: none; position: absolute; top: 9px; right: 12px; margin: 0; padding: 0; border: none; outline: none; }
+
+.popup-lodgment .pop-wrap .pop-contents .btn-go-event { position: absolute; top: 762px; left: 50px; margin: 0; padding: 0; }
+
+@media (max-width: 991px) { .popup-lodgment .pop-wrap .pop-contents { width: 80%; }
+  .popup-lodgment .pop-wrap .pop-contents .btn-close-pop { width: 6.42%; top: calc((9*1.13/991) * 100vw); right: 1.71%; }
+  .popup-lodgment .pop-wrap .pop-contents .btn-go-event { width: 24.57%; top: calc((762*1.13/991) * 100vw); left: 7.14%; } }
