@@ -1000,3 +1000,101 @@
 @media (max-width: 991px) { .popup-lodgment .pop-wrap .pop-contents { width: 80%; }
   .popup-lodgment .pop-wrap .pop-contents .btn-close-pop { width: 6.42%; top: calc((9*1.13/991) * 100vw); right: 1.71%; }
   .popup-lodgment .pop-wrap .pop-contents .btn-go-event { width: 24.57%; top: calc((762*1.13/991) * 100vw); left: 7.14%; } }
+
+
+/*이벤트 룸_팝업*/
+  
+/*룸 이벤트*/
+.pop-event-room { z-index: 100000; position: fixed; top: 130px; left: 30px; }
+
+.pop-event-room * { font-family: 'Noto Sans KR', sans-serif; }
+
+.pop-event-room .pop-event-area .pop-box { position: relative; }
+
+.pop-event-room .pop-event-area .pop-box .pop-main { width: 100%; }
+
+.pop-event-room .pop-event-area .pop-box .pop-main img { width: 100%; }
+
+.pop-event-room .pop-event-area .pop-box .btn-go-event-detail { display: none; position: absolute; bottom: 1.5%; left: 0; right: 0; width: 33%; padding: 2.4% 0; padding-left: 5%; margin: 0 auto; text-align: center; }
+
+.pop-event-room .pop-event-area .pop-box .btn-go-event-detail img { width: 100%; }
+
+.pop-event-room .pop-event-area .pop-btn-box-ul { background-color: #ccc; display: -webkit-box; display: -ms-flexbox; display: flex; height: 34px; }
+
+.pop-event-room .pop-event-area .pop-btn-box-ul li { width: 50%; }
+
+.pop-event-room .pop-event-area .pop-btn-box-ul li button { outline: none; border: none; background: none; height: 100%; letter-spacing: -0.4px; line-height: 1.1; font-size: 15px; text-align: center; width: 100%; margin: 0; padding: 0; cursor: pointer;}
+
+.pop-event-room .pop-event-area .pop-btn-box-ul li .btn-not-today { color: #fff; background-color: #666; }
+
+.pop-event-room .pop-event-area .pop-btn-box-ul li .btn-close-pop { background-color: #444; color: #fff; }
+
+@media (max-width: 991px) { .pop-event-room { top: 52%; left: 0; right: 0; margin: 0 auto; -webkit-transform: translateY(-50%); transform: translateY(-50%); width: 86%; }
+  .pop-event-room .pop-event-area .pop-btn-box-ul { height: calc(50/560 * 100vw); }
+  .pop-event-room .pop-event-area .pop-btn-box-ul li button { font-size: calc(20/560 *100vw); } }
+
+
+/*룸 이벤트02*/
+.pop-event-room02 { z-index: 100001; position: fixed; top: 130px; left: 430px; }
+
+.pop-event-room02 * { font-family: 'Noto Sans KR', sans-serif; }
+
+.pop-event-room02 .pop-event-area .pop-box { position: relative; }
+
+.pop-event-room02 .pop-event-area .pop-box .pop-main { width: 100%; }
+
+.pop-event-room02 .pop-event-area .pop-box .pop-main img { width: 100%; }
+
+.pop-event-room02 .pop-event-area .pop-box .btn-go-event-detail { display: none; position: absolute; bottom: 1.5%; left: 0; right: 0; width: 33%; padding: 2.4% 0; padding-left: 5%; margin: 0 auto; text-align: center; }
+
+.pop-event-room02 .pop-event-area .pop-box .btn-go-event-detail img { width: 100%; }
+
+.pop-event-room02 .pop-event-area .pop-btn-box-ul { background-color: #ccc; display: -webkit-box; display: -ms-flexbox; display: flex; height: 34px; }
+
+.pop-event-room02 .pop-event-area .pop-btn-box-ul li { width: 50%; }
+
+.pop-event-room02 .pop-event-area .pop-btn-box-ul li button { outline: none; border: none; background: none; height: 100%; letter-spacing: -0.4px; line-height: 1.1; font-size: 15px; text-align: center; width: 100%; margin: 0; padding: 0; cursor: pointer;}
+
+.pop-event-room02 .pop-event-area .pop-btn-box-ul li .btn-not-today { color: #fff; background-color: #666; }
+
+.pop-event-room02 .pop-event-area .pop-btn-box-ul li .btn-close-pop { background-color: #444; color: #fff; }
+
+@media (max-width: 991px) { .pop-event-room02 { top: 52%; left: 0; right: 0; margin: 0 auto; -webkit-transform: translateY(-50%); transform: translateY(-50%); width: 86%; }
+.pop-event-room02 .pop-event-area .pop-btn-box-ul { height: calc(50/560 * 100vw); }
+.pop-event-room02 .pop-event-area .pop-btn-box-ul li button { font-size: calc(20/560 *100vw); } }
+
+
+
+/*아고다팝업(2021_0330)*/
+.pop-agoda-banner { z-index: 100000; position: fixed; bottom: 20px; right: 40px; }
+
+.btn-open-agoda { cursor: pointer; }
+
+.pop-agoda-wrap { display: none; z-index: 110000; position: fixed; top: 0; width: 100%; height: 100%; background-color: #221e1f; }
+
+.pop-agoda-wrap .pop-area { width: 100%; position: relative; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); }
+
+.pop-agoda-wrap .pop-main { width: 100%; max-width: 1348px; margin: 0 auto; text-align: center; }
+
+.pop-agoda-wrap .pop-main img { width: 100%; }
+
+.pop-agoda-wrap .close-pop { cursor: pointer; }
+
+.pop-agoda-wrap .img-mobile { display: none; }
+
+@media (max-width: 991px) { 
+  .pop-agoda-banner { display: none; }
+  .pop-agoda-wrap .pop-main { width: 80%; }
+  .pop-agoda-wrap .img-pc { display: none; }
+  .pop-agoda-wrap .img-mobile { display: block; } 
+}
+
+.sect-agoda { display: none; width: 100%; background-color: #221e1f; text-align: center;}
+
+.sect-agoda .sect-area { width: 100%; }
+
+.sect-agoda .agoda-box { width: 100%; }
+
+.sect-agoda .agoda-box img { width: 100%; }
+
+@media (max-width: 991px) { .sect-agoda { display: block; } }

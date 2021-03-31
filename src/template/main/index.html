@@ -17,7 +17,7 @@
     
     <h1 class="hidden">오션투유리조트 설악비치 호텔앤콘도</h1>
     <div id="wrap">
-        @@include('../include/_banner/_top_banner.html')
+        <!-- @include('../include/_banner/_top_banner.html') -->
 
         <!-- 181211 상단띠배너 추가 및 팝업 추가 -->
         <!--
@@ -178,6 +178,18 @@
         </p>
     </div> -->
         <!--//END : 190405 오션투유 메인 공지 -->
+        
+        
+        <!--아고다 관련 추가(2021_0330)(모바일에서만 보임)-->
+        <section class="sect-agoda">
+            <div class="sect-area">
+                <div class="agoda-box btn-open-agoda">
+                    <img src="http://img.ocean2you.co.kr/renew/pop/m_pop_agoda_gold.jpg" alt="아고다 이미지">
+                </div>
+            </div>
+        </section>
+        <!--./아고다 관련 추가(2021_0330)(모바일에서만 보임)-->
+
 
         <section class="intro" id="setTop">
             <div class="container">
@@ -581,7 +593,173 @@
         </section>
 
         <!--팝업-->
-        @@include('../include/_popup/_pop_lodgment.html')
+        <!-- @include('../include/_popup/_pop_lodgment.html') -->
+
+        <!--객실 이벤트-->
+        <div class="pop-event-room">
+            <div class="pop-event-area">
+                <a href="../event/event_room.html" class="pop-box">
+                    <div class="pop-main">
+                        <img src="http://img.ocean2you.co.kr/renew/event_pop/event_room_pop_main.jpg" alt="메인팝업">
+                    </div>
+                </a>
+                <ul class="pop-btn-box-ul">
+                    <li class="not-today-box">
+                        <button type="button" class="btn-not-today">오늘 다시 열지 않음</button>
+                    </li>
+                    <li class="close-pop-box">
+                        <button type="button" class="btn-close-pop">닫기</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+        <script>
+            $(document).ready(function(){
+
+                //쿠키이름
+                let cokieName = "pop_event_room";
+                
+                //오늘 다시 열지 않음 체크
+                if($.cookie(cokieName) != undefined){
+                    $('.pop-event-room').hide();
+                }
+
+                //오늘 다시 열지 않음 버튼
+                $(".pop-event-room .btn-not-today").on('click', function(){
+                    console.log("성공");
+                    addCookieData(cokieName);
+                    $('.pop-event-room').hide();
+                });
+
+                //닫기
+                $(".pop-event-room .btn-close-pop").on('click', function(){
+                    $(".pop-event-room").hide();
+                });
+
+                
+
+            });
+
+            //쿠키데이터 등록
+            addCookieData = function(popName){
+                
+                if($.cookie(popName) == undefined){
+                    console.log("작동")
+                    //초단위 테스트용
+                    // let date = new Date;
+                    // date.setTime(date.getTime() + 5*1000);
+
+                    let date = 1;//하루
+                    //쿠키가 없는 경우 쿠키를 추가
+                    $.cookie(popName, 'Y', { expires: date});
+                    //$.removeCookie('pop_liivemate');
+                } 
+            }
+
+        </script>
+        <!--.//객실 이벤트-->
+
+
+        <!--객실 이벤트02(추가)-->
+        <div class="pop-event-room02">
+            <div class="pop-event-area">
+                <a href="../event/event_room02.html" class="pop-box">
+                    <div class="pop-main">
+                        <img src="http://img.ocean2you.co.kr/renew/event_pop/event_room_pop_main2.jpg" alt="메인팝업">
+                    </div>
+                </a>
+                <ul class="pop-btn-box-ul">
+                    <li class="not-today-box">
+                        <button type="button" class="btn-not-today">오늘 다시 열지 않음</button>
+                    </li>
+                    <li class="close-pop-box">
+                        <button type="button" class="btn-close-pop">닫기</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+        <script>
+            $(document).ready(function(){
+
+                //쿠키이름
+                let cokieName = "pop_event_room02";
+                
+                //오늘 다시 열지 않음 체크
+                if($.cookie(cokieName) != undefined){
+                    $('.pop-event-room02').hide();
+                }
+
+                //오늘 다시 열지 않음 버튼
+                $(".pop-event-room .btn-not-today").on('click', function(){
+                    console.log("성공");
+                    addCookieData(cokieName);
+                    $('.pop-event-room02').hide();
+                });
+
+                //닫기
+                $(".pop-event-room02 .btn-close-pop").on('click', function(){
+                    $(".pop-event-room02").hide();
+                });
+
+                
+
+            });
+
+            //쿠키데이터 등록
+            addCookieData = function(popName){
+                
+                if($.cookie(popName) == undefined){
+                    console.log("작동")
+                    //초단위 테스트용
+                    // let date = new Date;
+                    // date.setTime(date.getTime() + 5*1000);
+
+                    let date = 1;//하루
+                    //쿠키가 없는 경우 쿠키를 추가
+                    $.cookie(popName, 'Y', { expires: date});
+                    //$.removeCookie('pop_liivemate');
+                } 
+            }
+
+        </script>
+        <!--.//객실 이벤트02(추가)-->
+
+        
+
+        <!--아고다 추가(2021_0330)(스크립트포함)-->
+        <div class="pop-agoda-banner">
+            <div class="pop-area">
+                <div class="pop-banner btn-open-agoda">
+                    <img src="http://img.ocean2you.co.kr/renew/pop/pop_agoda_gold.jpg" alt="이미지">
+                </div>
+            </div>
+        </div>
+
+        <div class="pop-agoda-wrap">
+            <div class="pop-area">
+                <div class="pop-main close-pop">
+                    <div class="img-pc"><img src="http://img.ocean2you.co.kr/renew/pop/pop_agoda_gold_main.jpg" alt="이미지"></div>
+                    <div class="img-mobile"><img src="http://img.ocean2you.co.kr/renew/pop/m_pop_agoda_gold_main.jpg" alt="이미지"></div>
+                </div>
+            </div>
+        </div>
+        <script>
+            $(document).ready(function(){
+                //열기
+                $(".btn-open-agoda").on("click",function(){
+                    $(".pop-agoda-wrap").show();
+                });
+
+                //닫기
+                $(".pop-agoda-wrap .close-pop").on("click",function(){
+                    $(".pop-agoda-wrap").hide();
+                });
+            });
+        </script>
+        <!--./아고다 추가(2021_0330)(스크립트포함)-->
+
 
         @@include('../include/_footer.html', {
         "page": "main"
