@@ -728,51 +728,37 @@
 
         
 
-    <!--변경_아고다 추가(2021_0401)(스크립트포함)-->
-    <div class="pop-agoda-banner">
-        <div class="pop-area">
-            <div class="pop-banner btn-open-agoda">
-                <img src="http://img.ocean2you.co.kr/renew/pop/bt_agoda.png" alt="이미지">
-            </div>
-        </div>
-    </div>
-
-    <div class="pop-agoda-wrap2 close-pop2">
-        <div class="pop-area">
-            <div class="pop-main">
-                <div class="img-main">
-                    <img src="http://img.ocean2you.co.kr/renew/pop/pop_agoda_gold2.png" alt="이미지">
+        <!--아고다 추가(2021_0330)(스크립트포함)-->
+        <div class="pop-agoda-banner">
+            <div class="pop-area">
+                <div class="pop-banner btn-open-agoda">
+                    <img src="http://img.ocean2you.co.kr/renew/pop/pop_agoda_gold.jpg" alt="이미지">
                 </div>
-                <button type="button" class="btn-close close-pop">닫기</button>
             </div>
         </div>
-    </div>
-    <script>
-        $(document).ready(function(){
-            //열기
-            $(".btn-open-agoda").on("click",function(){
-                $(".pop-agoda-wrap2").show();
-                $(".pop-agoda-banner").addClass("banner-hide");
-            });
 
-            //PC상에서 닫기
-            $(".pop-agoda-wrap2 .close-pop").on("click",function(){
-                $(".pop-agoda-wrap2").hide();
-                $(".pop-agoda-banner").removeClass("banner-hide");
-            });
+        <div class="pop-agoda-wrap">
+            <div class="pop-area">
+                <div class="pop-main close-pop">
+                    <div class="img-pc"><img src="http://img.ocean2you.co.kr/renew/pop/pop_agoda_gold_main.jpg" alt="이미지"></div>
+                    <div class="img-mobile"><img src="http://img.ocean2you.co.kr/renew/pop/m_pop_agoda_gold_main.jpg" alt="이미지"></div>
+                </div>
+            </div>
+        </div>
+        <script>
+            $(document).ready(function(){
+                //열기
+                $(".btn-open-agoda").on("click",function(){
+                    $(".pop-agoda-wrap").show();
+                });
 
-            //모바일상에서 닫기
-            $(".pop-agoda-wrap2.close-pop2").on("click",function(){
-                let winW = window.outerWidth;
-                console.log(winW);
-                if(winW < 991){
-                    $(".pop-agoda-wrap2").hide();
-                    $(".pop-agoda-banner").removeClass("banner-hide");
-                }
+                //닫기
+                $(".pop-agoda-wrap .close-pop").on("click",function(){
+                    $(".pop-agoda-wrap").hide();
+                });
             });
-        });
-    </script>
-    <!--변경_아고다 추가(2021_0401)(스크립트포함)-->
+        </script>
+        <!--./아고다 추가(2021_0330)(스크립트포함)-->
 
 
         @@include('../include/_footer.html', {

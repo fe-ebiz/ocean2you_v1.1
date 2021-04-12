@@ -1068,6 +1068,8 @@
 /*아고다팝업(2021_0330)*/
 .pop-agoda-banner { z-index: 100000; position: fixed; bottom: 20px; right: 40px; }
 
+.banner-hide { display: none; }
+
 .btn-open-agoda { cursor: pointer; }
 
 .pop-agoda-wrap { display: none; z-index: 110000; position: fixed; top: 0; width: 100%; height: 100%; background-color: #221e1f; }
@@ -1082,14 +1084,12 @@
 
 .pop-agoda-wrap .img-mobile { display: none; }
 
-@media (max-width: 991px) { 
-  .pop-agoda-banner { display: none; }
+@media (max-width: 991px) { .pop-agoda-banner { display: none; }
   .pop-agoda-wrap .pop-main { width: 80%; }
   .pop-agoda-wrap .img-pc { display: none; }
-  .pop-agoda-wrap .img-mobile { display: block; } 
-}
+  .pop-agoda-wrap .img-mobile { display: block; } }
 
-.sect-agoda { display: none; width: 100%; background-color: #221e1f; text-align: center;}
+.sect-agoda { display: none; width: 100%; background-color: #221e1f; text-align: center; }
 
 .sect-agoda .sect-area { width: 100%; }
 
@@ -1098,3 +1098,27 @@
 .sect-agoda .agoda-box img { width: 100%; }
 
 @media (max-width: 991px) { .sect-agoda { display: block; } }
+
+/*./아고다팝업(2021_0330)*/
+/*변경 아고다팝업(2021_0401)*/
+.pop-agoda-wrap2 { display: none; z-index: 110000; position: fixed; top: 130px; right: 40px; }
+
+.pop-agoda-wrap2 .pop-area { width: 100%; position: relative; }
+
+.pop-agoda-wrap2 .pop-main { width: 100%; max-width: 1348px; margin: 0 auto; text-align: center; }
+
+.pop-agoda-wrap2 .pop-main img { width: 100%; }
+
+.pop-agoda-wrap2 .btn-close { display: block; background-color: #848484; width: 100%; padding: 8px 0; text-align: center; color: #fff; font-size: 18px; font-weight: 600; border: none; outline: none; line-height: 1; }
+
+.pop-agoda-wrap2 .close-pop { cursor: pointer; }
+
+.pop-agoda-wrap2 .img-mobile { display: none; }
+
+@media (max-width: 991px) { .pop-agoda-wrap2 { top: 0; right: 0; width: 100%; height: 100%; background-color: #221e1f; }
+  .pop-agoda-wrap2 .pop-main { width: 80%; margin: 0 auto; }
+  .pop-agoda-wrap2 .img-pc { display: none; }
+  .pop-agoda-wrap2 .img-mobile { display: block; }
+  .pop-agoda-wrap2 .btn-close { display: none; } }
+
+/*./변경 아고다팝업(2021_0401)*/

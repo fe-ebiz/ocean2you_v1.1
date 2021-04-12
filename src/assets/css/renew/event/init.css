@@ -13,6 +13,7 @@
 {color: #fff;}
 
 /*=========이벤트==========*/
+
 /* DMZ 평화이음 콘서트 */
 .event-wrap .dmz-concert .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_dmzConcert.jpg) no-repeat; background-size: cover;}
 .event-wrap .dmz-concert .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_dmzConcert.jpg) no-repeat; background-size: cover;}
@@ -50,7 +51,6 @@
 }
 
 
-
 /* 제9회 금강통일배 전국유소년클럽 축구대회 */
 .event-wrap .soccer-competition .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_youthsocc.jpg) no-repeat; background-size: cover;}
 .event-wrap .soccer-competition .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_youthsocc.jpg) no-repeat; background-size: cover;}
@@ -60,6 +60,14 @@
 	.event-wrap .soccer-competition .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_youthsocc_m.jpg) no-repeat; background-size: cover;}
 }
 
+/*2021 실향민문화축제*/
+.event-wrap .displacedPeople .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_hometown.jpg) no-repeat; background-size: cover;}
+.event-wrap .displacedPeople .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_hometown.jpg) no-repeat; background-size: cover;}
+
+@media (max-width: 767px){
+	.event-wrap .displacedPeople .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_hometown_m.jpg) no-repeat; background-size: cover;}
+	.event-wrap .displacedPeople .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_hometown_m.jpg) no-repeat; background-size: cover;}
+}
 
 /*====이벤트!끝====*/
 
